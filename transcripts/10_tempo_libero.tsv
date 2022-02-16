@@ -1,0 +1,215 @@
+SPEAKER|intervistatore|m|s
+﻿1	Cosa	cosa	P	PQ	num=s|gen=n	2	obj
+2	fai	fare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+3	nel	in	E	EA	num=s|gen=m	2	comp
+4	tempo	tempo	S	S	num=s|gen=m	3	prep
+5	libero	libero	A	A	num=s|gen=m	4	mod
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|ragazza 1|f|s
+1	Esco	uscire	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io esco, tu esci, lui/lei/Lei esce, noi usciamo, voi uscite, loro escono
+2	con	con	E	E	_	1	comp
+3	gli	il	R	RD	num=p|gen=m	4	det
+4	amici	amico	S	S	num=p|gen=m	2	prep
+5	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza 2|f|s
+1	Mi	mi	P	PC	num=s|per=1|gen=n	2	comp_ind
+2	piace	piacere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io piaccio, tu piaci, lui/lei/Lei piace, noi piacciamo, voi piacete, loro piacciono
+3	andare	andare	V	V	mod=f	2	subj
+4	a	a	E	E	_	3	arg
+5	correre	correre	V	V	mod=f	4	prep
+6	e	e	C	CC	_	5	con
+7	fare	fare	V	V	mod=f	5	subj
+8	sport	sport	S	S	num=s|gen=m	7	obj
+9	.	.	F	FS	_	2	punc
+
+SPEAKER|ragazza 3|f|s
+1	Se	se	C	CS	_	7	mod
+2	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	4	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+3	tempo	tempo	S	S	num=s|gen=m	4	mod
+4	libero	libero	A	A	num=s|gen=m	1	sub
+5	,	,	F	FF	_	1	punc
+6	mi	mi	P	PC	num=s|per=1|gen=n	7	comp_ind
+7	piace	piacere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io piaccio, tu piaci, lui/lei/Lei piace, noi piacciamo, voi piacete, loro piacciono
+8	fare	fare	V	V	mod=f	7	subj
+9	shopping	shopping	S	SW	num=s|gen=m	8	obj
+10	,	,	F	FF	_	7	con
+11	guardare	guardare	V	V	mod=f	7	subj
+12	la	il	R	RD	num=s|gen=f	13	det
+13	televisione	televisione	S	S	num=s|gen=f	11	obj
+14	,	,	F	FF	_	11	con
+15	ascoltare	ascoltare	V	V	mod=f	11	subj
+16	musica	musica	S	S	num=s|gen=f	15	obj
+17	.	.	F	FS	_	7	punc
+
+SPEAKER|ragazza 4|f|s
+1	A	a	E	E	_	3	comp_ind
+2	me	me	P	PE	num=s|per=1|gen=n	1	prep
+3	piace	piacere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io piaccio, tu piaci, lui/lei/Lei piace, noi piacciamo, voi piacete, loro piacciono
+4	uscire	uscire	V	V	mod=f	3	subj
+5	con	con	E	E	_	4	comp
+6	gli	il	R	RD	num=p|gen=m	7	det
+7	amici	amico	S	S	num=p|gen=m	5	prep
+8	,	,	F	FF	_	9	punc
+9	andare	andare	V	V	mod=f	4	subj
+10	al	a	E	EA	num=s|gen=m	9	comp
+11	cinema	cinema	S	S	num=s|gen=m	10	prep
+12	.	.	F	FS	_	3	punc
+
+SPEAKER|uomo|m|s
+1	Leggo	leggere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io leggo, tu leggi, lui/lei/Lei legge, noi leggiamo, voi leggete, loro leggono
+2	....	....	V	V	num=s|per=1|mod=i|ten=p	1	arg
+
+SPEAKER|uomo|m|s
+1	Diciamo	dire	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io dico, tu dici, lui/lei/Lei dice, noi diciamo, voi dite, loro dicono
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|ragazza 5|f|s
+1	Guardo	guardare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io guardo, tu guardi, lui/lei/Lei guarda, noi guardiamo, voi guardate, loro guardano
+2	la	il	R	RD	num=s|gen=f	3	det
+3	televisione	televisione	S	S	num=s|gen=f	1	obj
+4	,	,	F	FF	_	1	con
+5	ascolto	ascoltare	S	S	num=s|per=1|mod=i|ten=p	1	conj	io ascolto, tu ascolti, lui/lei/Lei ascolta, noi ascoltiamo, voi ascoltate, loro ascoltano
+6	la	il	R	RD	num=s|gen=f	7	det
+7	musica	musica	S	S	num=s|gen=f	5	mod
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|intervistatore|m|s
+1	Quale	quale	D	DQ	num=s|gen=n	3	mod
+2	mezzo	mezzo	A	A	num=s|gen=m	3	mod
+3	usi	usare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io uso, tu usi, lui/lei/lei usa, noi usiamo, voi usate, loro usano
+4	di	di	E	E	_	3	comp
+5	più	più	B	B	_	4	prep
+6	per	per	E	E	_	3	comp
+7	spostar-	spostare	V	V	mod=f	6	prep
+8	ti	ti	P	PC	num=s|per=2|gen=n	7	obj
+9	in	in	E	E	_	7	comp
+10	città	città	S	S	num=s|gen=f	9	prep
+11	?	?	F	FS	_	3	punc
+
+SPEAKER|intervistatore|m|s
+1	Perché	perché	B	B	_	0	ROOT
+2	?	?	F	FS	_	1	punc
+
+SPEAKER|ragazza 3|f|s
+1	Metropolitana	metropolitana	S	S	num=s|gen=f	0	subj
+2	,	,	F	FF	_	3	punc
+3	perché	perché	C	CS	_	1	mod
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	3	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	più	più	B	B	_	6	mod
+6	veloce	veloce	A	A	num=s|gen=f	4	pred
+7	,	,	F	FF	_	3	punc
+8	più	più	B	B	_	9	mod
+9	comoda	comodo	A	A	num=s|gen=f	1	mod
+10	e	e	C	CC	_	9	con
+11	perché	perché	C	CS	_	9	conj
+12	è	essere	V	V	num=s|per=3|mod=i|ten=p	11	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+13	l'	il	R	RD	num=s|gen=f	14	det
+14	unica	unico	S	S	num=s|gen=f	12	subj
+15	che	che	P	PR	num=n|gen=n	16	subj
+16	è	essere	V	V	num=s|per=3|mod=i|ten=p	14	mod_rel	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+17	vicino	vicino	B	B	_	18	mod
+18	casa	casa	S	S	num=s|gen=f	16	pred
+19	mia	mio	A	AP	num=s|gen=f	18	mod	mio/mia/miei/mie
+20	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza 4|f|s
+1	Io	io	P	PE	num=s|per=1|gen=f	2	subj
+2	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+3	la	il	R	RD	num=s|gen=f	4	det
+4	bicicletta	bicicletta	S	S	num=s|gen=f	2	obj
+5	,	,	F	FF	_	6	punc
+6	se	se	C	CS	_	2	mod
+7	non	non	B	BN	_	8	neg
+8	sono	essere	V	V	num=p|per=3|mod=i|ten=p	6	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+9	percorsi	percorso	A	A	num=p|gen=m	8	subj
+10	troppo	troppo	B	B	_	11	mod
+11	lunghi	lungo	A	A	num=p|gen=m	9	mod
+12	.	.	F	FS	_	2	punc
+
+SPEAKER|ragazza 4|f|s
+1	O	o	C	CC	_	6	ROOT
+2	se	se	C	CS	_	6	ROOT
+3	no	no	B	BN	_	6	neg
+4	,	,	F	FF	_	3	punc
+5	i	il	R	RD	num=p|gen=m	6	det
+6	mezzi	mezzo	S	S	num=p|gen=m	0	ROOT
+7	pubblici	pubblico	A	A	num=p|gen=m	6	mod
+8	.	.	F	FS	_	6	punc
+
+SPEAKER|ragazza 1|f|s
+1	La	il	R	RD	num=s|gen=f	2	det
+2	metropolitana	metropolitana	S	S	num=s|gen=f	0	subj
+3	:	:	F	FC	_	2	punc
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	più	più	B	B	_	6	mod
+6	comoda	comodo	A	A	num=s|gen=f	4	pred
+7	e	e	C	CC	_	4	con
+8	non	non	B	BN	_	10	neg
+9	so	sapere	V	VM	num=s|per=1|mod=i|ten=p	10	modal	io so, tu sai, lui/lei/Lei sa, noi sappiamo, voi sapete, loro sanno
+10	guidare	guidare	V	V	mod=f	4	subj
+11	.	.	F	FS	_	4	punc
+
+SPEAKER|ragazza 2|f|s
+1	Io	io	P	PE	num=s|per=1|gen=f	2	subj
+2	vado	andare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+3	a	a	E	E	_	2	comp
+4	piedi	piede	S	S	num=p|gen=m	3	prep
+5	.	.	F	FS	_	2	punc
+
+SPEAKER|uomo|m|s
+1	La	il	R	RD	num=s|gen=f	2	det
+2	macchina	macchina	S	S	num=s|gen=f	0	subj
+3	,	,	F	FF	_	4	punc
+4	perché	perché	C	CS	_	2	mod
+5	è	essere	V	V	num=s|per=3|mod=i|ten=p	4	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+6	più	più	B	B	_	7	mod
+7	comoda	comodo	A	A	num=s|gen=f	5	pred
+8	.	.	F	FS	_	2	punc
+
+SPEAKER|ragazza 5|f|s
+1	La	il	R	RD	num=s|gen=f	2	det
+2	bicicletta	bicicletta	S	S	num=s|gen=f	0	ROOT
+3	e	e	C	CC	_	2	con
+4	,	,	F	FF	_	5	punc
+5	quando	quando	C	CS	_	2	mod
+6	i	il	R	RD	num=p|gen=m	7	det
+7	percorsi	percorso	S	S	num=p|gen=m	8	subj
+8	sono	essere	V	V	num=p|per=3|mod=i|ten=p	5	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+9	più	più	B	B	_	10	mod
+10	lunghi	lungo	A	A	num=p|gen=m	8	pred
+11	,	,	F	FF	_	10	con
+12	l'	il	R	RD	num=s|gen=m	13	det
+13	autobus	autobus	S	S	num=s|gen=m	10	conj
+14	.	.	F	FS	_	2	punc
+
+SPEAKER|ragazza 5|f|s
+1	Perchè	Perchè	B	B	_	3	mod
+2	non	non	B	BN	_	3	neg
+3	guido	guidare	V	V	num=s|per=1|mod=i|ten=p	11	ROOT	io guido, tu guidi, lui/lei/Lei guida, noi guidiamo, voi guidate, loro guidano
+4	,	,	F	FF	_	3	con
+5	non	non	B	BN	_	6	neg
+6	ancora	ancora	B	B	_	3	mod
+7	,	,	F	FF	_	3	con
+8	e	e	C	CC	_	3	con
+9	perché	perché	C	CS	_	11	ROOT
+10	la	il	R	RD	num=s|gen=f	11	det
+11	città	città	S	S	num=s|gen=f	0	subj
+12	in	in	E	E	_	17	comp_loc
+13	cui	cui	P	PR	num=n|gen=n	12	prep
+14	vivo	vivo	A	A	num=s|gen=m	17	mod
+15	è	essere	V	VA	num=s|per=3|mod=i|ten=p	17	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+16	molto	molto	B	B	_	17	mod
+17	trafficata	trafficato	A	A	num=s|gen=f	11	mod
+18	e	e	C	CC	_	17	con
+19	ci	ci	P	PC	num=n|gen=n	21	comp
+20	si	si	P	PC	num=n|per=3|gen=n	21	clit
+21	muove	muovere	V	V	num=s|per=3|mod=i|ten=p	17	conj
+22	più	più	B	B	_	23	mod
+23	velocemente	velocemente	B	B	_	21	mod
+24	con	con	E	E	_	21	comp
+25	i	il	R	RD	num=p|gen=m	26	det
+26	mezzi	mezzo	S	S	num=p|gen=m	24	prep
+27	pubblici	pubblico	A	A	num=p|gen=m	26	mod
+28	.	.	F	FS	_	11	punc

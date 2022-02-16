@@ -1,0 +1,307 @@
+SPEAKER|Marta|f|s
+﻿1	Ciao	ciao	I	I	_	2	mod
+2	Roberto	Roberto	S	SP	_	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|Roberto|m|s
+1	Ah	ah	I	I	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	ciao	ciao	I	I	_	4	mod
+4	Marta	Marta	S	SP	_	0	ROOT
+5	!	!	F	FS	_	4	punc
+
+SPEAKER|Marta|f|s
+1	Tutto	tutto	D	DI	num=s|gen=m	2	mod
+2	bene	bene	B	B	_	0	ROOT
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Marta|f|s
+1	No	no	B	BN	_	3	neg
+2	,	,	F	FF	_	1	punc
+3	sono	essere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	qui	qui	B	B	_	5	mod
+5	dalle	da	E	EA	num=p|gen=f	3	pred
+6	nove	nove	N	N	_	5	prep
+7	per	per	E	E	_	5	comp
+8	l'	il	R	RD	num=s|gen=f	9	det
+9	iscrizione	iscrizione	S	S	num=s|gen=f	7	prep
+10	al	a	E	EA	num=s|gen=m	9	comp
+11	corso	corso	S	S	num=s|gen=m	10	prep
+12	.	.	F	FS	_	3	punc
+
+SPEAKER|Roberto|m|s
+1	Ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	un	uno	R	RI	num=s|gen=m	3	det
+3	modulo	modulo	S	S	num=s|gen=m	1	obj
+4	in	in	E	E	_	1	comp
+5	più	più	B	B	_	4	prep
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Marta|f|s
+1	Che	che	D	DE	num=n|gen=n	0	ROOT
+2	bello	bello	A	A	num=s|gen=m	4	mod
+3	,	,	F	FF	_	4	punc
+4	grazie	grazie	I	I	num=n|gen=n	1	ROOT
+5	!	!	F	FS	_	4	punc
+
+SPEAKER|Roberto|m|s
+1	Prego	prego	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Roberto|m|s
+1	Dai	da	E	EA	num=p|gen=m	3	comp
+2	,	,	F	FF	_	1	punc
+3	scrivo	scrivere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io scrivo, tu scrivi, lui/lei/Lei scrive, noi scriviamo, voi scrivete, loro scrivono
+4	io	io	P	PE	num=s|per=1|gen=n	3	subj
+5	.	.	F	FS	_	3	punc
+
+SPEAKER|Roberto|m|s
+1	Dove	dove	B	B	_	2	mod_loc
+2	abiti	abitare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io abito, tu abiti, lui/lei/Lei abita, noi abitiamo, voi abitate, loro abitano
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Marta|f|s
+1	Abito	abitare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io abito, tu abiti, lui/lei/Lei abita, noi abitiamo, voi abitate, loro abitano
+2	a	a	E	E	_	1	comp_loc
+3	Torino	Torino	S	SP	_	2	prep
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|Roberto|m|s
+1	Dove	dove	B	B	_	0	ROOT
+2	?	?	F	FS	_	1	punc
+
+SPEAKER|Roberto|m|s
+1	Qual	qual	P	PR	num=s|gen=n	2	subj
+2	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	il	il	R	RD	num=s|gen=m	5	det
+4	tuo	tuo	A	AP	num=s|gen=m	5	mod	tuo/tua/tuoi/tue
+5	indirizzo	indirizzo	S	S	num=s|gen=m	2	pred
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|Marta|f|s
+1	Abito	abitare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io abito, tu abiti, lui/lei/Lei abita, noi abitiamo, voi abitate, loro abitano
+2	in	in	E	E	_	1	comp_loc
+3	Via	Via	S	SP	_	2	prep
+4	delle	di	E	EA	num=p|gen=f	3	comp
+5	Magnolie	Magnolie	S	SP	_	4	prep
+6	17	17	N	N	_	5	mod
+7	.	.	F	FS	_	1	punc
+
+SPEAKER|Roberto|m|s
+1	Che	che	D	DE	num=n|gen=n	0	ROOT
+2	bello	bello	A	A	num=s|gen=m	4	mod
+3	,	,	F	FF	_	2	punc
+4	Via	Via	S	SP	_	1	conj
+5	delle	di	E	EA	num=p|gen=f	4	comp
+6	Magnolie	Magnolie	S	SP	_	5	prep
+7	.	.	F	FS	_	1	punc
+
+SPEAKER|Marta|f|s
+1	E	e	C	CC	_	0	con
+2	tu	tu	P	PE	num=s|per=2|gen=n	4	subj
+3	non	non	B	BN	_	4	neg
+4	abiti	abitare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io abito, tu abiti, lui/lei/Lei abita, noi abitiamo, voi abitate, loro abitano
+5	a	a	E	E	_	4	comp_loc
+6	Torino	Torino	S	SP	_	5	prep
+7	,	,	F	FF	_	8	punc
+8	giusto	giusto	A	A	num=s|gen=m	6	mod
+9	?	?	F	FS	_	0	punc
+
+SPEAKER|Roberto|m|s
+1	Giusto	giusto	A	A	num=s|gen=m	3	mod
+2	,	,	F	FF	_	1	punc
+3	abito	abitare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io abito, tu abiti, lui/lei/Lei abita, noi abitiamo, voi abitate, loro abitano
+4	a	a	E	E	_	3	comp
+5	Chieri	Chieri	S	SP	_	4	prep
+6	,	,	F	FF	_	4	punc
+7	in	in	E	E	_	11	comp
+8	Via	Via	S	SP	_	10	mod
+9	Santa	Santa	S	SP	_	10	mod
+10	Clara	Clara	S	SP	_	7	prep
+11	4	4	N	N	_	3	conj
+12	.	.	F	FS	_	3	punc
+
+SPEAKER|Roberto|m|s
+1	Cosa	cosa	P	PQ	num=s|gen=n	2	obj
+2	scrivo	scrivere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io scrivo, tu scrivi, lui/lei/Lei scrive, noi scriviamo, voi scrivete, loro scrivono
+3	qui	qui	B	B	_	2	mod_temp
+4	?	?	F	FS	_	2	punc
+
+SPEAKER|Roberto|m|s
+1	Ah	ah	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	sì	sì	B	B	_	6	mod
+4	:	:	F	FC	_	3	punc
+5	il	il	R	RD	num=s|gen=m	6	det
+6	numero	numero	S	S	num=s|gen=m	0	ROOT
+7	di	di	E	E	_	6	comp
+8	casa	casa	S	S	num=s|gen=f	7	prep
+9	e	e	C	CC	_	6	con
+10	qui	qui	B	B	_	6	conj
+11	il	il	R	RD	num=s|gen=m	12	det
+12	cellulare	cellulare	S	S	num=s|gen=m	10	prep
+13	.	.	F	FS	_	6	punc
+
+SPEAKER|Marta|f|s
+1	Ma	ma	C	CC	_	2	con
+2	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+3	soltanto	soltanto	B	B	_	5	mod
+4	il	il	R	RD	num=s|gen=m	5	det
+5	cellulare	cellulare	S	S	num=s|gen=m	2	obj
+6	....	....	F	FS	_	2	punc
+
+SPEAKER|Roberto|m|s
+1	Anch'	anche	B	B	_	2	mod
+2	io	io	P	PE	num=s|per=1|gen=n	5	pron
+3	,	,	F	FF	_	5	punc
+4	non	non	B	BN	_	5	neg
+5	fa	fare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+6	niente	niente	B	B	_	5	mod
+7	.	.	F	FS	_	5	punc
+
+SPEAKER|Roberto|m|s
+1	Qual	qual	P	PR	num=s|gen=n	2	pred
+2	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	il	il	R	RD	num=s|gen=m	5	det
+4	tuo	tuo	A	AP	num=s|gen=m	5	mod	tuo/tua/tuoi/tue
+5	numero	numero	S	S	num=s|gen=m	2	subj
+6	di	di	E	E	_	5	comp
+7	cellulare	cellulare	S	S	num=s|gen=m	6	prep
+8	?	?	F	FS	_	2	punc
+
+SPEAKER|Marta|f|s
+1	Un	uno	R	RI	num=s|gen=m	2	det
+2	momento	momento	S	S	num=s|gen=m	0	ROOT
+3	,	,	F	FF	_	6	punc
+4	non	non	B	BN	_	6	neg
+5	lo	lo	P	PC	num=s|per=3|gen=m	6	obj
+6	so	sapere	V	V	num=s|per=1|mod=i|ten=p	2	mod_rel	io so, tu sai, lui/lei/Lei sa, noi sappiamo, voi sapete, loro sanno
+7	.	.	F	FS	_	2	punc
+
+SPEAKER|Marta|f|s
+1	3386443256	3386443256	N	N	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Marta|f|s
+1	E	e	C	CC	_	3	con
+2	qual	qual	D	DQ	num=s|gen=n	3	pred
+3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	il	il	R	RD	num=s|gen=m	6	det
+5	tuo	tuo	A	AP	num=s|gen=m	6	mod	tuo/tua/tuoi/tue
+6	numero	numero	S	S	num=s|gen=m	3	subj
+7	?	?	F	FS	_	3	punc
+
+SPEAKER|Roberto|m|s
+1	3209987443	3209987443	N	N	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Marta|f|s
+1	Come	come	B	B	_	2	mod
+2	scusa	scusa	I	I	num=s|per=3|mod=i|ten=p	0	ROOT
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Marta|f|s
+1	Puoi	potere	V	VM	num=s|per=2|mod=i|ten=p	2	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+2	ripetere	ripetere	V	V	mod=f	0	ROOT
+3	perfavore	perfavore	V	V	mod=f	2	arg
+4	?	?	F	FS	_	2	punc
+
+SPEAKER|Roberto|m|s
+1	3209987443	3209987443	N	N	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Roberto|m|s
+1	E	e	C	CC	_	7	con
+2	qui	qui	B	B	_	4	mod_loc
+3	l'	il	R	RD	num=s|gen=f	4	det
+4	e-mail	e-mail	S	S	num=s|gen=f	7	mod
+5	:	:	F	FC	_	4	punc
+6	qual	qual	P	PR	num=s|gen=n	7	subj
+7	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+8	il	il	R	RD	num=s|gen=m	10	det
+9	tuo	tuo	A	AP	num=s|gen=m	10	mod	tuo/tua/tuoi/tue
+10	indirizzo	indirizzo	S	S	num=s|gen=m	7	pred
+11	e-mail	e-mail	S	SP	num=s|gen=f	10	mod
+12	?	?	F	FS	_	7	punc
+
+SPEAKER|Marta|f|s
+1	Non	non	B	BN	_	2	neg
+2	uso	usare	V	V	num=s|per=1|mod=i|ten=p	4	mod	io uso, tu usi, lui/lei/lei usa, noi usiamo, voi usate, loro usano
+3	l'	il	R	RD	num=s|gen=f	4	det
+4	e-mail	e-mail	S	SP	num=s|gen=f	7	subj
+5	,	,	F	FF	_	4	con
+6	ma	ma	C	CC	_	4	con
+7	scriviamo	scrivere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io scrivo, tu scrivi, lui/lei/Lei scrive, noi scriviamo, voi scrivete, loro scrivono
+8	:	:	F	FC	_	7	punc
+9	martanc	martanc	B	B	num=n|gen=n	0	ROOT
+10	@gmail.com.	@gmail.com.	B	B	num=n|gen=n	9	concat
+
+SPEAKER|Roberto|m|s
+1	Quali	quale	D	DQ	num=p|gen=f	2	mod
+2	lingue	lingua	S	S	num=p|gen=f	3	subj
+3	parli	parlare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io parlo, tu parli, lui/lei/Lei parla, noi parliamo, voi parlate, loro parlano
+4	?	?	F	FS	_	3	punc
+
+SPEAKER|Marta|f|s
+1	Polacco	polacco	S	S	num=s|gen=m	0	ROOT	polacco/polacchi
+2	,	,	F	FF	_	3	punc
+3	inglese	inglese	S	S	num=s|gen=m	1	mod
+4	,	,	F	FF	_	3	punc
+5	francese	francese	S	S	num=s|gen=m	1	mod
+6	e	e	C	CC	_	5	con
+7	italiano	italiano	S	S	num=s|gen=m	5	conj
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|Roberto|m|s
+1	Che	che	P	PR	num=n|gen=n	8	mod
+2	brava	bravo	A	A	num=s|gen=f	8	mod
+3	,	,	F	FF	_	1	punc
+4	da	da	E	E	_	2	comp
+5	quanto	quanto	B	B	_	6	mod
+6	studi	studiare	V	V	num=s|per=2|mod=i|ten=p	4	prep	io studio, tu studi, lui/lei/Lei studia, noi studiamo, voi studiate, loro studiano
+7	l'	il	R	RD	num=s|gen=m	8	det
+8	italiano	italiano	S	S	num=s|gen=m	0	ROOT
+9	?	?	F	FS	_	8	punc
+
+SPEAKER|Marta|f|s
+1	Da	da	E	E	_	0	ROOT
+2	due	due	N	N	_	3	mod
+3	anni	anno	S	S	num=p|gen=m	1	prep
+4	,	,	F	FF	_	1	punc
+5	e	e	C	CC	_	1	con
+6	tu	tu	P	PE	num=s|per=2|gen=n	1	conj
+7	?	?	F	FS	_	1	punc
+
+SPEAKER|Marta|f|s
+1	Quali	quale	D	DQ	num=p|gen=n	2	mod
+2	lingue	lingua	S	S	num=p|gen=f	3	subj
+3	parli	parlare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io parlo, tu parli, lui/lei/Lei parla, noi parliamo, voi parlate, loro parlano
+4	?	?	F	FS	_	3	punc
+
+SPEAKER|Roberto|m|s
+1	Io	io	P	PE	num=s|per=1|gen=m	2	subj
+2	parlo	parlare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io parlo, tu parli, lui/lei/Lei parla, noi parliamo, voi parlate, loro parlano
+3	spagnolo	spagnolo	S	S	num=s|gen=m	2	pred
+4	,	,	F	FF	_	3	con
+5	inglese	inglese	S	S	num=s|gen=m	3	conj
+6	e	e	C	CC	_	3	con
+7	italiano	italiano	S	S	num=s|gen=m	3	conj
+8	.	.	F	FS	_	2	punc
+
+SPEAKER|Roberto|m|s
+1	Beh	beh	I	I	_	0	ROOT
+2	,	,	F	FF	_	1	punc
+3	l'	il	R	RD	num=s|gen=m	4	det
+4	italiano	italiano	S	S	num=s|gen=m	1	ROOT
+5	non	non	B	BN	_	6	neg
+6	molto	molto	B	B	_	7	mod
+7	bene	bene	B	B	_	4	mod
+8	,	,	F	FF	_	7	punc
+9	studio	studiare	V	V	num=s|per=1|mod=i|ten=p	4	conj	io studio, tu studi, lui/lei/Lei studia, noi studiamo, voi studiate, loro studiano
+10	l'	il	R	RD	num=s|gen=m	11	det
+11	italiano	italiano	S	S	num=s|gen=m	9	mod
+12	soltanto	soltanto	B	B	_	13	mod
+13	da	da	E	E	_	11	comp
+14	un	uno	R	RI	num=s|gen=m	15	det
+15	anno	anno	S	S	num=s|gen=m	13	prep
+16	.	.	F	FS	_	4	punc

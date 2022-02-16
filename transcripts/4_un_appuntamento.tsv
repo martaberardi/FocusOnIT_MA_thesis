@@ -1,0 +1,203 @@
+SPEAKER|Marco|m|s
+﻿1	Uao	Uao	S	SP	_	0	ROOT
+2	....	....	C	CC	_	1	con
+
+SPEAKER|Karolin|f|s
+1	Scusa	scusa	I	I	num=s|per=3|mod=i|ten=i	0	ROOT
+2	,	,	F	FF	_	4	punc
+3	dov'	dove	B	B	_	4	mod_loc
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	1	arg	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	il	il	R	RD	num=s|gen=m	6	det
+6	bar	bar	S	S	num=s|gen=m	4	subj	bar
+7	La	La	S	SP	_	8	mod
+8	Vignetta	Vignetta	S	SP	_	6	mod
+9	?	?	F	FS	_	1	punc
+
+SPEAKER|Marco|m|s
+1	Come	come	B	B	_	0	ROOT
+2	?	?	F	FS	_	1	punc
+
+SPEAKER|Karolin|f|s
+1	La	il	R	RD	num=s|gen=f	2	det
+2	V-I-G-N-E-T-T-A	V-I-G-N-E-T-T-A	S	SP	_	0	ROOT
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|Marco|m|s
+1	Ah	ah	I	I	_	0	ROOT
+2	,	,	F	FF	_	3	punc
+3	sì	sì	B	B	_	1	mod
+4	,	,	F	FF	_	3	punc
+5	La	il	R	RD	num=s|gen=f	6	det
+6	vignetta	vignetta	S	S	num=s|gen=f	1	ROOT
+7	.	.	F	FS	_	6	punc
+
+SPEAKER|Marco|m|s
+1	Non	non	B	BN	_	2	neg
+2	sei	essere	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	italiana	italiano	A	A	num=s|gen=f	2	mod
+4	,	,	F	FF	_	5	punc
+5	vero	vero	A	A	num=s|gen=m	2	mod
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|Karolin|f|s
+1	No	no	B	BN	_	3	neg
+2	,	,	F	FF	_	1	punc
+3	sono	essere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	tedesca	tedesco	A	A	num=s|gen=f	3	pred
+5	,	,	F	FF	_	6	punc
+6	di	di	E	E	_	4	comp
+7	Monaco	Monaco	S	SP	_	6	prep
+8	.	.	F	FS	_	3	punc
+
+SPEAKER|Marco|m|s
+1	Come	come	B	B	_	3	mod
+2	ti	ti	P	PC	num=s|per=2|gen=n	3	obj
+3	chiami	chiamare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	chiamo, chiami, chiama, chiamiamo, chiamate, chiamano
+4	?	?	F	FS	_	3	punc
+
+SPEAKER|Karolin|f|s
+1	Mi	mi	P	PC	num=s|per=1|gen=n	2	clit
+2	chiamo	chiamare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	chiamo, chiami, chiama, chiamiamo, chiamate, chiamano
+3	Karolin	Karolin	S	SP	_	2	pred
+4	.	.	F	FS	_	2	punc
+
+SPEAKER|Marco|m|s
+1	Piacere	piacere	S	S	num=s|gen=m	0	ROOT
+2	,	,	F	FF	_	1	con
+3	Marco	Marco	S	SP	_	1	conj
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|Marco|m|s
+1	Complimenti	complimentare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+2	,	,	F	FF	_	1	con
+3	parli	parlare	V	V	num=s|per=2|mod=i|ten=p	1	conj	io parlo, tu parli, lui/lei/Lei parla, noi parliamo, voi parlate, loro parlano
+4	bene	bene	B	B	_	5	mod
+5	italiano	italiano	S	S	num=s|gen=m	3	mod
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Karolin|f|s
+1	Grazie	grazie	I	I	_	0	ROOT
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|Karolin|f|s
+1	Allora	allora	B	B	_	0	ROOT
+2	,	,	F	FF	_	4	punc
+3	dov'	dove	B	B	_	4	mod_loc
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	1	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	il	il	R	RD	num=s|gen=m	6	det
+6	bar	bar	S	S	num=s|gen=m	4	subj
+7	?	?	F	FS	_	4	punc
+
+SPEAKER|Marco|m|s
+1	Ah	ah	I	I	_	2	mod
+2	sì	sì	B	B	_	0	_
+3	,	,	F	FF	_	2	punc
+4	scusa	scusa	B	B	_	2	mod
+5	:	:	F	FC	_	4	punc
+6	sempre	sempre	B	B	_	7	mod
+7	dritto	dritto	A	A	num=s|gen=m	2	mod
+8	,	,	F	FF	_	7	con
+9	poi	poi	B	B	_	10	mod
+10	a	a	E	E	_	7	conj
+11	sinistra	sinistra	S	S	num=s|gen=f	10	prep
+12	.	.	F	FS	_	7	punc
+
+SPEAKER|Karolin|f|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	mille	mille	N	N	_	1	mod
+3	,	,	F	FF	_	4	punc
+4	ciao	ciao	I	I	_	1	mod
+5	!	!	F	FS	_	1	punc
+
+SPEAKER|Marco|m|s
+1	Uao	Uao	S	SP	_	0	ROOT
+2	....	....	C	CC	_	1	con
+3	Uao	Uao	S	SP	_	1	conj
+4	ciao	ciao	I	I	_	6	mod
+5	,	,	F	FF	_	4	punc
+6	sei	essere	V	V	num=s|per=2|mod=i|ten=p	1	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+7	molto	molto	B	B	_	8	mod
+8	carina	carino	A	A	num=s|gen=f	1	conj
+9	!	!	F	FS	_	1	punc
+
+SPEAKER|Karolin|f|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	,	,	F	FF	_	4	punc
+3	mi	mi	P	PC	num=s|per=1|gen=n	4	clit
+4	chiamo	chiamare	V	V	num=s|per=1|mod=i|ten=p	1	mod_rel	chiamo, chiami, chiama, chiamiamo, chiamate, chiamano
+5	Karolin	Karolin	S	SP	_	4	pred
+6	,	,	F	FF	_	4	con
+7	piacere	piacere	I	I	num=s|gen=m	4	conj
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|Marco|m|s
+1	Piacere	piacere	S	S	num=s|gen=m	0	ROOT
+2	,	,	F	FF	_	1	con
+3	Marco	Marco	S	SP	_	1	conj
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|Marco|m|s
+1	Di	di	E	E	_	0	ROOT
+2	dove	dove	B	B	_	1	prep
+3	sei	essere	V	V	num=s|per=2|mod=i|ten=p	2	mod_temp	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	?	?	F	FS	_	1	punc
+
+SPEAKER|Karolin|f|s
+1	Sono	essere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	tedesca	tedesco	A	A	num=s|gen=f	1	pred
+3	,	,	F	FF	_	4	punc
+4	di	di	E	E	_	1	comp
+5	Monaco	Monaco	S	SP	_	4	prep
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Karolin|f|s
+1	E	e	C	CC	_	2	con
+2	tu	tu	P	PE	num=s|per=2|gen=n	0	ROOT
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Marco|m|s
+1	Io	io	P	PE	num=s|per=1|gen=m	2	subj
+2	sono	essere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	italiano	italiano	A	A	num=s|gen=m	2	pred
+4	,	,	F	FF	_	5	punc
+5	di	di	E	E	_	2	comp
+6	Como	Como	S	SP	_	5	prep
+7	.	.	F	FS	_	2	punc
+
+SPEAKER|Marco|m|s
+1	Mi	mi	P	PC	num=s|per=1|gen=n	2	comp_ind
+2	lasci	lasciare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io lascio, tu lasci, lui/lei/Lei lascia, noi lasciamo, voi lasciate, loro lasciano
+3	il	il	R	RD	num=s|gen=m	5	det
+4	tuo	tuo	A	AP	num=s|gen=m	5	mod	tuo/tua/tuoi/tue
+5	numero	numero	S	S	num=s|gen=m	2	obj
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|Karolin|f|s
+1	Certo	certo	B	B	_	0	ROOT
+2	:	:	F	FC	_	1	punc
+3	+4989990900	+4989990900	N	N	_	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|Marco|m|s
+1	Ti	ti	P	PC	num=s|per=2|gen=n	2	comp_ind
+2	va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+3	un	uno	R	RI	num=s|gen=m	4	det
+4	aperitivo	aperitivo	S	S	num=s|gen=m	2	subj
+5	stasera	stasera	B	B	_	4	mod
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|Karolin|f|s
+1	Volentieri	volentieri	B	B	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Marco|m|s
+1	Perfetto	perfetto	A	A	num=s|gen=m	0	ROOT
+2	,	,	F	FF	_	3	punc
+3	a	a	E	E	_	1	comp
+4	più	più	B	B	_	5	mod
+5	tardi	tardi	B	B	_	3	prep
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Karolin|f|s
+1	Ciao	ciao	I	I	_	0	ROOT
+2	!	!	F	FS	_	1	punc

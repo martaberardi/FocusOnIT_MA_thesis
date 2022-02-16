@@ -1,0 +1,363 @@
+SPEAKER|Samira|f|s
+﻿1	Buongiorno	buongiorno	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Segretaria|f|s
+1	Buongiorno	buongiorno	I	I	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	si	si	P	PC	num=n|per=3|gen=n	4	clit
+4	accomodi	accomodare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+5	pure	pure	B	B	_	4	mod
+6	.	.	F	FS	_	4	punc
+
+SPEAKER|Segretaria|f|s
+1	Mi	mi	P	PC	num=s|per=1|gen=n	2	comp_ind
+2	dica	dire	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Dunque	dunque	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	sto	stare	V	V	num=s|per=1|mod=i|ten=p	4	modal	io sto, tu stai, lui/lei/Lei sta, noi stiamo, voi state, loro stanno
+4	cercando	cercare	V	V	mod=g	0	ROOT
+5	un	uno	R	RI	num=s|gen=m	6	det
+6	lavoro	lavoro	S	S	num=s|gen=m	4	obj
+7	;	;	F	FC	_	4	punc
+8	cosa	cosa	P	PQ	num=s|gen=n	10	subj
+9	devo	dovere	V	VM	num=s|per=1|mod=i|ten=p	10	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+10	fare	fare	V	V	mod=f	4	conj
+11	?	?	F	FS	_	4	punc
+
+SPEAKER|Segretaria|f|s
+1	Per	per	E	E	_	5	comp
+2	prima	primo	N	NO	num=s|gen=f	1	prep
+3	cosa	cosa	P	PQ	num=s|gen=n	5	subj
+4	deve	dovere	V	VM	num=s|per=3|mod=i|ten=p	5	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+5	iscriversi	iscrivere	V	V	mod=f	0	ROOT
+6	al	a	E	EA	num=s|gen=m	5	comp
+7	centro	centro	S	S	num=s|gen=m	6	prep
+8	per	per	E	E	_	7	comp
+9	l'	il	R	RD	num=s|gen=m	10	det
+10	impiego	impiego	S	S	num=s|gen=m	8	prep	impiego/impieghi
+11	.	.	F	FS	_	5	punc
+
+SPEAKER|Samira|f|s
+1	Come	come	B	B	_	3	mod
+2	si	si	P	PC	num=n|per=3|gen=n	3	clit
+3	fa	fare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+4	?	?	F	FS	_	3	punc
+
+SPEAKER|Segretaria|f|s
+1	Posso	potere	V	VM	num=s|per=1|mod=i|ten=p	2	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+2	aiutarla	aiutare	V	V	mod=f	0	ROOT
+3	adesso	adesso	B	B	_	2	comp
+4	io	io	P	PE	num=s|per=1|gen=f	1	subj
+5	a	a	E	E	_	4	arg
+6	farlo	fare	V	V	mod=f	5	prep
+7	.	.	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+2	bene	bene	B	B	_	1	mod
+3	,	,	F	FF	_	4	punc
+4	grazie	grazie	I	I	_	1	mod
+5	.	.	F	FS	_	4	punc
+
+SPEAKER|Segretaria|f|s
+1	Dopodiché	dopodiché	B	B	_	8	mod
+2	,	,	F	FF	_	1	punc
+3	quando	quando	C	CS	_	8	mod
+4	abbiamo	avere	V	VA	num=p|per=1|mod=i|ten=p	5	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	finito	finire	V	V	num=s|mod=p|gen=m	3	sub
+6	,	,	F	FF	_	3	punc
+7	le	le	P	PC	num=n|per=3|gen=f	8	comp_ind
+8	darò	dare	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+9	qualche	qualche	D	DI	num=s|gen=n	10	mod	qualche
+10	informazione	informazione	S	S	num=s|gen=f	8	obj
+11	su	su	E	E	_	8	arg
+12	cosa	cosa	P	PQ	num=s|gen=n	13	obj
+13	fare	fare	V	V	mod=f	11	prep
+14	per	per	E	E	_	13	arg
+15	cercare	cercare	V	V	mod=f	14	prep
+16	lavoro	lavoro	S	S	num=s|gen=m	15	obj
+17	.	.	F	FS	_	8	punc
+
+SPEAKER|Samira|f|s
+1	Va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+2	bene	bene	B	B	_	1	mod
+3	.	.	F	FS	_	1	punc
+
+SPEAKER|Segretaria|f|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	mi	mi	P	PC	num=s|per=1|gen=n	4	comp_ind
+4	serve	servire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io servo, tu servi, lui/lei/Lei serve, noi serviamo, voi servite, loro servono
+5	la	il	R	RD	num=s|gen=f	6	det
+6	carta	carta	S	S	num=s|gen=f	4	obj
+7	d'	di	E	E	_	6	comp
+8	identità	identità	S	S	num=s|gen=f	7	prep
+9	,	,	F	FF	_	4	con
+10	il	il	R	RD	num=s|gen=m	11	det
+11	codice	codice	S	S	num=s|gen=m	4	subj
+12	fiscale	fiscale	A	A	num=s|gen=m	11	mod
+13	e	e	C	CC	_	11	con
+14	il	il	R	RD	num=s|gen=m	15	det
+15	permesso	permesso	S	S	num=s|gen=m	11	conj
+16	di	di	E	E	_	15	comp
+17	soggiorno	soggiorno	S	S	num=s|gen=m	16	prep
+18	.	.	F	FS	_	4	punc
+
+SPEAKER|Segretaria|f|s
+1	Grazie	Grazie	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	Ecco	ecco	B	B	_	0	ROOT
+2	....	....	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	Ecco	ecco	B	B	_	0	ROOT
+2	qua	qua	B	B	_	1	mod
+3	.	.	F	FS	_	1	punc
+
+SPEAKER|Segretaria|f|s
+1	Non	non	B	BN	_	3	neg
+2	si	si	P	PC	num=n|per=3|gen=n	3	clit
+3	preoccupi	preoccupare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+4	,	,	F	FF	_	3	punc
+5	è	essere	V	V	num=s|per=3|mod=i|ten=p	3	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+6	un	uno	R	RI	num=s|gen=m	7	det
+7	po'	po'	B	B	_	8	mod
+8	agitata	agitato	A	A	num=s|gen=f	5	pred
+9	.	.	F	FS	_	3	punc
+
+SPEAKER|Samira|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	....	....	F	FS	_	1	punc
+
+SPEAKER|Segretaria|f|s
+1	Allora	allora	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	scriviamo	scrivere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io scrivo, tu scrivi, lui/lei/Lei scrive, noi scriviamo, voi scrivete, loro scrivono
+4	subito	subito	B	B	_	3	mod_temp
+5	i	il	R	RD	num=p|gen=m	7	det
+6	suoi	suo	A	AP	num=p|gen=m	7	mod	suo/sua/suoi/sue
+7	dati	dato	S	S	num=p|gen=m	3	obj
+8	anagrafici	anagrafico	A	A	num=p|gen=m	7	mod
+9	.	.	F	FS	_	3	punc
+
+SPEAKER|Segretaria|f|s
+1	Dunque	dunque	B	B	_	0	ROOT
+2	:	:	F	FC	_	1	punc
+3	Samira	Samira	S	SP	_	0	ROOT
+4	,	,	F	FF	_	3	con
+5	cognome	cognome	S	S	num=s|gen=m	6	mod
+6	Dirye	Dirye	S	SP	_	3	conj
+7	,	,	F	FF	_	3	con
+8	nata	nascere	V	V	num=s|mod=p|gen=f	3	conj
+9	in	in	E	E	_	8	comp_loc
+10	Somalia	Somalia	S	SP	_	9	prep
+11	.	.	F	FS	_	3	punc
+
+SPEAKER|Samira|f|s
+1	Ok	ok	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Segretaria|f|s
+1	Allora	allora	B	B	_	6	mod_temp
+2	,	,	F	FF	_	1	punc
+3	Lei	lei	P	PE	num=s|per=3|gen=n	6	subj
+4	ha	avere	V	VA	num=s|per=3|mod=i|ten=p	6	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	mai	mai	B	B	_	6	mod_temp
+6	lavorato	lavorare	V	V	num=s|mod=p|gen=m	0	ROOT
+7	in	in	E	E	_	6	comp_loc
+8	Italia	Italia	S	SP	_	7	prep
+9	?	?	F	FS	_	6	punc
+
+SPEAKER|Samira|f|s
+1	No	no	B	BN	_	6	neg
+2	,	,	F	FF	_	1	punc
+3	non	non	B	BN	_	6	neg
+4	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	6	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	mai	mai	B	B	_	6	mod_temp
+6	lavorato	lavorare	V	V	num=s|mod=p|gen=m	0	ROOT
+7	.	.	F	FS	_	6	punc
+
+SPEAKER|Segretaria|f|s
+1	Nel	in	E	EA	num=s|gen=m	5	comp_loc
+2	suo	suo	A	AP	num=s|gen=m	3	mod	suo/sua/suoi/sue
+3	Paese	Paese	S	SP	_	1	prep
+4	ha	avere	V	VA	num=s|per=3|mod=i|ten=p	5	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	fatto	fare	V	V	num=s|mod=p|gen=m	0	ROOT
+6	qualche	qualche	D	DI	num=s|gen=n	7	mod
+7	lavoro	lavoro	S	S	num=s|gen=m	5	obj
+8	?	?	F	FS	_	5	punc
+
+SPEAKER|Samira|f|s
+1	No	no	B	BN	_	6	neg
+2	,	,	F	FF	_	1	punc
+3	non	non	B	BN	_	6	neg
+4	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	6	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	mai	mai	B	B	_	6	mod_temp
+6	lavorato	lavorare	V	V	num=s|mod=p|gen=m	0	ROOT
+7	neanche	neanche	B	B	_	6	mod
+8	in	in	E	E	_	6	comp_loc
+9	Somalia	Somalia	S	SP	_	8	prep
+10	,	,	F	FF	_	6	con
+11	ma	ma	C	CC	_	6	con
+12	mi	mi	P	PC	num=s|per=1|gen=n	13	comp_ind
+13	piace	piacere	V	V	num=s|per=3|mod=i|ten=p	6	conj	io piaccio, tu piaci, lui/lei/Lei piace, noi piacciamo, voi piacete, loro piacciono
+14	stare	stare	V	V	mod=f	13	subj
+15	con	con	E	E	_	14	comp
+16	gli	il	R	RD	num=p|gen=m	17	det
+17	anziani	anziano	S	S	num=p|gen=m	15	prep
+18	e	e	C	CC	_	15	con
+19	i	il	R	RD	num=p|gen=m	20	det
+20	bambini	bambino	S	S	num=p|gen=m	18	mod
+21	.	.	F	FS	_	6	punc
+
+SPEAKER|Samira|f|s
+1	Nel	in	E	EA	num=s|gen=m	5	comp_loc
+2	mio	mio	A	AP	num=s|gen=m	3	mod	mio/mia/miei/mie
+3	Paese	Paese	S	SP	_	1	prep
+4	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	5	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	curato	curare	V	V	num=s|mod=p|gen=m	0	ROOT
+6	i	il	R	RD	num=p|gen=m	7	det
+7	figli	figlio	S	S	num=p|gen=m	5	obj
+8	delle	di	E	EA	num=p|gen=f	7	comp
+9	mie	mio	A	AP	num=p|gen=f	10	mod	mio/mia/miei/mie
+10	amiche	amico	S	S	num=p|gen=f	8	prep	amica/amiche
+11	e	e	C	CC	_	10	con
+12	i	il	R	RD	num=p|gen=m	14	det
+13	miei	mio	A	AP	num=p|gen=m	14	mod	mio/mia/miei/mie
+14	nipoti	nipote	S	S	num=p|gen=m	10	conj
+15	.	.	F	FS	_	5	punc
+
+SPEAKER|Samira|f|s
+1	Anche	anche	B	B	_	0	ROOT
+2	i	il	R	RD	num=p|gen=m	3	det
+3	miei	mio	A	AP	num=p|gen=m	4	mod	mio/mia/miei/mie
+4	nonni	nonno	S	S	num=p|gen=m	1	ROOT
+5	e	e	C	CC	_	4	con
+6	i	il	R	RD	num=p|gen=m	7	det
+7	genitori	genitore	S	S	num=p|gen=m	4	conj
+8	di	di	E	E	_	7	comp
+9	mio	mio	A	AP	num=s|gen=m	10	mod	mio/mia/miei/mie
+10	marito	marito	S	S	num=s|gen=m	8	prep
+11	.	.	F	FS	_	4	punc
+
+SPEAKER|Segretaria|f|s
+1	Bene	bene	B	B	_	5	mod
+2	,	,	F	FF	_	1	punc
+3	allora	allora	B	B	_	5	mod
+4	possiamo	potere	V	VM	num=p|per=1|mod=i|ten=p	5	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+5	mettere	mettere	V	V	mod=f	0	ROOT
+6	che	che	C	CS	_	5	arg
+7	vuole	volere	V	VM	num=s|per=3|mod=i|ten=p	8	modal	io voglio, tu vuoi, lui/lei/Lei vuole, noi vogliamo, voi volete, loro vogliono
+8	lavorare	lavorare	V	V	mod=f	6	sub
+9	nel	in	E	EA	num=s|gen=m	8	comp_loc
+10	campo	campo	S	S	num=s|gen=m	9	prep
+11	dell'	di	E	EA	num=s|gen=f	10	comp
+12	assistenza	assistenza	S	S	num=s|gen=f	11	prep
+13	e	e	C	CC	_	8	con
+14	cura	cura	S	S	num=s|gen=f	8	conj
+15	della	di	E	EA	num=s|gen=f	14	comp
+16	persona	persona	S	S	num=s|gen=f	15	prep
+17	.	.	F	FS	_	5	punc
+
+SPEAKER|Segretaria|f|s
+1	Si	si	P	PC	num=n|per=3|gen=n	2	clit
+2	dice	dire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io dico, tu dici, lui/lei/Lei dice, noi diciamo, voi dite, loro dicono
+3	così	così	B	B	_	2	mod
+4	per	per	E	E	_	2	arg
+5	parlare	parlare	V	V	mod=f	4	prep
+6	di	di	E	E	_	5	comp
+7	questo	questo	D	DD	num=s|gen=m	8	mod
+8	lavoro	lavoro	S	S	num=s|gen=m	6	prep
+9	.	.	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Ok	ok	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Segretaria|f|s
+1	Ok	ok	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	assistenza	assistenza	S	S	num=s|gen=f	0	ROOT
+4	....	....	F	FS	_	3	punc
+
+SPEAKER|Segretaria|f|s
+1	E	e	C	CC	_	2	con
+2	cura	cura	S	S	num=s|gen=f	0	ROOT
+3	della	di	E	EA	num=s|gen=f	2	comp
+4	persona	persona	S	S	num=s|gen=f	3	prep
+5	.	.	F	FS	_	2	punc
+
+SPEAKER|Segretaria|f|s
+1	Va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+2	bene	bene	B	B	_	1	mod
+3	,	,	F	FF	_	4	punc
+4	per	per	E	E	_	6	comp
+5	caso	caso	S	S	num=s|gen=m	4	prep
+6	ha	avere	V	V	num=s|per=3|mod=i|ten=p	1	conj	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+7	qualche	qualche	D	DI	num=s|gen=m	8	mod
+8	attestato	attestato	S	S	num=s|gen=m	6	obj
+9	di	di	E	E	_	8	comp
+10	un	uno	R	RI	num=s|gen=m	11	det
+11	corso	corso	S	S	num=s|gen=m	9	prep
+12	fatto	fare	V	V	num=s|mod=p|gen=m	11	mod
+13	in	in	E	E	_	12	comp_loc
+14	Italia	Italia	S	SP	_	13	prep
+15	o	o	C	CC	_	13	dis
+16	diplomi	diploma	S	S	num=p|gen=m	13	disj	diploma/diplomi
+17	di	di	E	E	_	16	comp
+18	scuola	scuola	S	S	num=s|gen=f	17	prep
+19	?	?	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	No	no	B	BN	_	4	neg
+2	,	,	F	FF	_	1	punc
+3	non	non	B	BN	_	4	neg
+4	ancora	ancora	B	B	_	0	ROOT
+5	.	.	F	FS	_	4	punc
+
+SPEAKER|Segretaria|f|s
+1	Non	non	B	BN	_	3	neg
+2	ancora	ancora	B	B	_	3	mod
+3	....	....	F	FS	num=s|per=1|mod=i|ten=p	0	ROOT
+4	Adesso	adesso	B	B	_	5	mod_temp
+5	direi	dire	V	V	num=s|per=1|mod=d|ten=p	3	mod
+6	che	che	C	CS	_	5	arg
+7	possiamo	potere	V	VM	num=p|per=1|mod=i|ten=p	8	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+8	stampare	stampare	V	V	mod=f	6	sub
+9	.	.	F	FS	_	3	punc
+
+SPEAKER|Segretaria|f|s
+1	Ecco	ecco	B	B	_	2	mod
+2	qui	qui	B	B	_	0	ROOT
+3	:	:	F	FC	_	2	punc
+4	questa	questo	P	PD	num=s|gen=f	5	subj
+5	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+6	la	il	R	RD	num=s|gen=f	7	det
+7	dichiarazione	dichiarazione	S	S	num=s|gen=f	5	pred
+8	di	di	E	E	_	7	comp
+9	immediata	immediato	A	A	num=s|gen=f	10	mod
+10	disponibilità	disponibilità	S	S	num=s|gen=f	8	prep
+11	al	a	E	EA	num=s|gen=m	10	comp
+12	lavoro	lavoro	S	S	num=s|gen=m	11	prep
+13	.	.	F	FS	_	5	punc
+
+SPEAKER|Segretaria|f|s
+1	Può	potere	V	VM	num=s|per=3|mod=i|ten=p	2	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+2	firmare	firmare	V	V	mod=f	0	ROOT
+3	qui	qui	B	B	_	2	mod_loc
+4	che	che	C	CS	_	2	arg
+5	prevede	prevedere	V	V	num=s|per=3|mod=i|ten=p	4	sub	io prevedo, tu prevedi, lui/lei/lei prevede, noi prevediamo, voi prevedete, loro prevedono
+6	anche	anche	B	B	_	8	mod
+7	la	il	R	RD	num=s|gen=f	8	det
+8	partecipazione	partecipazione	S	S	num=s|gen=f	5	obj
+9	ad	ad	E	E	_	8	comp
+10	eventuali	eventuale	A	A	num=p|gen=f	11	mod
+11	attività	attività	S	S	num=p|gen=f	9	prep
+12	formative	formativo	A	A	num=p|gen=f	11	mod
+13	.	.	F	FS	_	2	punc

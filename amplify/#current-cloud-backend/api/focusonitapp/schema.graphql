@@ -1,0 +1,126 @@
+type AnalyticsData @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  event: String!
+  attributes: AWSJSON
+  userID: ID! @index(name: "byUser")
+}
+
+type ButtonClick {
+  isoDateTime: AWSDateTime!
+  userInput: String!
+}
+
+type WordStats {
+  firstHintShowed: Boolean!
+  secondHintShowed: Boolean!
+  answerShowed: Boolean!
+  word: Word!
+  buttonClicks: [ButtonClick!]!
+  wordId: String!
+  phraseId: String!
+}
+
+type User @model @auth(rules: [{allow: groups, groups: ["admin"], operations: [read, create, update, delete]}, {allow: owner, operations: [create, read, update]}]) {
+  id: ID!
+  name: String
+  Stats: [Stats] @hasMany(indexName: "byUser", fields: ["id"])
+  cognitoId: String!
+  AnalyticsData: [AnalyticsData] @hasMany(indexName: "byUser", fields: ["id"])
+  userPageViews: Int
+}
+
+type Stats @model @auth(rules: [{allow: owner, operations: [create, read, update]}, {allow: groups, groups: ["admin"], operations: [read, create, update, delete]}]) {
+  id: ID!
+  userID: ID @index(name: "byUser")
+  pos: PartOfSpeech!
+  dialogId: ID!
+  wordsStats: [WordStats!]!
+  savedAt: AWSDateTime
+}
+
+enum Person {
+  FIRST
+  SECOND
+  THIRD
+}
+
+type WordFeatures {
+  gender: Gender
+  person: Person
+  mode: String
+  tense: String
+  number: WordNumber
+}
+
+enum PartOfSpeech {
+  VERB
+  NOUN
+  ARTICLE
+  ADJECTIVE
+  PREPOSITION_ARTICLE
+}
+
+type Word {
+  id: ID!
+  position: Int!
+  lemma: String!
+  part_of_speech: PartOfSpeech
+  part_of_speech2: String!
+  head: ID
+  dependency_relation: String!
+  features: WordFeatures
+  form: String!
+  inflection: String
+}
+
+enum WordNumber {
+  SINGULAR
+  PLURAL
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+type Speaker {
+  name: String!
+  gender: Gender!
+  number: WordNumber!
+}
+
+enum PhraseStatus {
+  TO_COMPLETE
+  COMPLETED
+  UNNECESSARY
+}
+
+type Phrase {
+  id: ID!
+  words: [Word!]!
+  speaker: Speaker!
+  status: PhraseStatus
+}
+
+enum Topic {
+  CIBO
+  MEZZI
+  LAVORO
+  APPUNTAMENTO
+  INFORMAZIONI_PERSONALI
+  DOTTORE
+  SPESA
+  DESCRIZIONE_FISICA
+  EMOZIONI_E_SALUTE
+  MERCATO
+  TEMPO_LIBERO
+}
+
+type Dialog @model @auth(rules: [{allow: private, operations: [read]}, {allow: groups, groups: ["admin"], operations: [read, create, update, delete]}]) {
+  id: ID!
+  phrases: [Phrase!]!
+  videoUrl: AWSURL!
+  title: String!
+  topic: Topic!
+}
+ 

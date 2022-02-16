@@ -1,0 +1,367 @@
+SPEAKER|Selene|f|s
+1	Ciao	ciao	I	I	_	2	mod
+2	Emma	Emma	S	SP	_	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|Emma|f|s
+1	Ciao	ciao	I	I	_	2	mod
+2	Selene	Selene	S	SP	_	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|Selene|f|s
+1	Hai	avere	V	VA	num=s|per=2|mod=i|ten=p	2	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	fatto	fare	V	V	num=s|mod=p|gen=m	0	ROOT
+3	la	il	R	RD	num=s|gen=f	4	det
+4	spesa	spesa	S	S	num=s|gen=f	2	obj
+5	!	!	F	FS	_	2	punc
+
+SPEAKER|Emma|f|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	sono	essere	V	VA	num=p|per=1|mod=i|ten=p	4	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	andata	andare	V	V	num=s|mod=p|gen=f	0	ROOT
+5	al	a	E	EA	num=s|gen=m	4	comp
+6	supermercato	supermercato	S	S	num=s|gen=m	5	prep
+7	.	.	F	FS	_	4	punc
+
+SPEAKER|Emma|f|s
+1	Guarda	guardare	V	V	num=s|per=2|mod=imp|ten=p	5	arg
+2	,	,	F	FF	_	1	con
+3	il	il	R	RD	num=s|gen=m	4	det
+4	frigo	frigo	S	S	num=s|gen=m	1	subj
+5	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+6	completamente	completo	B	B	_	7	mod
+7	vuoto	vuoto	A	A	num=s|gen=m	5	pred
+8	.	.	F	FS	_	5	punc
+
+SPEAKER|Selene|f|s
+1	Hai	avere	V	VA	num=s|per=2|mod=i|ten=p	2	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	ragione	ragione	S	S	num=s|gen=f	0	ROOT
+3	,	,	F	FF	_	4	punc
+4	davvero	davvero	B	B	_	2	mod
+5	.	.	F	FS	_	2	punc
+
+SPEAKER|Selene|f|s
+1	Hai	avere	V	VA	num=s|per=2|mod=i|ten=p	2	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	guardato	guardare	V	V	num=s|mod=p|gen=m	0	ROOT
+3	la	il	R	RD	num=s|gen=f	4	det
+4	lista	lista	S	S	num=s|gen=f	2	obj
+5	della	di	E	EA	num=s|gen=f	4	comp
+6	spesa	spesa	S	S	num=s|gen=f	5	prep
+7	?	?	F	FS	_	2	punc
+
+SPEAKER|Emma|f|s
+1	Eccola	ecco	B	B	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Emma|f|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	4	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+4	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
+5	:	:	F	FC	_	4	punc
+6	i	il	R	RD	num=p|gen=m	7	det
+7	petti	petto	S	S	num=p|gen=m	0	ROOT
+8	di	di	E	E	_	7	comp
+9	pollo	pollo	S	S	num=s|gen=m	8	prep
+10	,	,	F	FF	_	7	con
+11	una	uno	R	RI	num=s|gen=f	12	det
+12	bottiglia	bottiglia	S	S	num=s|gen=f	7	conj
+13	di	di	E	E	_	12	comp
+14	acqua	acqua	S	S	num=s|gen=f	13	prep
+15	,	,	F	FF	_	17	punc
+16	un	uno	R	RI	num=s|gen=m	17	det
+17	litro	litro	S	S	num=s|gen=m	12	mod
+18	di	di	E	E	_	17	comp
+19	latte	latte	S	S	num=s|gen=m	18	prep
+20	,	,	F	FF	_	17	con
+21	sei	sei	N	N	_	22	mod
+22	uova	uovo	S	S	num=p|gen=f	17	conj
+23	,	,	F	FF	_	17	con
+24	e	e	C	CC	_	17	con
+25	il	il	R	RD	num=s|gen=m	26	det
+26	riso	riso	S	S	num=s|gen=m	17	conj
+27	.	.	F	FS	_	7	punc
+
+SPEAKER|Selene|f|s
+1	Verdure	verdura	S	S	num=p|gen=f	0	ROOT
+2	?	?	F	FS	_	1	punc
+
+SPEAKER|Emma|f|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	4	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+4	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
+5	:	:	F	FC	_	4	punc
+6	i	il	R	RD	num=p|gen=m	7	det
+7	pomodori	pomodoro	S	S	num=p|gen=m	0	ROOT
+8	,	,	F	FF	_	7	con
+9	l'	il	R	RD	num=s|gen=f	10	det
+10	insalata	insalata	S	S	num=s|gen=f	7	conj
+11	,	,	F	FF	_	7	con
+12	le	il	R	RD	num=p|gen=f	13	det
+13	carote	carota	S	S	num=p|gen=f	7	conj
+14	,	,	F	FF	_	7	con
+15	due	due	N	N	_	16	mod
+16	peperoni	peperone	S	S	num=p|gen=m	7	conj
+17	,	,	F	FF	_	7	con
+18	una	uno	R	RI	num=s|gen=f	19	det
+19	melanzana	melanzana	S	S	num=s|gen=f	7	conj
+20	,	,	F	FF	_	7	con
+21	due	due	N	N	_	22	mod
+22	cipolle	cipolla	S	S	num=p|gen=f	7	conj
+23	e	e	C	CC	_	7	con
+24	due	due	N	N	_	25	mod
+25	patate	patata	S	S	num=p|gen=f	7	conj
+26	.	.	F	FS	_	7	punc
+
+SPEAKER|Selene|f|s
+1	Hai	avere	V	VA	num=s|per=2|mod=i|ten=p	2	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
+3	anche	anche	B	B	_	5	mod
+4	la	il	R	RD	num=s|gen=f	5	det
+5	frutta	frutta	S	S	num=s|gen=f	2	obj
+6	!	!	F	FS	_	2	punc
+
+SPEAKER|Emma|f|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	tanta	tanto	A	A	num=s|gen=f	4	mod
+4	frutta	frutta	S	S	num=s|gen=f	0	ROOT
+5	.	.	F	FS	_	4	punc
+
+SPEAKER|Selene|f|s
+1	Le	il	R	RD	num=p|gen=f	2	det
+2	banane	banana	S	S	num=p|gen=f	0	ROOT
+3	,	,	F	FF	_	2	con
+4	due	due	N	N	_	5	mod
+5	pere	pera	S	S	num=p|gen=f	2	conj
+6	,	,	F	FF	_	2	con
+7	l'	il	R	RD	num=s|gen=f	8	det
+8	uva	uva	S	S	num=s|gen=f	2	conj
+9	e	e	C	CC	_	2	con
+10	due	due	N	N	_	11	mod
+11	mele	mela	S	S	num=p|gen=f	2	conj
+12	.	.	F	FS	_	2	punc
+
+SPEAKER|Selene|f|s
+1	Ma	ma	C	CC	_	0	ROOT
+2	i	il	R	RD	num=p|gen=m	3	det
+3	biscotti	biscotto	S	S	num=p|gen=m	1	subj
+4	per	per	E	E	_	3	comp
+5	la	il	R	RD	num=s|gen=f	6	det
+6	colazione	colazione	S	S	num=s|gen=f	4	prep
+7	di	di	E	E	_	6	comp
+8	domani	domani	B	B	_	7	prep
+9	?	?	F	FS	_	1	punc
+
+SPEAKER|Emma|f|s
+1	No	no	B	BN	_	5	neg
+2	,	,	F	FF	_	1	punc
+3	li	li	P	PC	num=p|per=3|gen=m	5	obj
+4	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	5	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	dimenticati	dimenticare	V	V	num=p|mod=p|gen=m	0	ROOT
+6	.	.	F	FS	_	5	punc
+
+SPEAKER|Selene|f|s
+1	Non	non	B	BN	_	3	neg
+2	ti	ti	P	PC	num=s|per=2|gen=n	3	comp_ind
+3	preoccupare	preoccupare	V	V	mod=f	0	ROOT
+4	,	,	F	FF	_	3	con
+5	li	li	P	PC	num=p|per=3|gen=m	3	obj
+6	prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	3	conj	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+7	io	io	P	PE	num=s|per=1|gen=f	6	subj
+8	domani	domani	B	B	_	6	mod
+9	.	.	F	FS	_	3	punc
+
+SPEAKER|Selene|f|s
+1	Il	il	R	RD	num=s|gen=m	2	det
+2	pane	pane	S	S	num=s|gen=m	4	subj
+3	c'	ci	P	PC	num=n|gen=n	4	comp
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	?	?	F	FS	_	4	punc
+
+SPEAKER|Emma|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	,	,	F	FF	_	1	punc
+3	eccolo	ecco	B	B	_	1	mod
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|Selene|f|s
+1	Perfetto	perfetto	A	A	num=s|gen=m	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	Il	il	R	RD	num=s|gen=m	2	det
+2	sapone	sapone	S	S	num=s|gen=m	0	ROOT
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Emma|f|s
+1	Il	il	R	RD	num=s|gen=m	2	det
+2	sapone	sapone	S	S	num=s|gen=m	3	subj
+3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	qui	qui	B	B	_	3	pred
+5	.	.	F	FS	_	3	punc
+
+SPEAKER|Selene|f|s
+1	Perfetto	perfetto	A	A	num=s|gen=m	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	Hai	avere	V	VA	num=s|per=2|mod=i|ten=p	2	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
+3	anche	anche	B	B	_	5	mod
+4	qualcos'	qualcos'	D	DI	num=s|gen=n	5	mod
+5	altro	altro	P	PI	num=s|gen=m	2	obj
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|Emma|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Emma|f|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	4	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+4	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
+5	la	il	R	RD	num=s|gen=f	6	det
+6	farina	farina	S	S	num=s|gen=f	4	obj
+7	,	,	F	FF	_	4	con
+8	una	uno	R	RI	num=s|gen=f	9	det
+9	mozzarella	mozzarella	S	S	num=s|gen=f	4	conj
+10	.	.	F	FS	_	4	punc
+
+SPEAKER|Selene|f|s
+1	Ah	ah	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	guarda	guardare	V	V	num=s|per=3|mod=imp|ten=p	0	ROOT
+4	,	,	F	FF	_	3	con
+5	anche	anche	B	B	_	7	mod
+6	la	il	R	RD	num=s|gen=f	7	det
+7	carta	carta	S	S	num=s|gen=f	3	conj
+8	igienica	igienico	A	A	num=s|gen=f	7	mod
+9	!	!	F	FS	_	3	punc
+
+SPEAKER|Emma|f|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	anche	anche	B	B	_	4	mod
+4	quella	quello	P	PD	num=s|gen=f	0	ROOT
+5	.	.	F	FS	_	4	punc
+
+SPEAKER|Emma|f|s
+1	E	e	C	CC	_	4	con
+2	una	uno	R	RI	num=s|gen=f	4	det
+3	bella	bello	A	A	num=s|gen=f	4	mod
+4	bottiglia	bottiglia	S	S	num=s|gen=f	0	ROOT
+5	di	di	E	E	_	4	comp
+6	vino	vino	S	S	num=s|gen=m	5	prep
+7	per	per	E	E	_	6	comp
+8	te	te	P	PE	num=s|per=2|gen=f	7	prep
+9	!	!	F	FS	_	4	punc
+
+SPEAKER|Selene|f|s
+1	Oh	oh	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	Emma	Emma	S	SP	_	0	ROOT
+4	,	,	F	FF	_	3	con
+5	grazie	grazie	I	I	num=n|gen=n	3	mod
+6	mille	mille	N	N	_	5	mod
+7	!	!	F	FS	_	3	punc
+
+SPEAKER|Selene|f|s
+1	Grazie	grazie	I	I	_	0	ROOT
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|Emma|f|s
+1	Prego	prego	I	I	_	0	ROOT
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	Ma	ma	C	CC	_	4	con
+2	quanto	quanto	P	PR	num=s|gen=m	4	subj
+3	hai	avere	V	VA	num=s|per=2|mod=i|ten=p	4	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+4	speso	spendere	V	V	num=s|mod=p|gen=m	0	ROOT
+5	?	?	F	FS	_	4	punc
+
+SPEAKER|Emma|f|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	adesso	adesso	B	B	_	4	mod_temp
+4	cerco	cercare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io cerco, tu cerchi, lui/lei/Lei cerca, noi cerchiamo, voi cercate, loro cercano
+5	lo	il	R	RD	num=s|gen=m	6	det
+6	scontrino	scontrino	S	S	num=s|gen=m	4	obj
+7	.	.	F	FS	_	4	punc
+
+SPEAKER|Emma|f|s
+1	Eccolo	ecco	B	B	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Emma|f|s
+1	35	35	N	N	_	2	mod
+2	euro	euro	S	S	num=s|gen=m	0	ROOT
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|Selene|f|s
+1	Guardo	guardare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io guardo, tu guardi, lui/lei/Lei guarda, noi guardiamo, voi guardate, loro guardano
+2	nel	in	E	EA	num=s|gen=m	1	comp
+3	portafogli	portafogli	S	S	num=s|gen=m	2	prep
+4	,	,	F	FF	_	1	con
+5	dovrei	dovere	V	VM	num=s|per=1|mod=d|ten=p	6	modal
+6	averli	avere	V	V	mod=f	1	conj
+7	giusti	giusto	A	A	num=p|gen=m	6	pred
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	35	35	N	N	_	2	mod
+2	diviso	diviso	I	I	num=s|gen=m	3	mod
+3	2	2	N	N	_	0	ROOT
+4	...	...	F	FS	_	3	punc
+
+SPEAKER|Selene|f|s
+1	17	17	N	N	_	0	ROOT
+2	e	e	C	CC	_	1	con
+3	50	50	N	N	_	1	conj
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|Emma|f|s
+1	17	17	N	N	_	0	ROOT
+2	e	e	C	CC	_	1	con
+3	50	50	N	N	_	1	conj
+4	,	,	F	FF	_	1	con
+5	giusto	giusto	A	A	num=s|gen=m	1	conj
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	10	10	N	N	_	0	ROOT
+2	,	,	F	FF	_	1	con
+3	15	15	N	N	_	1	conj
+4	,	,	F	FF	_	1	con
+5	17	17	N	N	_	1	conj
+6	e	e	C	CC	_	1	con
+7	50	50	N	N	_	1	conj
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	Eccoli	ecco	B	B	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	Non	non	B	BN	_	3	neg
+2	ti	ti	P	PC	num=s|per=2|gen=n	3	comp_ind
+3	preoccupare	preoccupare	V	V	mod=f	0	ROOT
+4	,	,	F	FF	_	5	punc
+5	metto	mettere	V	V	num=s|per=1|mod=i|ten=p	3	arg	io metto, tu metti, lui/lei/Lei mette, noi mettiamo, voi mettete, loro mettono
+6	io	io	P	PE	num=s|per=1|gen=f	5	subj
+7	a	a	E	E	_	5	comp_ind
+8	posto	posto	S	S	num=s|gen=m	7	prep
+9	.	.	F	FS	_	3	punc
+
+SPEAKER|Emma|f|s
+1	Grazie	Grazie	I	I	num=p|gen=f	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Selene|f|s
+1	Di	di	E	E	_	0	ROOT
+2	niente	niente	B	B	_	1	prep
+3	!	!	F	FS	_	1	punc

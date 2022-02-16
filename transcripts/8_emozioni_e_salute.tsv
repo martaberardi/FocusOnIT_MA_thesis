@@ -1,0 +1,362 @@
+SPEAKER|Angela|f|s
+﻿1	Ciao	ciao	I	I	_	2	mod
+2	ragazzi	ragazzo	S	S	num=p|gen=m	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|Mahmoud|m|s
+1	Ciao	ciao	I	I	_	0	ROOT
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|Kenan|m|s
+1	Ciao	ciao	I	I	_	2	mod
+2	Angela	Angela	S	SP	_	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|Angela|f|s
+1	Come	come	B	B	_	2	mod
+2	state	stare	V	V	num=p|per=2|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Kenan|m|s
+1	Oh	oh	I	I	_	0	ROOT
+2	,	,	F	FF	_	1	punc
+3	non	non	B	BN	_	4	neg
+4	tanto	tanto	B	B	_	5	mod
+5	bene	bene	B	B	_	1	mod
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Angela|f|s
+1	Come	come	B	B	_	2	mod
+2	mai	mai	B	B	_	0	ROOT
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Angela|f|s
+1	Non	non	B	BN	_	2	neg
+2	stai	stare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+3	bene	bene	B	B	_	2	mod
+4	?	?	F	FS	_	2	punc
+
+SPEAKER|Kenan|m|s
+1	No	no	B	BN	_	4	neg
+2	,	,	F	FF	_	1	punc
+3	oggi	oggi	B	B	_	4	mod_temp
+4	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	mal	mal	S	S	num=s|gen=m	4	obj
+6	di	di	E	E	_	5	comp
+7	testa	testa	S	S	num=s|gen=f	6	prep
+8	perché	perché	C	CS	_	4	mod
+9	non	non	B	BN	_	10	neg
+10	riesco	riuscire	V	V	num=s|per=1|mod=i|ten=p	8	sub	io riesco, tu riesci, lui/lei/Lei riesce, noi riusciamo, voi riuscite, loro riescono
+11	mai	mai	B	B	_	10	mod_temp
+12	a	a	E	E	_	10	arg
+13	dormire	dormire	V	V	mod=f	12	prep
+14	bene	bene	B	B	_	13	mod
+15	.	.	F	FS	_	4	punc
+
+SPEAKER|Angela|f|s
+1	Hai	avere	V	VA	num=s|per=2|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	sempre	sempre	B	B	_	3	mod
+3	mal	mal	S	S	num=s|gen=m	4	mod
+4	di	di	E	E	_	1	comp
+5	testa	testa	S	S	num=s|gen=f	4	prep
+6	,	,	F	FF	_	4	con
+7	ma	ma	C	CC	_	4	con
+8	come	come	C	CS	_	4	conj
+9	mai	mai	B	B	_	11	mod_temp
+10	non	non	B	BN	_	11	neg
+11	riesci	riuscire	V	V	num=s|per=2|mod=i|ten=p	8	sub	io riesco, tu riesci, lui/lei/Lei riesce, noi riusciamo, voi riuscite, loro riescono
+12	a	a	E	E	_	11	arg
+13	dormire	dormire	V	V	mod=f	12	prep
+14	?	?	F	FS	_	1	punc
+
+SPEAKER|Angela|f|s
+1	Sei	essere	V	VA	num=s|per=2|mod=i|ten=p	2	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	andato	andare	V	V	num=s|mod=p|gen=m	0	ROOT
+3	dal	da	E	EA	num=s|gen=m	2	comp
+4	dottore	dottore	S	S	num=s|gen=m	3	prep
+5	?	?	F	FS	_	2	punc
+
+SPEAKER|Kenan|m|s
+1	No	no	B	BN	_	4	neg
+2	,	,	F	FF	_	1	punc
+3	non	non	B	BN	_	4	neg
+4	dormo	dormire	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io dormo, tu dormi, lui/lei/Lei dorme, noi dormiamo, voi dormite, loro dormono
+5	perché	perché	C	CS	_	4	mod
+6	mi	mi	P	PC	num=s|per=1|gen=n	7	clit
+7	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	5	sub	io sento, tu senti, lui/lei/Lei sente, noi sentiamo, voi sentite, loro sentono
+8	triste	triste	A	A	num=s|gen=m	7	pred
+9	.	.	F	FS	_	4	punc
+
+SPEAKER|Kenan|m|s
+1	Dal	da	E	EA	num=s|gen=m	3	comp
+2	dottore	dottore	S	S	num=s|gen=m	1	prep
+3	vado	andare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+4	domani	domani	B	B	_	5	mod
+5	pomeriggio	pomeriggio	S	S	num=s|gen=m	3	obj
+6	.	.	F	FS	_	3	punc
+
+SPEAKER|Angela|f|s
+1	Ah	ah	I	I	_	6	mod
+2	,	,	F	FF	_	1	punc
+3	dai	da	E	EA	num=p|gen=m	6	comp
+4	allora	allora	B	B	_	3	prep
+5	ti	ti	P	PC	num=s|per=2|gen=n	6	clit
+6	accompagno	accompagnare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io accompagno, tu accompagni, lui/lei/Lei accompagna, noi accompagnamo, voi accompagnate, loro accompagnano
+7	!	!	F	FS	_	6	punc
+
+SPEAKER|Kenan|m|s
+1	Grazie	Grazie	I	I	num=p|gen=f	0	ROOT
+2	,	,	F	FF	_	1	con
+3	amica	amico	S	S	num=s|gen=f	1	conj
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|Angela|f|s
+1	Invece	invece	B	B	_	2	mod
+2	tu	tu	P	PE	num=s|per=2|gen=m	7	subj
+3	,	,	F	FF	_	4	punc
+4	Mahmoud	Mahmoud	S	SP	_	2	mod
+5	,	,	F	FF	_	4	punc
+6	come	come	C	CS	_	2	mod
+7	stai	stare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+8	?	?	F	FS	_	2	punc
+
+SPEAKER|Mahmoud|m|s
+1	Oggi	oggi	B	B	_	2	mod_temp
+2	sto	stare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+3	bene	bene	B	B	_	2	mod_temp
+4	,	,	F	FF	_	2	con
+5	sono	essere	V	V	num=p|per=1|mod=i|ten=p	2	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+6	felice	felice	A	A	num=s|gen=m	5	pred
+7	perché	perché	C	CS	_	5	mod
+8	sono	essere	V	VA	num=p|per=1|mod=i|ten=p	9	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+9	andato	andare	V	V	num=s|mod=p|gen=m	7	sub
+10	in	in	E	E	_	9	comp
+11	questura	questura	S	S	num=s|gen=f	10	prep
+12	a	a	E	E	_	9	arg
+13	prendere	prendere	V	V	mod=f	12	prep
+14	i	il	R	RD	num=p|gen=m	16	det
+15	miei	mio	A	AP	num=p|gen=m	16	mod	mio/mia/miei/mie
+16	documenti	documento	S	S	num=p|gen=m	13	obj
+17	.	.	F	FS	_	2	punc
+
+SPEAKER|Angela|f|s
+1	Ah	ah	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	evviva	evviva	I	I	_	0	ROOT
+4	!	!	F	FS	_	3	punc
+
+SPEAKER|Angela|f|s
+1	Sono	essere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	felice	felice	A	A	num=s|gen=f	1	pred
+3	per	per	E	E	_	2	comp
+4	te	te	P	PE	num=s|per=2|gen=n	3	prep
+5	.	.	F	FS	_	1	punc
+
+SPEAKER|Angela|f|s
+1	Ma	ma	C	CC	_	5	con
+2	poi	poi	B	B	_	5	mod
+3	oggi	oggi	B	B	_	5	mod_temp
+4	sei	essere	V	VA	num=s|per=2|mod=i|ten=p	5	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	vestito	vestito	V	V	num=s|mod=p	0	ROOT
+6	benissimo	benissimo	B	B	_	10	mod
+7	,	,	F	FF	_	6	punc
+8	che	che	D	DE	num=n|gen=n	10	mod
+9	bella	bello	A	A	num=s|gen=f	10	mod
+10	giacca	giacca	S	S	num=s|gen=f	0	ROOT
+11	e	e	C	CC	_	10	con
+12	che	che	C	CS	_	10	conj
+13	bei	bello	A	A	num=p|gen=m	14	mod
+14	capelli	capello	S	S	num=p|gen=m	12	sub
+15	!	!	F	FS	_	10	punc
+
+SPEAKER|Mahmoud|m|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	,	,	F	FF	_	3	punc
+3	Angela	Angela	S	SP	_	1	mod
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|Mahmoud|m|s
+1	Tra	tra	E	E	_	3	comp
+2	poco	poco	P	PI	num=s|gen=m	1	prep
+3	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+4	un	uno	R	RI	num=s|gen=m	5	det
+5	appuntamento	appuntamento	S	S	num=s|gen=m	3	obj
+6	con	con	E	E	_	3	comp
+7	una	uno	R	RI	num=s|gen=f	8	det
+8	ragazza	ragazzo	S	S	num=s|gen=f	6	prep
+9	.	.	F	FS	_	3	punc
+
+SPEAKER|Angela|f|s
+1	Ah	ah	I	I	_	6	mod
+2	,	,	F	FF	_	1	punc
+3	ma	ma	C	CC	_	6	con
+4	allora	allora	B	B	_	6	mod
+5	oggi	oggi	B	B	_	6	subj
+6	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+7	un	uno	R	RI	num=s|gen=m	8	det
+8	giorno	giorno	S	S	num=s|gen=m	6	pred
+9	importante	importante	A	A	num=s|gen=m	8	mod
+10	per	per	E	E	_	8	comp
+11	te	te	P	PE	num=s|per=2|gen=n	10	prep
+12	,	,	F	FF	_	14	punc
+13	buona	buono	A	A	num=s|gen=f	14	mod
+14	fortuna	fortuna	S	S	num=s|gen=f	6	mod
+15	per	per	E	E	_	14	comp
+16	il	il	R	RD	num=s|gen=m	18	det
+17	tuo	tuo	A	AP	num=s|gen=m	18	mod	tuo/tua/tuoi/tue
+18	appuntamento	appuntamento	S	S	num=s|gen=m	15	prep
+19	!	!	F	FS	_	6	punc
+
+SPEAKER|Mahmoud|m|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	,	,	F	FF	_	1	con
+3	Angela	Angela	S	SP	_	1	conj
+4	,	,	F	FF	_	1	con
+5	speriamo	sperare	V	V	num=p|per=1|mod=i|ten=p	1	conj	io spero, tu speri, lui/lei/Lei spera, noi speriamo, voi sperate, loro sperano
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Mahmoud|m|s
+1	E	e	C	CC	_	5	con
+2	tu	tu	P	PE	num=s|per=2|gen=n	5	subj
+3	,	,	F	FF	_	1	punc
+4	come	come	C	CS	_	5	mod
+5	stai	stare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+6	?	?	F	FS	_	5	punc
+
+SPEAKER|Angela|f|s
+1	Così	così	B	B	_	2	mod
+2	così	così	B	B	_	4	mod
+3	,	,	F	FF	_	2	punc
+4	sono	essere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	felice	felice	A	A	num=s|gen=f	4	pred
+6	per	per	E	E	_	5	comp
+7	il	il	R	RD	num=s|gen=m	9	det
+8	nuovo	nuovo	A	A	num=s|gen=m	9	mod
+9	lavoro	lavoro	S	S	num=s|gen=m	6	prep
+10	però	però	B	B	_	14	mod
+11	ieri	ieri	B	B	_	14	mod_temp
+12	sera	sera	S	S	num=s|gen=f	11	mod_temp
+13	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	14	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+14	litigato	litigare	V	V	num=s|mod=p|gen=m	5	mod_rel
+15	con	con	E	E	_	14	comp
+16	mio	mio	A	AP	num=s|gen=m	17	mod	mio/mia/miei/mie
+17	marito	marito	S	S	num=s|gen=m	15	prep
+18	Nicola	Nicola	S	SP	_	17	mod
+19	e	e	C	CC	_	14	con
+20	oggi	oggi	B	B	_	21	mod_temp
+21	sono	essere	V	V	num=p|per=1|mod=i|ten=p	14	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+22	un	uno	R	RI	num=s|gen=m	23	det
+23	po'	po'	B	B	_	24	mod
+24	arrabbiata	arrabbiato	A	A	num=s|gen=f	21	pred
+25	con	con	E	E	_	24	comp
+26	lui	lui	P	PE	num=s|per=3|gen=m	25	prep
+27	.	.	F	FS	_	4	punc
+
+SPEAKER|Mahmoud|m|s
+1	Mi	mi	P	PC	num=s|per=1|gen=n	2	comp_ind
+2	dispiace	dispiacere	I	I	num=s|per=3|mod=i|ten=p	0	ROOT
+3	,	,	F	FF	_	2	con
+4	sono	essere	V	V	num=s|per=1|mod=i|ten=p	2	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	sicuro	sicuro	A	A	_	4	mod
+6	che	che	C	CS	num=s|gen=m	5	arg
+7	farete	fare	V	V	num=p|per=2|mod=i|ten=f	6	sub
+8	pace	pace	S	S	num=s|gen=f	7	obj
+9	.	.	F	FS	_	2	punc
+
+SPEAKER|Kenan|m|s
+1	Anche	anche	B	B	_	2	mod
+2	io	io	P	PE	num=s|per=1|gen=m	3	subj
+3	sono	essere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	sicuro	sicuro	A	A	num=s|gen=m	3	pred
+5	,	,	F	FF	_	6	punc
+6	perché	perché	C	CS	_	3	mod
+7	sei	essere	V	V	num=s|per=2|mod=i|ten=p	9	mod	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono	
+8	una	uno	R	RI	num=s|gen=f	9	det
+9	persona	persona	S	S	num=s|gen=f	6	sub
+10	molto	molto	B	B	_	11	mod
+11	brava	bravo	A	A	num=s|gen=f	9	mod
+12	,	,	F	FF	_	13	punc
+13	Angela	Angela	S	SP	_	9	mod
+14	.	.	F	FS	_	3	punc
+
+SPEAKER|Angela|f|s
+1	Grazie	Grazie	I	I	num=n|gen=n	4	subj
+2	ragazzi	ragazzo	S	S	num=p|gen=m	1	mod
+3	,	,	F	FF	_	1	punc
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	sempre	sempre	B	B	_	6	mod
+6	bellissimo	bellissimo	A	A	num=s|gen=m	4	pred
+7	parlare	parlare	V	V	mod=f	4	subj
+8	con	con	E	E	_	7	comp
+9	voi	voi	P	PE	num=p|per=2|gen=n	8	prep
+10	.	.	F	FS	_	4	punc
+
+SPEAKER|Angela|f|s
+1	Adesso	adesso	B	B	_	3	mod_temp
+2	devo	dovere	V	VM	num=s|per=1|mod=i|ten=p	3	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+3	andare	andare	V	V	mod=f	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|Angela|f|s
+1	Quindi	quindi	B	B	_	3	mod
+2	ci	ci	P	PC	num=p|per=1|gen=n	3	clit
+3	vediamo	vedere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io vedo, tu vedi, lui/lei/Lei vede, noi vediamo, voi vedete, loro vedono
+4	domani	domani	B	B	_	3	mod_temp
+5	pomeriggio	pomeriggio	S	S	num=s|gen=m	4	mod	pomeriggio/pomeriggi
+6	?	?	F	FS	_	3	punc
+
+SPEAKER|Kenan|m|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	ci	ci	P	PC	num=p|per=1|gen=n	4	clit
+4	vediamo	vedere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io vedo, tu vedi, lui/lei/Lei vede, noi vediamo, voi vedete, loro vedono
+5	domani	domani	B	B	_	4	mod
+6	.	.	F	FS	_	4	punc
+
+SPEAKER|Angela|f|s
+1	A	a	E	E	_	0	ROOT
+2	che	che	C	CS	_	1	concat
+3	ora	ora	B	B	_	2	sub
+4	?	?	F	FS	_	1	punc
+
+SPEAKER|Kenan|m|s
+1	Alle	al	E	EA	num=p|gen=f	6	comp_temp
+2	14	14	N	N	_	1	prep
+3	,	,	F	FF	_	1	punc
+4	così	così	B	B	_	6	mod
+5	non	non	B	BN	_	6	neg
+6	arriviamo	arrivare	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io arrivo, tu arrivi, lui/lei/Lei arriva, noi arriviamo, voi arrivate, loro arrivano
+7	in	in	E	E	_	6	comp_loc
+8	ritardo	ritardo	S	S	num=s|gen=m	7	prep
+9	.	.	F	FS	_	6	punc
+
+SPEAKER|Angela|f|s
+1	Perfetto	perfetto	A	A	num=s|gen=m	5	mod
+2	,	,	F	FF	_	1	con
+3	allora	allora	B	B	_	5	mod
+4	ci	ci	P	PC	num=p|per=1|gen=n	5	clit
+5	vediamo	vedere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io vedo, tu vedi, lui/lei/Lei vede, noi vediamo, voi vedete, loro vedono
+6	domani	domani	B	B	_	5	mod
+7	,	,	F	FF	_	5	con
+8	ragazzi	ragazzo	S	S	num=p|gen=m	5	conj
+9	.	.	F	FS	_	5	punc
+
+SPEAKER|Angela|f|s
+1	Ciao	ciao	I	I	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	buona	buono	A	A	num=s|gen=f	4	mod
+4	giornata	giornata	S	S	num=s|gen=f	0	ROOT
+5	.	.	F	FS	_	4	punc
+
+SPEAKER|Kenan|m|s
+1	Ciao	ciao	I	I	_	2	mod
+2	Angela	Angela	S	SP	_	0	ROOT
+3	,	,	F	FF	_	5	punc
+4	anche	anche	B	B	_	5	mod
+5	a	a	E	E	_	2	comp
+6	te	te	P	PE	num=s|per=2|gen=n	5	prep
+7	.	.	F	FS	_	2	punc
+
+SPEAKER|Mahmoud|m|s
+1	Ciao	ciao	I	I	_	0	ROOT
+2	!	!	F	FS	_	1	punc

@@ -1,0 +1,115 @@
+html,
+body {
+    padding: 0;
+    font-family: monospace, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: var(--font-size);
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 2%;
+}
+
+a {
+}
+
+* {
+    box-sizing: border-box;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    color: #0070f3;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+:root {
+    --amplify-primary-color: #479dff;
+    --amplify-primary-tint: #59ffe6;
+    --amplify-primary-shade: #873ee0;
+    --font-size: 16pt;
+    --first-letter-color: darkblue;
+    --last-letter-color: darkgreen;
+}
+
+.exercise-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 10px;
+}
+
+.phrase {
+    margin-bottom: 50px;
+}
+
+.phrase > span {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.background-color-yellow {
+    background-color: yellow;
+}
+
+.first-letter-bg {
+    background-color: var(--first-letter-color);
+    color: white;
+    font-weight: bold;
+}
+
+.first-letter-color {
+    color: var(--first-letter-color);
+}
+
+.last-letter-bg {
+    background-color: var(--last-letter-color);
+    color: white;
+    font-weight: bold;
+
+}
+
+.last-letter-color {
+    color: var(--last-letter-color);
+}
+
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-list > * {
+    margin: 15px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grammar-slide {
+    margin: 10px;
+    width: 98%;
+}
+
+@media screen and (min-width: 768px) {
+    .phrase .MuiFormControl-root {
+        margin: -29px 10px 30px 10px;
+    }
+}

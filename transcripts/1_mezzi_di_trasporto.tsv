@@ -1,0 +1,266 @@
+SPEAKER|Emma|f|s								
+1	Ciao	ciao	I	I	_	2	mod	
+2	Freddy	Freddy	S	SP	_	0	ROOT	
+3	,	,	F	FF	_	4	punc	
+4	come	come	C	CS	_	2	mod	
+5	stai	stare	V	V	num=s|per=2|mod=i|ten=p	4	sub	io sto, tu stai, lui/lei/Lei sta, noi stiamo, voi state, loro stanno
+6	?	?	F	FS	_	2	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Ah	ah	I	I	_	4	mod	
+2	,	,	F	FF	_	1	punc	
+3	ciao	ciao	I	I	_	4	mod	
+4	Emma	Emma	S	SP	_	0	ROOT	
+5	!	!	F	FS	_	4	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Tutto	tutto	D	DI	num=s|gen=m	2	mod	
+2	bene	bene	B	B	_	0	ROOT	
+3	....	....	F	FS	_	2	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Che	che	P	PR	num=n|gen=n	2	subj	
+2	fai	fare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+3	qui	qui	B	B	_	2	obj	
+4	?	?	F	FS	_	2	punc	
+								
+SPEAKER|Emma|f|s								
+1	Vado	andare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+2	a	a	E	E	_	1	comp_loc	
+3	Torino	Torino	S	SP	_	2	prep	
+4	a	a	E	E	_	1	arg	
+5	trovare	trovare	V	V	mod=f	4	prep	
+6	mia	mio	A	AP	num=s|gen=f	7	mod	mio/mia/miei/mie	
+7	sorella	sorella	S	S	num=s|gen=f	5	obj
+8	,	,	F	FF	_	1	con	
+9	e	e	C	CC	_	1	con	
+10	tu	tu	P	PE	num=s|per=2|gen=n	1	conj	
+11	?	?	F	FS	_	1	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Io	io	P	PE	num=s|per=1|gen=n	2	subj	
+2	vado	andare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+3	al	a	E	EA	num=s|gen=m	2	comp	
+4	lavoro	lavoro	S	S	num=s|gen=m	3	prep
+								
+SPEAKER|Emma|f|s								
+1	Ah	ah	I	I	_	0	_	
+2	,	,	F	FF	_	1	punc	
+3	e	e	C	CC	_	1	con	
+4	dove	dove	P	PR	num=n|gen=n	5	det	
+5	lavori	lavorare	V	V	num=s|per=2|mod=i|ten=p	1	conj	io lavoro, tu lavori, lui/lei/Lei lavora, noi lavoriamo, voi lavorate, loro lavorano
+6	?	?	F	FS	_	5	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Lavoro	lavorare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io lavoro, tu lavori, lui/lei/Lei lavora, noi lavoriamo, voi lavorate, loro lavorano
+2	a	a	E	E	_	1	comp_loc	
+3	Milano	Milano	S	SP	_	2	prep	
+4	,	,	F	FF	_	1	con	
+5	faccio	fare	V	V	num=s|per=1|mod=i|ten=p	1	conj	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+6	l'	il	R	RD	num=s|gen=n	7	det	
+7	insegnante	insegnante	S	S	num=s|gen=n	5	obj
+8	di	di	E	E	_	7	comp	
+9	spagnolo	spagnolo	S	S	num=s|gen=m	8	prep	
+10	.	.	F	FS	_	1	punc	
+								
+SPEAKER|Freddy|m|s								
+1	È	essere	V	V	num=s|per=3|mod=i|ten=p	11	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	il	il	R	RD	num=s|gen=m	3	det	
+3	lavoro	lavoro	S	S	num=s|gen=m	1	subj
+4	dei	di	E	EA	num=p|gen=m	3	comp	
+5	miei	mio	A	AP	num=p|gen=m	6	mod	mio/mia/miei/mie	
+6	sogni	sogno	S	S	num=p|gen=m	4	prep
+7	e	e	C	CC	_	1	con	
+8	finalmente	finalmente	B	B	_	11	mod	
+9	l'	lo	P	PC	num=s|per=3|gen=n	11	obj	
+10	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	11	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+11	trovato	trovare	V	V	num=s|mod=p|gen=m	0	ROOT	
+12	.	.	F	FS	_	11	punc	
+								
+SPEAKER|Emma|f|s								
+1	Sono	essere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	contenta	contento	A	A	num=s|gen=f	1	pred
+3	per	per	E	E	_	1	comp
+4	te	te	P	PE	num=s|per=2|gen=n	3	prep	
+5	.	.	F	FS	_	1	punc	
+								
+SPEAKER|Emma|f|s								
+1	Ma	ma	C	CC	_	0	ROOT	
+2	lavori	lavorare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io lavoro, tu lavori, lui/lei/Lei lavora, noi lavoriamo, voi lavorate, loro lavorano
+3	tutti	tutto	A	A	num=p|gen=m	5	mod	
+4	i	il	R	RD	num=p|gen=m	5	det	
+5	giorni	giorno	S	S	num=p|gen=m	2	mod	
+6	?	?	F	FS	_	1	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Sì	sì	B	B	_	0	ROOT	
+2	,	,	F	FF	_	3	punc	
+3	dal	da	E	EA	num=s|gen=m	1	comp	
+4	lunedì	lunedì	S	S	num=n|gen=m	3	prep	
+5	al	a	E	EA	num=s|gen=m	4	comp	
+6	venerdì	venerdì	S	S	num=n|gen=m	5	prep	
+7	a	a	E	E	_	6	comp_loc	
+8	Milano	Milano	S	SP	_	7	prep	
+9	,	,	F	FF	_	3	punc	
+10	in	in	E	E	_	3	conj	
+11	una	uno	R	RI	num=s|gen=f	12	det	
+12	scuola	scuola	S	S	num=s|gen=f	10	prep	
+13	superiore	superiore	A	A	num=s|gen=n	12	mod	
+14	.	.	F	FS	_	1	punc	
+								
+SPEAKER|Emma|f|s								
+1	Quindi	quindi	B	B	_	2	mod	
+2	prendi	prendere	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+3	il	il	R	RD	num=s|gen=m	4	det	
+4	treno	treno	S	S	num=s|gen=m	2	obj	
+5	tutti	tutto	A	A	num=p|gen=m	7	mod	
+6	i	il	R	RD	num=p|gen=m	7	det	
+7	giorni	giorno	S	S	num=p|gen=m	4	mod	
+8	?	?	F	FS	_	2	punc	
+								
+SPEAKER|Emma|f|s								
+1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	caro	caro	A	A	num=s|gen=m	1	pred	
+3	!	!	F	FS	_	1	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Sì	sì	B	B	_	3	mod	
+2	,	,	F	FF	_	1	punc	
+3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	un	uno	R	RI	num=s|gen=m	5	det	
+5	po'	po'	B	B	_	6	mod	
+6	caro	caro	A	A	num=s|gen=m	3	pred	
+7	,	,	F	FF	_	3	con	
+8	ma	ma	C	CC	_	3	con	
+9	con	con	E	E	_	12	comp	
+10	l'	il	R	RD	num=s|gen=n	11	det	
+11	abbonamento	abbonamento	S	S	num=s|gen=m	9	prep	
+12	costa	costare	V	V	num=s|per=3|mod=i|ten=p	3	conj	io costo, tu costi, lui/lei/Lei costa, noi costiamo, voi costate, loro costano
+13	un	uno	R	RI	num=s|gen=m	14	det	
+14	po'	po'	B	B	_	15	mod	
+15	di	di	E	E	_	12	comp	
+16	meno	meno	B	B	_	15	prep	
+17	.	.	F	FS	_	3	punc	
+								
+SPEAKER|Emma|f|s								
+1	Hai	avere	V	VA	num=s|per=2|mod=i|ten=p	2	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	ragione	ragione	S	S	num=s|gen=f	0	ROOT	
+3	,	,	F	FF	_	4	punc	
+4	in	in	E	E	_	2	comp_loc	
+5	Italia	Italia	S	SP	_	4	prep	
+6	i	il	R	RD	num=p|gen=m	7	det	
+7	mezzi	mezzo	S	S	num=p|gen=m	10	subj	
+8	di	di	E	E	_	7	comp	
+9	trasporto	trasporto	S	S	num=s|gen=m	8	prep	
+10	costano	costare	V	V	num=p|per=3|mod=i|ten=p	2	mod_rel	io costo, tu costi, lui/lei/Lei costa, noi costiamo, voi costate, loro costano
+11	tanto	tanto	B	B	_	10	mod	
+12	.	.	F	FS	_	2	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Purtroppo	purtroppo	B	B	_	2	mod	
+2	sì	sì	B	B	_	0	ROOT	
+3	.	.	F	FS	_	2	punc	
+								
+SPEAKER|Emma|f|s								
+1	Ma	ma	C	CC	_	0	ROOT	
+2	che	che	C	CS	_	1	con	
+3	ore	ora	S	S	num=p|gen=f	4	subj	
+4	sono	essere	V	V	num=p|per=3|mod=i|ten=p	2	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	?	?	F	FS	_	1	punc	
+								
+SPEAKER|Emma|f|s								
+1	Il	il	R	RD	num=s|gen=m	2	det	
+2	treno	treno	S	S	num=s|gen=m	3	subj	
+3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	in	in	E	E	_	3	pred	
+5	ritardo	ritardo	S	S	num=s|gen=m	4	prep	
+6	?	?	F	FS	_	3	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	le	il	R	RD	num=p|gen=f	3	det	
+3	8	8	N	N	_	1	subj	
+4	e	e	C	CC	_	1	con	
+5	un	uno	R	RI	num=s|gen=m	6	det	
+6	quarto	quarto	S	S	num=s|gen=m	1	pred	
+7	.	.	F	FS	_	1	punc	
+								
+SPEAKER|Emma|f|s								
+1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	in	in	E	E	_	1	pred	
+3	ritardo	ritardo	S	S	num=s|gen=m	2	prep	
+4	di	di	E	E	_	3	comp	
+5	dieci	dieci	N	N	_	6	mod	
+6	minuti	minuto	S	S	num=p|gen=m	4	prep	
+7	.	.	F	FS	_	1	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Già	già	B	B	_	4	mod	
+2	,	,	F	FF	_	1	punc	
+3	doveva	dovere	V	VM	num=s|per=3|mod=i|ten=i	4	modal	
+4	partire	partire	V	V	mod=f	0	ROOT	
+5	alle	al	E	EA	num=p|gen=f	4	comp_temp	
+6	8	8	N	N	_	5	prep	
+7	e	e	C	CC	_	6	con	
+8	5	5	N	N	_	6	conj	
+9	.	.	F	FS	_	4	punc	
+								
+SPEAKER|annuncio|m|s								
+1	Il	il	R	RD	num=s|gen=m	2	det	
+2	treno	treno	S	S	num=s|gen=m	11	subj	
+3	proveniente	proveniente	A	A	num=s|gen=n	2	mod	
+4	da	da	E	E	_	2	comp_loc	
+5	Brescia	Brescia	S	SP	_	4	prep	
+6	e	e	C	CC	_	2	con	
+7	diretto	dirigere	V	V	num=s|mod=p|gen=m	2	mod	
+8	a	a	E	E	_	7	comp_loc	
+9	Milano	Milano	S	SP	_	8	prep	
+10	centrale	centrale	A	A	num=s|gen=n	7	mod	
+11	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+12	in	in	E	E	_	11	pred	
+13	arrivo	arrivo	S	S	num=s|gen=m	12	prep	
+14	al	a	E	EA	num=s|gen=m	13	comp	
+15	binario	binario	S	S	num=s|gen=m	14	prep	
+16	1	1	N	N	_	15	mod	
+17	.	.	F	FS	_	11	punc	
+								
+SPEAKER|annuncio|m|s								
+1	Ritardo	ritardo	S	S	num=s|gen=m	0	ROOT	
+2	previsto	prevedere	V	V	num=s|mod=p|gen=m	1	mod	
+3	di	di	E	E	_	2	comp	
+4	dieci	dieci	N	N	_	5	mod	
+5	minuti	minuto	S	S	num=p|gen=m	3	prep	
+6	.	.	F	FS	_	1	punc	
+								
+SPEAKER|annuncio|m|s								
+1	Allontanarsi	allontanare	V	V	mod=f	0	ROOT	
+2	dalla	da	E	EA	num=s|gen=f	0	comp	
+3	linea	linea	S	S	num=s|gen=f	2	prep	
+4	gialla	giallo	A	A	num=s|gen=f	3	mod	
+5	.	.	F	FS	_	1	punc	
+								
+SPEAKER|Emma|f|s								
+1	Guarda	guardare	V	V	num=s|per=3|mod=i|ten=i	0	ROOT	io guardo, tu guardi, lui/lei/Lei guarda, noi guardiamo, voi guardate, loro guardano
+2	che	che	C	CS	_	1	con	
+3	sta	stare	V	V	num=s|per=3|mod=i|ten=p	4	modal	io sto, tu stai, lui/lei/Lei sta, noi stiamo, voi state, loro stanno
+4	arrivando	arrivare	V	V	mod=g	1	conj	
+5	!	!	F	FS	_	1	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Emma	Emma	S	SP	_	0	ROOT	
+2	,	,	F	FF	_	1	con	
+3	la	il	R	RD	num=s|gen=f	4	det	
+4	valigia	valigia	S	S	num=s|gen=f	1	conj	
+5	!	!	F	FS	_	1	punc	
+								
+SPEAKER|Emma|f|s								
+1	Ah	ah	I	I	_	0	ROOT	
+2	,	,	F	FF	_	3	punc	
+3	grazie	grazie	S	S	num=n|gen=n	1	ROOT	
+4	!	!	F	FS	_	3	punc	
+								
+SPEAKER|Freddy|m|s								
+1	Ecco	ecco	B	B	_	3	mod	
+2	,	,	F	FF	_	1	punc	
+3	saliamo	salire	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io salgo, tu sali, lui/lei/Lei sale, noi saliamo, voi salite, loro salgono
+4	.	.	F	FS	_	3	punc	

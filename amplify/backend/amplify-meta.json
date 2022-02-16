@@ -1,0 +1,101 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-focusonitapp-produe-232246-authRole",
+      "UnauthRoleArn": "arn:aws:iam::114574524459:role/amplify-focusonitapp-produe-232246-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::114574524459:role/amplify-focusonitapp-produe-232246-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-focusonitapp-produe-232246-deployment",
+      "UnauthRoleName": "amplify-focusonitapp-produe-232246-unauthRole",
+      "StackName": "amplify-focusonitapp-produe-232246",
+      "StackId": "arn:aws:cloudformation:eu-west-1:114574524459:stack/amplify-focusonitapp-produe-232246/0ca4e4b0-765a-11ec-bba9-066833adbef9",
+      "AmplifyAppId": "d3w3g651jafjp"
+    }
+  },
+  "auth": {
+    "focusonitapp": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL",
+          "NAME"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "output": {
+        "UserPoolId": "eu-west-1_l6hzPSlZK",
+        "AppClientIDWeb": "gmagucoglihn5pedrbrm0j87",
+        "AppClientID": "6oo7ed9f6lpofvotsvtp7uff55",
+        "IdentityPoolId": "eu-west-1:631b8098-fa76-4c34-ab4a-8627cb7182a1",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-west-1:114574524459:userpool/eu-west-1_l6hzPSlZK",
+        "IdentityPoolName": "testAuthIdentityPool__produe",
+        "UserPoolName": "focusonitapp"
+      },
+      "lastPushTimeStamp": "2022-01-20T19:00:39.119Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-focusonitapp-produe-232246-deployment/amplify-cfn-templates/auth/focusonitapp-cloudformation-template.json",
+        "logicalId": "authfocusonitapp"
+      }
+    }
+  },
+  "api": {
+    "focusonitapp": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
+            }
+          },
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            },
+            {
+              "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+              "userPoolConfig": {
+                "userPoolId": "authfocusonitapp"
+              }
+            }
+          ]
+        },
+        "GraphQLAPIIdOutput": "sem7iwbfebce7pljbitmkjo2zu",
+        "GraphQLAPIEndpointOutput": "https://6l5lhydm4bfpdbv2r56umowrqu.appsync-api.eu-west-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-d6r3hiwmgfcq5gj5rlrkf6vltu"
+      },
+      "lastPushTimeStamp": "2022-01-20T19:00:39.121Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-focusonitapp-produe-232246-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apifocusonitapp"
+      },
+      "lastPushDirHash": "yxU7wmiYAOUmBdrFEJMJ3k+h43E="
+    }
+  },
+  "analytics": {}
+}

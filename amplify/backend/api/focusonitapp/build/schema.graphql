@@ -1,0 +1,536 @@
+
+type AnalyticsData @aws_iam @aws_api_key {
+  id: ID!
+  event: String!
+  attributes: AWSJSON
+  userID: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+type ButtonClick @aws_iam @aws_cognito_user_pools {
+  isoDateTime: AWSDateTime!
+  userInput: String!
+}
+
+type WordStats @aws_iam @aws_cognito_user_pools {
+  firstHintShowed: Boolean!
+  secondHintShowed: Boolean!
+  answerShowed: Boolean!
+  word: Word!
+  buttonClicks: [ButtonClick!]!
+  wordId: String!
+  phraseId: String!
+}
+
+type User @aws_iam @aws_cognito_user_pools {
+  id: ID!
+  name: String
+  Stats(filter: ModelStatsFilterInput, sortDirection: ModelSortDirection, limit: Int, nextToken: String): ModelStatsConnection
+  cognitoId: String!
+  AnalyticsData(filter: ModelAnalyticsDataFilterInput, sortDirection: ModelSortDirection, limit: Int, nextToken: String): ModelAnalyticsDataConnection
+  userPageViews: Int
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+  owner: String
+}
+
+type Stats @aws_iam @aws_cognito_user_pools {
+  id: ID!
+  userID: ID
+  pos: PartOfSpeech!
+  dialogId: ID!
+  wordsStats: [WordStats!]!
+  savedAt: AWSDateTime
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+  owner: String
+}
+
+enum Person {
+  FIRST
+  SECOND
+  THIRD
+}
+
+type WordFeatures @aws_iam @aws_cognito_user_pools @aws_api_key {
+  gender: Gender
+  person: Person
+  mode: String
+  tense: String
+  number: WordNumber
+}
+
+enum PartOfSpeech {
+  VERB
+  NOUN
+  ARTICLE
+  ADJECTIVE
+  PREPOSITION_ARTICLE
+}
+
+type Word @aws_iam @aws_cognito_user_pools @aws_api_key {
+  id: ID!
+  position: Int!
+  lemma: String!
+  part_of_speech: PartOfSpeech
+  part_of_speech2: String!
+  head: ID
+  dependency_relation: String!
+  features: WordFeatures
+  form: String!
+  inflection: String
+}
+
+enum WordNumber {
+  SINGULAR
+  PLURAL
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+type Speaker @aws_iam @aws_cognito_user_pools {
+  name: String!
+  gender: Gender!
+  number: WordNumber!
+}
+
+enum PhraseStatus {
+  TO_COMPLETE
+  COMPLETED
+  UNNECESSARY
+}
+
+type Phrase @aws_iam @aws_cognito_user_pools {
+  id: ID!
+  words: [Word!]!
+  speaker: Speaker!
+  status: PhraseStatus
+}
+
+enum Topic {
+  CIBO
+  MEZZI
+  LAVORO
+  APPUNTAMENTO
+  INFORMAZIONI_PERSONALI
+  DOTTORE
+  SPESA
+  DESCRIZIONE_FISICA
+  EMOZIONI_E_SALUTE
+  MERCATO
+  TEMPO_LIBERO
+}
+
+type Dialog @aws_iam @aws_cognito_user_pools {
+  id: ID!
+  phrases: [Phrase!]!
+  videoUrl: AWSURL!
+  title: String!
+  topic: Topic!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  _version: Int!
+  _deleted: Boolean
+  _lastChangedAt: AWSTimestamp!
+}
+
+input ModelStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelBooleanInput {
+  ne: Boolean
+  eq: Boolean
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+enum ModelAttributeTypes {
+  binary
+  binarySet
+  bool
+  list
+  map
+  number
+  numberSet
+  string
+  stringSet
+  _null
+}
+
+input ModelSizeInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+}
+
+enum ModelSortDirection {
+  ASC
+  DESC
+}
+
+type ModelAnalyticsDataConnection @aws_api_key @aws_iam @aws_cognito_user_pools {
+  items: [AnalyticsData!]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelAnalyticsDataFilterInput {
+  id: ModelIDInput
+  event: ModelStringInput
+  attributes: ModelStringInput
+  userID: ModelIDInput
+  and: [ModelAnalyticsDataFilterInput]
+  or: [ModelAnalyticsDataFilterInput]
+  not: ModelAnalyticsDataFilterInput
+}
+
+type Query {
+  getAnalyticsData(id: ID!): AnalyticsData @aws_api_key @aws_iam
+  listAnalyticsData(filter: ModelAnalyticsDataFilterInput, limit: Int, nextToken: String): ModelAnalyticsDataConnection @aws_api_key @aws_iam
+  syncAnalyticsData(filter: ModelAnalyticsDataFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelAnalyticsDataConnection @aws_api_key @aws_iam
+  getUser(id: ID!): User @aws_iam @aws_cognito_user_pools
+  listUsers(filter: ModelUserFilterInput, limit: Int, nextToken: String): ModelUserConnection @aws_iam @aws_cognito_user_pools
+  syncUsers(filter: ModelUserFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelUserConnection @aws_iam @aws_cognito_user_pools
+  getStats(id: ID!): Stats @aws_iam @aws_cognito_user_pools
+  listStats(filter: ModelStatsFilterInput, limit: Int, nextToken: String): ModelStatsConnection @aws_iam @aws_cognito_user_pools
+  syncStats(filter: ModelStatsFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelStatsConnection @aws_iam @aws_cognito_user_pools
+  getDialog(id: ID!): Dialog @aws_iam @aws_cognito_user_pools
+  listDialogs(filter: ModelDialogFilterInput, limit: Int, nextToken: String): ModelDialogConnection @aws_iam @aws_cognito_user_pools
+  syncDialogs(filter: ModelDialogFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelDialogConnection @aws_iam @aws_cognito_user_pools
+}
+
+input ModelAnalyticsDataConditionInput {
+  event: ModelStringInput
+  attributes: ModelStringInput
+  userID: ModelIDInput
+  and: [ModelAnalyticsDataConditionInput]
+  or: [ModelAnalyticsDataConditionInput]
+  not: ModelAnalyticsDataConditionInput
+}
+
+input CreateAnalyticsDataInput {
+  id: ID
+  event: String!
+  attributes: AWSJSON
+  userID: ID!
+  _version: Int
+}
+
+input UpdateAnalyticsDataInput {
+  id: ID!
+  event: String
+  attributes: AWSJSON
+  userID: ID
+  _version: Int
+}
+
+input DeleteAnalyticsDataInput {
+  id: ID!
+  _version: Int
+}
+
+type Mutation {
+  createAnalyticsData(input: CreateAnalyticsDataInput!, condition: ModelAnalyticsDataConditionInput): AnalyticsData @aws_api_key @aws_iam
+  updateAnalyticsData(input: UpdateAnalyticsDataInput!, condition: ModelAnalyticsDataConditionInput): AnalyticsData @aws_api_key @aws_iam
+  deleteAnalyticsData(input: DeleteAnalyticsDataInput!, condition: ModelAnalyticsDataConditionInput): AnalyticsData @aws_api_key @aws_iam
+  createUser(input: CreateUserInput!, condition: ModelUserConditionInput): User @aws_iam @aws_cognito_user_pools
+  updateUser(input: UpdateUserInput!, condition: ModelUserConditionInput): User @aws_iam @aws_cognito_user_pools
+  deleteUser(input: DeleteUserInput!, condition: ModelUserConditionInput): User @aws_iam @aws_cognito_user_pools
+  createStats(input: CreateStatsInput!, condition: ModelStatsConditionInput): Stats @aws_iam @aws_cognito_user_pools
+  updateStats(input: UpdateStatsInput!, condition: ModelStatsConditionInput): Stats @aws_iam @aws_cognito_user_pools
+  deleteStats(input: DeleteStatsInput!, condition: ModelStatsConditionInput): Stats @aws_iam @aws_cognito_user_pools
+  createDialog(input: CreateDialogInput!, condition: ModelDialogConditionInput): Dialog @aws_iam @aws_cognito_user_pools
+  updateDialog(input: UpdateDialogInput!, condition: ModelDialogConditionInput): Dialog @aws_iam @aws_cognito_user_pools
+  deleteDialog(input: DeleteDialogInput!, condition: ModelDialogConditionInput): Dialog @aws_iam @aws_cognito_user_pools
+}
+
+type Subscription {
+  onCreateAnalyticsData: AnalyticsData @aws_subscribe(mutations: ["createAnalyticsData"]) @aws_api_key @aws_iam
+  onUpdateAnalyticsData: AnalyticsData @aws_subscribe(mutations: ["updateAnalyticsData"]) @aws_api_key @aws_iam
+  onDeleteAnalyticsData: AnalyticsData @aws_subscribe(mutations: ["deleteAnalyticsData"]) @aws_api_key @aws_iam
+  onCreateUser(owner: String): User @aws_subscribe(mutations: ["createUser"]) @aws_iam @aws_cognito_user_pools
+  onUpdateUser(owner: String): User @aws_subscribe(mutations: ["updateUser"]) @aws_iam @aws_cognito_user_pools
+  onDeleteUser(owner: String): User @aws_subscribe(mutations: ["deleteUser"]) @aws_iam @aws_cognito_user_pools
+  onCreateStats(owner: String): Stats @aws_subscribe(mutations: ["createStats"]) @aws_iam @aws_cognito_user_pools
+  onUpdateStats(owner: String): Stats @aws_subscribe(mutations: ["updateStats"]) @aws_iam @aws_cognito_user_pools
+  onDeleteStats(owner: String): Stats @aws_subscribe(mutations: ["deleteStats"]) @aws_iam @aws_cognito_user_pools
+  onCreateDialog: Dialog @aws_subscribe(mutations: ["createDialog"]) @aws_iam @aws_cognito_user_pools
+  onUpdateDialog: Dialog @aws_subscribe(mutations: ["updateDialog"]) @aws_iam @aws_cognito_user_pools
+  onDeleteDialog: Dialog @aws_subscribe(mutations: ["deleteDialog"]) @aws_iam @aws_cognito_user_pools
+}
+
+type ModelUserConnection @aws_iam @aws_cognito_user_pools {
+  items: [User!]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelUserFilterInput {
+  id: ModelIDInput
+  name: ModelStringInput
+  cognitoId: ModelStringInput
+  userPageViews: ModelIntInput
+  and: [ModelUserFilterInput]
+  or: [ModelUserFilterInput]
+  not: ModelUserFilterInput
+}
+
+input ModelUserConditionInput {
+  name: ModelStringInput
+  cognitoId: ModelStringInput
+  userPageViews: ModelIntInput
+  and: [ModelUserConditionInput]
+  or: [ModelUserConditionInput]
+  not: ModelUserConditionInput
+}
+
+input CreateUserInput {
+  id: ID
+  name: String
+  cognitoId: String!
+  userPageViews: Int
+  _version: Int
+}
+
+input UpdateUserInput {
+  id: ID!
+  name: String
+  cognitoId: String
+  userPageViews: Int
+  _version: Int
+}
+
+input DeleteUserInput {
+  id: ID!
+  _version: Int
+}
+
+input WordStatsInput {
+  firstHintShowed: Boolean!
+  secondHintShowed: Boolean!
+  answerShowed: Boolean!
+  word: WordInput!
+  buttonClicks: [ButtonClickInput!]!
+  wordId: String!
+  phraseId: String!
+}
+
+input WordInput {
+  id: ID
+  position: Int!
+  lemma: String!
+  part_of_speech: PartOfSpeech
+  part_of_speech2: String!
+  head: ID
+  dependency_relation: String!
+  features: WordFeaturesInput
+  form: String!
+  inflection: String
+}
+
+input WordFeaturesInput {
+  gender: Gender
+  person: Person
+  mode: String
+  tense: String
+  number: WordNumber
+}
+
+input ButtonClickInput {
+  isoDateTime: AWSDateTime!
+  userInput: String!
+}
+
+type ModelStatsConnection @aws_iam @aws_cognito_user_pools {
+  items: [Stats!]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelPartOfSpeechInput {
+  eq: PartOfSpeech
+  ne: PartOfSpeech
+}
+
+input ModelStatsFilterInput {
+  id: ModelIDInput
+  userID: ModelIDInput
+  pos: ModelPartOfSpeechInput
+  dialogId: ModelIDInput
+  savedAt: ModelStringInput
+  and: [ModelStatsFilterInput]
+  or: [ModelStatsFilterInput]
+  not: ModelStatsFilterInput
+}
+
+input ModelStatsConditionInput {
+  userID: ModelIDInput
+  pos: ModelPartOfSpeechInput
+  dialogId: ModelIDInput
+  savedAt: ModelStringInput
+  and: [ModelStatsConditionInput]
+  or: [ModelStatsConditionInput]
+  not: ModelStatsConditionInput
+}
+
+input CreateStatsInput {
+  id: ID
+  userID: ID
+  pos: PartOfSpeech!
+  dialogId: ID!
+  wordsStats: [WordStatsInput!]!
+  savedAt: AWSDateTime
+  _version: Int
+}
+
+input UpdateStatsInput {
+  id: ID!
+  userID: ID
+  pos: PartOfSpeech
+  dialogId: ID
+  wordsStats: [WordStatsInput!]
+  savedAt: AWSDateTime
+  _version: Int
+}
+
+input DeleteStatsInput {
+  id: ID!
+  _version: Int
+}
+
+input PhraseInput {
+  id: ID
+  words: [WordInput!]!
+  speaker: SpeakerInput!
+  status: PhraseStatus
+}
+
+input SpeakerInput {
+  name: String!
+  gender: Gender!
+  number: WordNumber!
+}
+
+type ModelDialogConnection @aws_iam @aws_cognito_user_pools {
+  items: [Dialog!]!
+  nextToken: String
+  startedAt: AWSTimestamp
+}
+
+input ModelTopicInput {
+  eq: Topic
+  ne: Topic
+}
+
+input ModelDialogFilterInput {
+  id: ModelIDInput
+  videoUrl: ModelStringInput
+  title: ModelStringInput
+  topic: ModelTopicInput
+  and: [ModelDialogFilterInput]
+  or: [ModelDialogFilterInput]
+  not: ModelDialogFilterInput
+}
+
+input ModelDialogConditionInput {
+  videoUrl: ModelStringInput
+  title: ModelStringInput
+  topic: ModelTopicInput
+  and: [ModelDialogConditionInput]
+  or: [ModelDialogConditionInput]
+  not: ModelDialogConditionInput
+}
+
+input CreateDialogInput {
+  id: ID
+  phrases: [PhraseInput!]!
+  videoUrl: AWSURL!
+  title: String!
+  topic: Topic!
+  _version: Int
+}
+
+input UpdateDialogInput {
+  id: ID!
+  phrases: [PhraseInput!]
+  videoUrl: AWSURL
+  title: String
+  topic: Topic
+  _version: Int
+}
+
+input DeleteDialogInput {
+  id: ID!
+  _version: Int
+}
+

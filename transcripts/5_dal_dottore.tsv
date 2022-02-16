@@ -1,0 +1,787 @@
+SPEAKER|Dottore|m|s
+﻿1	Buongiorno	buongiorno	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	Buongiorno	buongiorno	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	dottore	dottore	S	S	num=s|gen=m	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Buongiorno	buongiorno	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	signora	signore	S	S	num=s|gen=f	0	ROOT
+4	Dria	Dria	S	SP	_	3	mod
+5	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Come	come	B	B	_	2	mod
+2	va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Non	non	B	BN	_	2	neg
+2	tanto	tanto	B	B	_	3	mod
+3	bene	bene	B	B	_	5	mod
+4	,	,	F	FF	_	3	punc
+5	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+6	un	uno	R	RI	num=s|gen=m	7	det
+7	po'	po'	B	B	_	8	mod
+8	di	di	E	E	_	6	comp
+9	tosse	tosse	S	S	num=s|gen=f	8	prep
+10	e	e	C	CC	_	6	con
+11	un	uno	R	RI	num=s|gen=m	12	det
+12	fortissimo	forte	A	A	num=s|gen=m	13	mod
+13	mal	mal	S	S	num=s|gen=m	5	obj
+14	di	di	E	E	_	13	comp
+15	gola	gola	S	S	num=s|gen=f	14	prep
+16	.	.	F	FS	_	5	punc
+
+SPEAKER|Dottore|m|s
+1	Ma	ma	C	CC	_	2	con
+2	ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+3	anche	anche	B	B	_	5	mod
+4	la	il	R	RD	num=s|gen=f	5	det
+5	febbre	febbre	S	S	num=s|gen=f	2	obj
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Da	da	E	E	_	0	ROOT
+2	quanti	quanto	P	PR	num=p|gen=m	3	mod
+3	giorni	giorno	S	S	num=p|gen=m	1	prep
+4	?	?	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	Da	da	E	E	_	0	ROOT
+2	lunedì	lunedì	S	S	num=s|gen=m	1	prep
+3	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Da	da	E	E	_	0	ROOT
+2	lunedì	lunedì	S	S	num=s|gen=m	1	prep
+3	....	....	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	E	e	C	CC	_	5	con
+2	se	se	P	PC	num=n|per=3|gen=n	5	clit
+3	l'	lo	P	PC	num=s|per=3|gen=f	5	obj
+4	è	essere	V	VA	num=s|per=3|mod=i|ten=p	5	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	misurata	misurare	V	V	num=s|mod=p|gen=F	7	arg
+6	,	,	F	FF	_	5	punc
+7	sa	sapere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io so, tu sai, lui/lei/Lei sa, noi sappiamo, voi sapete, loro sanno
+8	quanto	quanto	P	PR	num=s|gen=m	9	subj
+9	è	essere	V	V	num=s|per=3|mod=i|ten=p	7	arg	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+10	?	?	F	FS	_	7	punc
+
+SPEAKER|Samira|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	,	,	F	FF	_	1	con
+3	38	38	N	N	_	1	conj
+4	,	,	F	FF	_	3	con
+5	38	38	N	N	_	3	conj
+6	e	e	C	CC	_	3	con
+7	mezzo	mezzo	S	S	num=s|gen=m	3	conj
+8	....	....	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	E	e	C	CC	_	3	con
+2	una	uno	R	RI	num=s|gen=f	3	det
+3	sera	sera	S	S	num=s|gen=f	0	ROOT
+4	anche	anche	B	B	_	5	mod
+5	39	39	N	N	_	3	mod_temp
+6	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Ha	avere	V	VA	num=s|per=3|mod=i|ten=p	2	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
+3	qualche	qualche	D	DI	num=s|gen=f	4	mod
+4	medicina	medicina	S	S	num=s|gen=f	2	obj
+5	?	?	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	4	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+4	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
+5	il	il	R	RD	num=s|gen=m	6	det
+6	paracetamolo	paracetamolo	S	S	num=s|gen=m	4	obj
+7	.	.	F	FS	_	4	punc
+
+SPEAKER|Samira|f|s
+1	Quando	quando	C	CS	_	0	ROOT
+2	prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	1	sub	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+3	la	il	R	RD	num=s|gen=f	4	det
+4	medicina	medicina	S	S	num=s|gen=f	2	obj
+5	,	,	F	FF	_	7	punc
+6	il	il	R	RD	num=s|gen=m	7	det
+7	mal	mal	S	S	num=s|gen=m	2	subj
+8	di	di	E	E	_	7	comp
+9	gola	gola	S	S	num=s|gen=f	8	prep
+10	e	e	C	CC	_	7	con
+11	la	il	R	RD	num=s|gen=f	12	det
+12	tosse	tosse	S	S	num=s|gen=f	14	subj
+13	non	non	B	BN	_	14	neg
+14	passano	passare	V	V	num=p|per=3|mod=i|ten=p	7	mod_rel	io passo, tu passi, lui/lei/Lei passa, noi passiamo, voi passate, loro passano
+15	.	.	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	La	il	R	RD	num=s|gen=f	2	det
+2	febbre	febbre	S	S	num=s|gen=f	3	subj
+3	scende	scendere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io scendo, tu scendi, lui/lei/Lei scende, noi scendiamo, voi scendete, loro scendono
+4	,	,	F	FF	_	3	con
+5	ma	ma	C	CC	_	3	con
+6	il	il	R	RD	num=s|gen=m	7	det
+7	giorno	giorno	S	S	num=s|gen=m	9	subj
+8	dopo	dopo	B	B	_	9	mod
+9	ritorna	ritornare	V	V	num=s|per=3|mod=i|ten=p	3	conj	io ritorno, tu ritorni, lui/lei/Lei ritorna, noi ritorniamo, voi ritornate, loro ritornano
+10	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	anche	anche	B	B	_	4	mod
+3	il	il	R	RD	num=s|gen=m	4	det
+4	raffreddore	raffreddore	S	S	num=s|gen=m	1	obj
+5	?	?	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	3	mod
+2	mi	mi	P	PC	num=s|per=1|gen=n	3	comp_ind
+3	sa	sapere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	sa
+4	che	che	C	CS	_	3	arg
+5	è	essere	V	V	num=s|per=3|mod=i|ten=p	4	sub
+6	una	uno	R	RI	num=s|gen=f	7	det
+7	brutta	brutto	A	A	num=s|gen=f	8	mod
+8	influenza	influenza	S	S	num=s|gen=f	5	pred
+9	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	6	mod
+2	,	,	F	FF	_	1	punc
+3	per	per	E	E	_	6	comp
+4	prima	primo	N	NO	num=s|gen=f	5	mod
+5	cosa	cosa	P	PQ	num=s|gen=n	3	prep
+6	controlleremo	controllare	V	V	num=p|per=1|mod=i|ten=f	0	ROOT
+7	la	il	R	RD	num=s|gen=f	8	det
+8	gola	gola	S	S	num=s|gen=f	6	obj
+9	,	,	F	FF	_	10	punc
+10	dopo	dopo	C	CS	_	6	mod
+11	di	di	E	E	_	10	comp
+12	che	che	C	CS	_	11	prep
+13	sentiamo	sentire	V	V	num=p|per=1|mod=i|ten=p	12	sub	io sento, tu senti, lui/lei/Lei sente, noi sentiamo, voi sentite, loro sentono
+14	i	il	R	RD	num=p|gen=m	15	det
+15	polmoni	polmone	S	S	num=p|gen=m	13	obj
+16	.	.	F	FS	_	6	punc
+
+SPEAKER|Dottore|m|s
+1	Si	si	P	PC	num=n|per=3|gen=n	2	clit
+2	sieda	sedere	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+3	pure	pure	B	B	_	2	mod
+4	sul	su	E	EA	num=s|gen=m	2	comp
+5	lettino	letto	A	A	num=s|gen=m	4	prep
+6	,	,	F	FF	_	2	con
+7	perfavore	perfavore	I	I	mod=f	2	conj
+8	.	.	F	FS	_	2	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	5	mod
+2	,	,	F	FF	_	1	punc
+3	adesso	adesso	B	B	_	5	mod_temp
+4	devo	dovere	V	VM	num=s|per=1|mod=i|ten=p	5	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+5	controllare	controllare	V	V	mod=f	0	ROOT
+6	se	se	C	CS	_	5	mod
+7	la	il	R	RD	num=s|gen=f	8	det
+8	gola	gola	S	S	num=s|gen=f	10	subj
+9	è	essere	V	VA	num=s|per=3|mod=i|ten=p	10	aux
+10	arrossata	arrossato	A	A	num=s|gen=f	9	sub
+11	.	.	F	FS	_	5	punc
+
+SPEAKER|Dottore|m|s
+1	Apra	aprire	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+2	bene	bene	B	B	_	4	mod
+3	la	il	R	RD	num=s|gen=f	4	det
+4	bocca	bocca	S	S	num=s|gen=f	1	obj
+5	,	,	F	FF	_	4	con
+6	perfavore	perfavore	S	S	num=p|gen=f	4	conj
+7	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	6	mod
+2	,	,	F	FF	_	1	punc
+3	sì	sì	B	B	_	6	mod
+4	,	,	F	FF	_	3	punc
+5	c'	ci	P	PC	num=n|gen=n	6	comp
+6	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+7	una	uno	R	RI	num=s|gen=f	9	det
+8	brutta	brutto	A	A	num=s|gen=f	9	mod
+9	infiammazione	infiammazione	S	S	num=s|gen=f	6	subj
+10	.	.	F	FS	_	6	punc
+
+SPEAKER|Dottore|m|s
+1	Bisogna	bisognare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	bisogna
+2	prendere	prendere	V	V	mod=f	1	arg
+3	l'	il	R	RD	num=s|gen=n	4	det
+4	antibiotico	antibiotico	S	S	num=s|gen=m	2	obj
+5	.	.	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	grave	grave	A	A	num=s|gen=m	1	pred
+3	?	?	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	No	no	B	BN	_	4	neg
+2	,	,	F	FF	_	1	punc
+3	non	non	B	BN	_	4	neg
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	grave	grave	A	A	num=s|gen=m	4	pred
+6	,	,	F	FF	_	8	punc
+7	però	però	B	B	_	8	mod
+8	bisogna	bisognare	V	V	num=s|per=3|mod=i|ten=p	4	conj	bisogna
+9	prendere	prendere	V	V	mod=f	8	arg
+10	le	il	R	RD	num=p|gen=f	11	det
+11	medicine	medicina	S	S	num=p|gen=f	9	obj
+12	giuste	giusto	A	A	num=p|gen=f	11	mod
+13	.	.	F	FS	_	4	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	4	punc
+3	adesso	adesso	B	B	_	4	mod_temp
+4	controlliamo	controllare	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io controllo, tu controlli, lui/lei/Lei controlla, noi controlliamo, voi controllate, loro controllano
+5	i	il	R	RD	num=p|gen=m	6	det
+6	polmoni	polmone	S	S	num=p|gen=m	4	obj
+7	.	.	F	FS	_	4	punc
+
+SPEAKER|Dottore|m|s
+1	Si	si	P	PC	num=n|per=3|gen=n	2	clit
+2	alzi	alzare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+3	un	uno	R	RI	num=s|gen=m	4	det
+4	poco	poco	A	A	num=s|gen=m	6	mod
+5	la	il	R	RD	num=s|gen=f	6	det
+6	maglia	maglia	S	S	num=s|gen=f	2	obj
+7	,	,	F	FF	_	6	con
+8	perfavore	perfavore	S	S	num=p|gen=f	6	conj
+9	.	.	F	FS	_	2	punc
+
+SPEAKER|Dottore|m|s
+1	Respiri	respirare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+2	,	,	F	FF	_	1	con
+3	perfavore	perfavore	S	S	num=p|gen=f	1	conj
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Respiri	respirare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+2	con	con	E	E	_	1	comp
+3	la	il	R	RD	num=s|gen=f	4	det
+4	bocca	bocca	S	S	num=s|gen=f	2	prep
+5	aperta	aperto	A	A	num=s|gen=f	4	mod
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	sento	sentire	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io sento, tu senti, lui/lei/Lei sente, noi sentiamo, voi sentite, loro sentono
+4	che	che	C	CS	_	3	arg
+5	sta	stare	V	V	num=s|per=3|mod=i|ten=p	4	sub	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+6	facendo	fare	V	V	mod=g	5	pred
+7	fatica	fatica	S	S	num=s|gen=f	6	obj
+8	perché	perché	C	CS	_	6	mod
+9	c'	ci	P	PC	num=n|gen=n	10	comp
+10	è	essere	V	V	num=s|per=3|mod=i|ten=p	8	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+11	molto	molto	A	A	num=s|gen=m	12	mod
+12	catarro	catarro	S	S	num=s|gen=m	10	subj
+13	nei	in	E	EA	num=p|gen=m	10	comp
+14	polmoni	polmone	S	S	num=p|gen=m	13	prep
+15	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Bisogna	bisognare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	bisogna
+2	prendere	prendere	V	V	mod=f	1	arg
+3	uno	uno	R	RI	num=s|gen=m	4	det
+4	sciroppo	sciroppo	S	S	num=s|gen=m	2	obj
+5	per	per	E	E	_	2	comp
+6	la	il	R	RD	num=s|gen=f	7	det
+7	tosse	tosse	S	S	num=s|gen=f	5	prep
+8	per	per	E	E	_	2	mod
+9	sciogliere	sciogliere	V	V	mod=f	8	prep
+10	questo	questo	A	A	num=s|gen=m	11	mod
+11	catarro	catarro	S	S	num=s|gen=m	9	obj
+12	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	venga	venire	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+4	pure	pure	B	B	_	3	mod
+5	a	a	E	E	_	3	arg
+6	seder-	sedere	V	V	mod=f	5	prep
+7	si	si	P	PC	num=n|per=3|gen=n	6	clit
+8	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	4	mod
+2	....	....	F	FS	_	1	punc
+3	Le	il	B	B	num=p|gen=f	4	det
+4	prescrivo	prescrivere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io prescrivo, tu prescrivi, lui/lei/Lei prescrive, noi prescriviamo, voi prescrivete, loro prescrivono
+5	l'	il	R	RD	num=s|gen=m	6	det
+6	antibiotico	antibiotico	S	S	num=s|gen=m	4	obj
+7	e	e	C	CC	_	6	con
+8	lo	il	R	RD	num=s|gen=m	9	det
+9	sciroppo	sciroppo	S	S	num=s|gen=m	6	conj
+10	per	per	E	E	_	4	comp
+11	la	il	R	RD	num=s|gen=f	12	det
+12	tosse	tosse	S	S	num=s|gen=f	10	prep
+13	.	.	F	FS	_	4	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	questa	questo	P	PD	num=s|gen=f	4	subj
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	la	il	R	RD	num=s|gen=f	6	det
+6	ricetta	ricetta	S	S	num=s|gen=f	4	pred
+7	per	per	E	E	_	6	comp
+8	l'	il	R	RD	num=s|gen=m	9	det
+9	antibiotico	antibiotico	S	S	num=s|gen=m	7	prep
+10	:	:	F	FC	_	4	punc
+11	con	con	E	E	_	13	comp
+12	questa	questo	P	PD	num=s|gen=f	11	prep
+13	va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+14	in	in	E	E	_	13	comp
+15	farmacia	farmacia	S	S	num=s|gen=f	14	prep
+16	e	e	C	CC	_	13	con
+17	paga	pagare	V	V	num=s|per=3|mod=i|ten=p	13	conj	io pago, tu paghi, lui/lei/Lei paga, noi paghiamo, voi pagate, loro pagano
+18	solamente	solo	B	B	_	19	mod
+19	due	due	N	N	_	17	obj
+20	euro	euro	N	N	_	19	mod
+21	di	di	E	E	_	19	comp
+22	ticket	ticket	S	SW	num=n|gen=m	21	prep
+23	.	.	F	FS	_	13	punc
+
+SPEAKER|Dottore|m|s
+1	Per	per	E	E	_	11	comp
+2	lo	il	R	RD	num=s|gen=m	3	det
+3	sciroppo	sciroppo	S	S	num=s|gen=m	1	prep
+4	per	per	E	E	_	1	comp
+5	la	il	R	RD	num=s|gen=f	6	det
+6	tosse	tosse	S	S	num=s|gen=f	4	prep
+7	,	,	F	FF	_	4	punc
+8	invece	invece	B	B	_	11	mod
+9	,	,	F	FF	_	8	punc
+10	glielo	glielo	P	PC	num=s|per=3|gen=m	11	obj
+11	scrivo	scrivere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io scrivo, tu scrivi, lui/lei/Lei scrive, noi scriviamo, voi scrivete, loro scrivono
+12	su	su	E	E	_	11	comp
+13	questo	questo	A	A	num=s|gen=m	15	mod
+14	altro	altro	A	A	num=s|gen=m	15	mod
+15	foglio	foglio	S	S	num=s|gen=m	12	prep
+16	:	:	F	FC	_	11	punc
+17	allora	allora	B	B	_	21	mod
+18	,	,	F	FF	_	17	punc
+19	questa	questo	A	A	num=s|gen=f	20	mod
+20	medicina	medicina	S	S	num=s|gen=f	21	subj
+21	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+22	un	uno	R	RI	num=s|gen=m	23	det
+23	po'	po'	B	B	_	25	mod
+24	più	più	B	B	_	25	mod
+25	cara	caro	A	A	num=s|gen=f	25	pred
+26	,	,	F	FF	_	21	con
+27	costa	costare	V	V	num=s|per=3|mod=i|ten=p	21	conj	io costo, tu costi, lui/lei/Lei costa, noi costiamo, voi costate, loro costano
+28	circa	circa	B	B	_	30	mod
+29	12	12	N	N	_	30	mod
+30	euro	euro	S	S	num=s|gen=m	27	mod
+31	.	.	F	FS	_	21	punc
+
+SPEAKER|Dottore|m|s
+1	Prego	prego	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	si	si	P	PC	num=n|per=3|gen=n	4	clit
+4	ricordi	ricordare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+5	di	di	E	E	_	4	arg
+6	prendere	prendere	V	V	mod=f	5	prep
+7	l'	il	R	RD	num=s|gen=m	8	det
+8	antibiotico	antibiotico	S	S	num=s|gen=m	6	obj
+9	tre	tre	N	N	_	10	mod
+10	volte	volta	S	S	num=p|gen=f	6	mod_temp
+11	al	a	E	EA	num=s|gen=m	10	comp_temp
+12	giorno	giorno	S	S	num=s|gen=m	11	prep
+13	,	,	F	FF	_	14	punc
+14	per	per	E	E	_	10	comp
+15	cinque	cinque	N	N	_	16	mod
+16	giorni	giorno	S	S	num=p|gen=m	14	prep
+17	,	,	F	FF	_	14	punc
+18	ed	e	C	CC	_	4	con
+19	è	essere	V	V	num=s|per=3|mod=i|ten=p	4	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+20	importante	importante	A	A	num=s|gen=m	19	pred
+21	finire	finire	V	V	mod=f	19	subj
+22	la	il	R	RD	num=s|gen=f	23	det
+23	scatola	scatola	S	S	num=s|gen=f	21	obj
+24	.	.	F	FS	_	4	punc
+
+SPEAKER|Samira|f|s
+1	Finire	finire	V	V	mod=f	0	ROOT
+2	la	il	R	RD	num=s|gen=f	3	det
+3	scatola	scatola	S	S	num=s|gen=f	1	obj
+4	?	?	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	deve	dovere	V	VM	num=s|per=3|mod=i|ten=p	4	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+4	prendere	prendere	V	V	mod=f	0	ROOT
+5	tutte	tutto	A	A	num=p|gen=f	7	mod
+6	le	il	R	RD	num=p|gen=f	7	det
+7	pastiglie	pastiglia	S	S	num=p|gen=f	4	obj
+8	che	che	P	PR	num=n|gen=n	10	subj
+9	ci	ci	P	PC	num=p|per=1|gen=n	10	comp
+10	sono	essere	V	V	num=p|per=3|mod=i|ten=p	7	mod_rel	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+11	dentro	dentro	B	B	_	10	mod
+12	la	il	R	RD	num=s|gen=f	13	det
+13	scatola	scatola	S	S	num=s|gen=f	10	subj
+14	,	,	F	FF	_	16	punc
+15	anche	anche	B	B	_	16	mod
+16	se	se	C	CS	_	13	mod
+17	si	si	P	PC	num=n|per=3|gen=n	18	clit
+18	sente	sentire	V	V	num=s|per=3|mod=i|ten=p	16	sub	io sento, tu senti, lui/lei/Lei sente, noi sentiamo, voi sentite, loro sentono
+19	meglio	meglio	B	B	_	18	pred
+20	.	.	F	FS	_	4	punc
+
+SPEAKER|Dottore|m|s
+1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	importante	importante	A	A	num=s|gen=n	1	pred
+3	finire	finire	V	V	mod=f	1	subj
+4	la	il	R	RD	num=s|gen=f	5	det
+5	cura	cura	S	S	num=s|gen=f	3	obj
+6	,	,	F	FF	_	9	punc
+7	altrimenti	altrimenti	B	B	_	9	mod
+8	il	il	R	RD	num=s|gen=m	9	det
+9	mal	mal	S	S	num=s|gen=m	12	subj
+10	di	di	E	E	_	9	comp
+11	gola	gola	S	S	num=s|gen=f	10	prep
+12	ritorna	ritornare	V	V	num=s|per=3|mod=i|ten=p	1	conj	io ritorno, tu ritorni, lui/lei/Lei ritorna, noi ritorniamo, voi ritornate, loro ritornano
+13	.	.	F	FS	_	1	punc
+
+SPEAKER|Samira|f|s
+1	Va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+2	bene	bene	B	B	_	1	mod
+3	,	,	F	FF	_	1	con
+4	e	e	C	CC	_	1	con
+5	....	....	C	CC	_	1	con
+
+SPEAKER|Samira|f|s
+1	Per	per	E	E	_	0	ROOT
+2	lo	il	R	RD	num=s|gen=m	3	det
+3	sciroppo	sciroppo	S	S	num=s|gen=m	1	prep
+4	?	?	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Per	per	E	E	_	5	comp
+2	lo	il	R	RD	num=s|gen=m	3	det
+3	sciroppo	sciroppo	S	S	num=s|gen=m	1	prep
+4	deve	dovere	V	VM	num=s|per=3|mod=i|ten=p	5	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+5	prendere	prendere	V	V	mod=f	0	ROOT
+6	tre	tre	N	N	_	7	mod
+7	cucchiai	cucchiaio	S	S	num=p|gen=m	5	obj
+8	,	,	F	FF	_	10	punc
+9	tre	tre	N	N	_	10	mod
+10	volte	volta	S	S	num=p|gen=f	5	mod
+11	al	a	E	EA	num=s|gen=m	10	comp_temp
+12	giorno	giorno	S	S	num=s|gen=m	11	prep
+13	,	,	F	FF	_	10	punc
+14	prima	prima	B	B	_	15	mod
+15	dei	di	E	EA	num=p|gen=m	5	comp_temp
+16	pasti	pasto	S	S	num=p|gen=m	15	prep
+17	,	,	F	FF	_	18	punc
+18	a	a	E	E	_	15	conj
+19	stomaco	stomaco	S	S	num=s|gen=m	18	prep
+20	vuoto	vuoto	A	A	num=s|gen=m	19	mod
+21	.	.	F	FS	_	5	punc
+
+SPEAKER|Samira|f|s
+1	Non	non	B	BN	_	3	neg
+2	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	3	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+3	capito	capire	V	V	num=s|mod=p|gen=m	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Sì	sì	B	B	_	8	mod
+2	,	,	F	FF	_	1	punc
+3	allora	allora	B	B	_	5	mod
+4	,	,	F	FF	_	3	con
+5	guardi	guardare	V	V	num=s|per=3|mod=c|ten=p	8	mod
+6	,	,	F	FF	_	5	punc
+7	deve	dovere	V	VM	num=s|per=3|mod=i|ten=p	8	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+8	prendere	prendere	V	V	mod=f	0	ROOT
+9	lo	il	R	RD	num=s|gen=m	10	det
+10	sciroppo	sciroppo	S	S	num=s|gen=m	8	obj
+11	prima	prima	B	B	_	12	mod
+12	di	di	E	E	_	8	comp_temp
+13	mangiare	mangiare	V	V	mod=f	12	prep
+14	,	,	F	FF	_	15	punc
+15	così	così	B	B	_	13	mod
+16	la	il	R	RD	num=s|gen=f	17	det
+17	cura	cura	S	S	num=s|gen=f	18	subj
+18	funziona	funzionare	V	V	num=s|per=3|mod=i|ten=p	8	conj	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+19	meglio	meglio	B	B	_	18	mod
+20	.	.	F	FS	_	8	punc
+
+SPEAKER|Dottore|m|s
+1	Ad	ad	E	E	_	5	comp
+2	esempio	esempio	S	S	num=s|gen=m	1	prep
+3	,	,	F	FF	_	1	punc
+4	può	potere	V	VM	num=s|per=3|mod=i|ten=p	5	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+5	prendere	prendere	V	V	mod=f	0	ROOT
+6	un	uno	R	RI	num=s|gen=m	7	det
+7	cucchiaino	cucchiaino	S	S	num=s|gen=m	5	obj
+8	prima	prima	B	B	_	9	mod
+9	di	di	E	E	_	7	mod_temp
+10	colazione	colazione	S	S	num=s|gen=f	9	prep
+11	,	,	F	FF	_	14	punc
+12	uno	uno	R	RI	num=s|gen=m	13	det
+13	prima	prima	B	B	_	14	mod
+14	di	di	E	E	_	7	mod_temp
+15	pranzo	pranzo	S	S	num=s|gen=m	14	prep
+16	,	,	F	FF	_	14	punc
+17	e	e	C	CC	_	5	con
+18	uno	uno	R	RI	num=s|gen=m	5	conj
+19	prima	primo	N	NO	num=s|gen=f	5	mod
+20	di	di	E	E	_	19	comp
+21	cena	cena	S	S	num=s|gen=f	20	prep
+22	.	.	F	FS	_	18	punc
+
+SPEAKER|Samira|f|s
+1	Va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+2	bene	bene	B	B	_	1	mod
+3	,	,	F	FF	_	4	punc
+4	dottore	dottore	S	S	num=s|gen=m	1	mod
+5	,	,	F	FF	_	4	punc
+6	adesso	adesso	B	B	_	8	mod_temp
+7	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	8	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+8	capito	capire	V	V	num=s|mod=p|gen=m	1	conj
+9	,	,	F	FF	_	10	punc
+10	grazie	grazie	I	I	num=n|gen=n	8	comp
+11	.	.	F	FS	_	10	punc
+
+SPEAKER|Samira|f|s
+1	Ancora	ancora	B	B	_	3	mod
+2	una	uno	R	RI	num=s|gen=f	3	det
+3	cosa	cosa	S	S	num=s|gen=f	0	ROOT
+4	....	....	F	FS	_	3	punc
+
+SPEAKER|Dottore|m|s
+1	Mi	mi	P	PC	num=s|per=1|gen=n	2	comp_ind
+2	dica	dire	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Qui	qui	B	B	_	4	mod_loc
+2	sul	su	E	EA	num=s|gen=m	4	comp
+3	braccio	braccio	S	S	num=s|gen=m	2	prep
+4	ho	avere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+5	delle	di	E	EA	num=p|gen=f	4	obj
+6	macchie	macchia	S	S	num=p|gen=f	5	prep
+7	.	.	F	FS	_	4	punc
+
+SPEAKER|Dottore|m|s
+1	Sì	sì	B	B	_	5	mod
+2	,	,	F	FF	_	1	punc
+3	mi	mi	P	PC	num=s|per=1|gen=n	4	comp_ind
+4	faccia	fare	V	VM	num=s|per=3|mod=c|ten=p	5	modal
+5	vedere	vedere	V	V	mod=f	0	ROOT
+6	.	.	F	FS	_	5	punc
+
+SPEAKER|Dottore|m|s
+1	Da	da	E	E	_	5	comp
+2	quanto	quanto	D	DQ	num=s|gen=m	3	mod
+3	tempo	tempo	S	S	num=s|gen=m	1	prep
+4	le	le	P	PC	num=n|per=3|gen=f	5	obj
+5	ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+6	?	?	F	FS	_	5	punc
+
+SPEAKER|Samira|f|s
+1	Due	due	N	N	_	2	mod
+2	settimane	settimana	S	S	num=p|gen=f	0	ROOT
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|Dottore|m|s
+1	Le	le	P	PC	num=n|per=3|gen=f	2	comp_ind
+2	prude	prudere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	prude
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Dottore|m|s
+1	Si	si	P	PC	num=n|per=3|gen=n	2	clit
+2	gratta	grattare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io gratto, tu gratti, lui/lei/Lei gratta, noi grattiamo, voi grattate, loro grattano
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Sì	sì	B	B	_	5	mod
+2	,	,	F	FF	_	1	punc
+3	soprattutto	soprattutto	B	B	_	5	mod
+4	la	il	R	RD	num=s|gen=f	5	det
+5	sera	sera	S	S	num=s|gen=f	0	ROOT
+6	.	.	F	FS	_	5	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	5	mod
+2	,	,	F	FF	_	1	punc
+3	forse	forse	B	B	_	5	mod
+4	potrebbe	potere	V	VM	num=s|per=3|mod=d|ten=p	5	modal
+5	essere	essere	V	V	mod=f	0	ROOT
+6	un'	uno	R	RI	num=s|gen=f	7	det
+7	allergia	allergia	S	S	num=s|gen=f	5	pred
+8	....	....	F	FS	_	5	punc
+
+SPEAKER|Dottore|m|s
+1	Comunque	comunque	B	B	_	2	mod
+2	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	meglio	meglio	B	B	_	2	mod
+4	sentire	sentire	V	V	mod=f	2	subj
+5	un	uno	R	RI	num=s|gen=m	6	det
+6	dermatologo	dermatologo	S	S	num=s|gen=m	4	obj
+7	.	.	F	FS	_	2	punc
+
+SPEAKER|Samira|f|s
+1	Il	il	R	RD	num=s|gen=m	2	det
+2	medico	medico	S	S	num=s|gen=m	0	ROOT
+3	per	per	E	E	_	2	comp
+4	la	il	R	RD	num=s|gen=f	5	det
+5	pelle	pelle	S	S	num=s|gen=f	3	prep
+6	?	?	F	FS	_	2	punc
+
+SPEAKER|Dottore|m|s
+1	Il	il	R	RD	num=s|gen=m	2	det
+2	medico	medico	S	S	num=s|gen=m	0	ROOT
+3	per	per	E	E	_	2	comp
+4	la	il	R	RD	num=s|gen=f	5	det
+5	pelle	pelle	S	S	num=s|gen=f	3	prep
+6	,	,	F	FF	_	7	punc
+7	esatto	esatto	I	I	num=s|gen=m	2	mod
+8	.	.	F	FS	_	2	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	le	le	P	PC	num=n|per=3|gen=f	4	comp_ind
+4	faccio	fare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+5	un'	uno	R	RI	num=s|gen=f	6	det
+6	impegnativa	impegnativo	S	S	num=s|gen=f	4	pred
+7	,	,	F	FF	_	4	con
+8	e	e	C	CC	_	4	con
+9	con	con	E	E	_	12	comp
+10	questa	questo	P	PD	num=s|gen=f	9	prep
+11	può	potere	V	VM	num=s|per=3|mod=i|ten=p	12	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+12	telefonare	telefonare	V	V	mod=f	4	conj
+13	e	e	C	CC	_	4	con
+14	fissare	fissare	V	V	mod=f	4	conj
+15	la	il	R	RD	num=s|gen=f	16	det
+16	prenotazione	prenotazione	S	S	num=s|gen=f	14	obj
+17	.	.	F	FS	_	4	punc
+
+SPEAKER|Samira|f|s
+1	Posso	potere	V	VM	num=s|per=1|mod=i|ten=p	2	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+2	far-	fare	V	V	mod=f	0	ROOT
+3	lo	lo	P	PC	num=s|per=3|gen=m	2	obj
+4	solo	solo	B	B	_	5	mod
+5	per	per	E	E	_	2	comp
+6	telefono	telefono	S	S	num=s|gen=m	5	prep
+7	?	?	F	FS	_	2	punc
+
+SPEAKER|Dottore|m|s
+1	No	no	B	BN	_	7	neg
+2	,	,	F	FF	_	1	punc
+3	se	se	C	CS	_	7	mod
+4	preferisce	preferire	V	V	num=s|per=3|mod=i|ten=p	3	sub	io preferisco, tu preferisci, lui/lei/Lei preferisce, noi preferiamo, voi preferite, loro preferiscono
+5	può	potere	V	VM	num=s|per=3|mod=i|ten=p	7	modal	io posso, tu puoi, lui/lei/Lei può, noi possiamo, voi potete, loro possono
+6	direttamente	diretto	B	B	_	7	mod
+7	andare	andare	V	V	mod=f	0	ROOT
+8	in	in	E	E	_	7	comp_loc
+9	ospedale	ospedale	S	S	num=s|gen=m	8	prep
+10	all'	al	E	EA	num=s|gen=m	7	comp
+11	ufficio	ufficio	S	S	num=s|gen=m	10	prep
+12	del	di	E	EA	num=s|gen=m	11	comp
+13	CUP	CUP	S	SP	_	12	prep
+14	e	e	C	CC	_	7	con
+15	parlare	parlare	V	V	mod=f	7	conj
+16	con	con	E	E	_	15	comp
+17	una	uno	R	RI	num=s|gen=f	18	det
+18	persona	persona	S	S	num=s|gen=f	16	prep
+19	allo	al	E	EA	num=s|gen=m	18	comp
+20	sportello	sportello	S	S	num=s|gen=m	19	prep
+21	.	.	F	FS	_	7	punc
+
+SPEAKER|Samira|f|s
+1	Va	andare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+2	bene	bene	B	B	_	1	mod
+3	,	,	F	FF	_	4	punc
+4	grazie	grazie	I	I	num=n|gen=n	1	subj
+5	mille	mille	N	N	_	6	mod
+6	dottore	dottore	S	S	num=s|gen=m	4	mod
+7	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Prego	prego	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Allora	allora	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	si	si	P	PC	num=n|per=3|gen=n	4	clit
+4	ricordi	ricordare	V	V	num=s|per=3|mod=c|ten=p	0	ROOT
+5	solo	solo	B	B	_	6	mod
+6	di	di	E	E	_	4	arg
+7	andare	andare	V	V	mod=f	6	prep
+8	subito	subito	B	B	_	7	mod_temp
+9	in	in	E	E	_	7	comp
+10	farmacia	farmacia	S	S	num=s|gen=f	9	prep
+11	e	e	C	CC	_	4	con
+12	mi	mi	P	PC	num=s|per=1|gen=n	13	comp_ind
+13	telefoni	telefonare	V	V	num=s|per=3|mod=c|ten=p	4	conj
+14	se	se	C	CS	_	13	subj
+15	l'	il	R	RD	num=s|gen=f	16	det
+16	influenza	influenza	S	S	num=s|gen=f	18	subj
+17	non	non	B	BN	_	18	neg
+18	passa	passare	V	V	num=s|per=3|mod=i|ten=p	14	sub	io passo, tu passi, lui/lei/Lei passa, noi passiamo, voi passate, loro passano
+19	.	.	F	FS	_	4	punc
+
+SPEAKER|Samira|f|s
+1	D'	di	E	E	_	5	comp
+2	accordo	accordo	B	B	num=s|gen=m	1	prep
+3	,	,	F	FF	_	1	punc
+4	Lei	lei	P	PE	num=s|per=3|gen=m	5	subj
+5	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+6	molto	molto	B	B	_	7	mod
+7	gentile	gentile	A	A	num=s|gen=m	5	pred
+8	.	.	F	FS	_	5	punc
+
+SPEAKER|Samira|f|s
+1	Grazie	Grazie	I	I	num=p|gen=f	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Prego	prego	I	I	_	0	ROOT
+2	,	,	F	FF	_	1	punc
+3	di	di	E	E	_	1	comp
+4	nulla	nulla	P	PI	num=s|gen=m	3	prep
+5	.	.	F	FS	_	1	punc
+
+SPEAKER|Dottore|m|s
+1	Arrivederci	arrivederci	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	signora	signora	S	S	num=s|gen=f	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|Samira|f|s
+1	Arrivederci	arrivederci	I	I	_	0	ROOT
+2	.	.	F	FS	_	1	punc

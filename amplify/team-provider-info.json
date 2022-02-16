@@ -1,0 +1,38 @@
+{
+  "produe": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-focusonitapp-produe-232246-authRole",
+      "UnauthRoleArn": "arn:aws:iam::114574524459:role/amplify-focusonitapp-produe-232246-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::114574524459:role/amplify-focusonitapp-produe-232246-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-focusonitapp-produe-232246-deployment",
+      "UnauthRoleName": "amplify-focusonitapp-produe-232246-unauthRole",
+      "StackName": "amplify-focusonitapp-produe-232246",
+      "StackId": "arn:aws:cloudformation:eu-west-1:114574524459:stack/amplify-focusonitapp-produe-232246/0ca4e4b0-765a-11ec-bba9-066833adbef9",
+      "AmplifyAppId": "d3w3g651jafjp"
+    },
+    "categories": {
+      "auth": {
+        "focusonitapp": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-focusonitapp-prod-230657-authRole",
+      "UnauthRoleArn": "arn:aws:iam::114574524459:role/amplify-focusonitapp-prod-230657-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::114574524459:role/amplify-focusonitapp-prod-230657-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-focusonitapp-prod-230657-deployment",
+      "UnauthRoleName": "amplify-focusonitapp-prod-230657-unauthRole",
+      "StackName": "amplify-focusonitapp-prod-230657",
+      "StackId": "arn:aws:cloudformation:eu-west-1:114574524459:stack/amplify-focusonitapp-prod-230657/d6b8f280-7657-11ec-9eae-0af270d1eb45",
+      "AmplifyAppId": "d3w3g651jafjp"
+    },
+    "categories": {
+      "auth": {
+        "focusonitapp": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,401 @@
+SPEAKER|Nisha|f|s
+1	Ehi	ehi	I	I	_	2	mod
+2	Kadim	Kadim	S	SP	_	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|Kadim|m|s
+1	Ciao	ciao	I	I	_	2	mod
+2	Nisha	Nisha	S	SP	_	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|Nisha|f|s
+1	Come	come	B	B	_	2	mod
+2	stai	stare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Kadim|m|s
+1	Bene	bene	B	B	_	0	ROOT
+2	,	,	F	FF	_	1	con
+3	e	e	C	CC	_	1	con
+4	tu	tu	P	PE	num=s|per=2|gen=f	1	conj
+5	?	?	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Sì	sì	B	B	_	0	_
+2	,	,	F	FF	_	1	punc
+3	bene	bene	B	B	_	5	mod
+4	,	,	F	FF	_	3	punc
+5	grazie	grazie	I	I	num=n|gen=n	1	conj
+6	.	.	F	FS	_	5	punc
+
+SPEAKER|Nisha|f|s
+1	Senti	sentire	V	V	num=s|per=2|mod=imp|ten=p	0	ROOT
+2	,	,	F	FF	_	1	con
+3	avrei	avere	V	VA	num=s|per=1|mod=d|ten=p	1	conj
+4	bisogno	bisogno	S	S	num=s|gen=m	3	obj
+5	di	di	E	E	_	4	comp
+6	un	uno	R	RI	num=s|gen=m	7	det
+7	favore	favore	S	S	num=s|gen=m	5	prep
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|Kadim|m|s
+1	Dimmi	dire	V	V	num=s|per=2|mod=m|ten=p	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Arriva	arrivare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io arrivo, tu arrivi, lui/lei/Lei arriva, noi arriviamo, voi arrivate, loro arrivano
+2	mia	mio	A	AP	num=s|gen=f	3	mod	mio/mia/miei/mie
+3	zia	zia	S	S	num=s|gen=f	1	subj
+4	Raizah	Raizah	S	SP	_	3	mod
+5	dall'	da	E	EA	num=s|gen=f	3	comp
+6	India	India	S	SP	_	5	prep
+7	,	,	F	FF	_	8	punc
+8	viene	venire	V	V	num=s|per=3|mod=i|ten=p	3	mod	io vengo, tu vieni, lui/lei/Lei viene, noi veniamo, voi venite, loro vengono
+9	a	a	E	E	_	8	arg
+10	trovar-	trovare	V	V	mod=f	9	prep
+11	mi	mi	P	PC	num=s|per=1|gen=n	10	obj
+12	qui	qui	B	B	_	10	mod_loc
+13	in	in	E	E	_	12	comp_loc
+14	Italia	Italia	S	SP	_	13	prep
+15	.	.	F	FS	_	1	punc
+
+SPEAKER|Kadim|m|s
+1	Uau	Uau	S	SP	_	0	ROOT
+2	,	,	F	FF	_	1	punc
+3	che	che	D	DE	num=n|gen=n	4	mod
+4	bello	bello	A	A	num=s|gen=m	0	ROOT
+5	!	!	F	FS	_	4	punc
+
+SPEAKER|Nisha|f|s
+1	Sì	sì	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	sono	essere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	molto	molto	B	B	_	5	mod
+5	felice	felice	A	A	num=s|gen=f	3	pred
+6	.	.	F	FS	_	3	punc
+
+SPEAKER|Nisha|f|s
+1	Però	però	B	B	_	3	mod
+2	lei	lei	P	PE	num=s|per=3|gen=f	3	subj
+3	arriva	arrivare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io arrivo, tu arrivi, lui/lei/Lei arriva, noi arriviamo, voi arrivate, loro arrivano
+4	alle	al	E	EA	num=p|gen=f	3	comp
+5	10:00	10:00	N	N	_	4	prep
+6	,	,	F	FF	_	5	con
+7	e	e	C	CC	_	5	con
+8	io	io	P	PE	num=s|per=1|gen=f	9	subj
+9	ho	avere	V	V	num=s|per=1|mod=i|ten=p	3	conj	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+10	la	il	R	RD	num=s|gen=f	11	det
+11	scuola	scuola	S	S	num=s|gen=f	9	obj
+12	fino	fino	E	E	_	18	mod
+13	alle	al	E	EA	num=p|gen=f	12	comp
+14	11:00	11:00	N	N	_	13	prep
+15	,	,	F	FF	_	12	con
+16	e	e	C	CC	_	12	con
+17	non	non	B	BN	_	18	neg
+18	ho	avere	V	V	num=s|per=1|mod=i|ten=p	9	conj	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+19	nemmeno	nemmeno	B	B	_	18	mod
+20	la	il	R	RD	num=s|gen=f	21	det
+21	macchina	macchina	S	S	num=s|gen=f	18	obj
+22	.	.	F	FS	_	3	punc
+
+SPEAKER|Kadim|m|s
+1	Quindi	quindi	B	B	_	2	mod
+2	vado	andare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io vado, tu vai, lui/lei/Lei va, noi andiamo, voi andate, loro vanno
+3	io	io	P	PE	num=s|per=1|gen=m	2	subj
+4	a	a	E	E	_	2	arg
+5	prender-	prendere	V	V	mod=f	4	prep
+6	la	la	P	PC	num=s|per=3|gen=f	5	obj
+7	!	!	F	FS	_	2	punc
+
+SPEAKER|Nisha|f|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	mille	mille	N	N	_	1	mod
+3	!	!	F	FS	_	1	punc
+
+SPEAKER|Kadim|m|s
+1	Figurati	figurare	V	V	num=p|mod=p|gen=m	0	ROOT
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|Kadim|m|s
+1	Quindi	quindi	B	B	_	3	mod
+2	ci	ci	P	PC	num=p|per=1|gen=n	3	clit
+3	vediamo	vedere	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io vedo, tu vedi, lui/lei/Lei vede, noi vediamo, voi vedete, loro vedono
+4	domani	domani	B	B	_	3	mod
+5	alle	al	E	EA	num=p|gen=f	4	comp
+6	10:00	10:00	N	N	_	5	prep
+7	in	in	E	E	_	3	comp_loc
+8	aeroporto	aeroporto	S	S	num=s|gen=m	7	prep
+9	?	?	F	FS	_	3	punc
+
+SPEAKER|Nisha|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	,	,	F	FF	_	1	con
+3	esatto	esatto	A	A	num=s|gen=m	1	conj
+4	,	,	F	FF	_	1	con
+5	domani	domani	B	B	_	6	mod
+6	alle	al	E	EA	num=p|gen=f	1	conj
+7	10:00	10:00	N	N	_	6	prep
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Aspetta	aspettare	V	V	num=s|per=3|mod=imp|ten=p	0	ROOT
+2	che	che	C	CS	_	1	arg
+3	la	il	P	P	num=s|gen=f	4	det
+4	chiamo	chiamare	V	V	num=s|per=1|mod=i|ten=p	2	sub	io chiamo, tu chiami, lui/lei/Lei chiama, noi chiamiamo, voi chiamate, loro chiamano
+5	,	,	F	FF	_	8	punc
+6	così	così	B	B	_	8	mod
+7	ci	ci	P	PC	num=p|per=1|gen=n	8	clit
+8	mettiamo	mettere	V	V	num=p|per=1|mod=i|ten=p	4	arg	io metto, tu metti, lui/lei/Lei mette, noi mettiamo, voi mettete, loro mettono
+9	d'	di	E	E	_	8	comp
+10	accordo	accordo	S	S	num=s|gen=m	9	prep
+11	.	.	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Pronto	pronto	B	B	num=s|gen=m	0	ROOT
+2	?	?	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Ciao	ciao	I	I	_	2	mod
+2	Raizah	Raizah	S	SP	_	0	ROOT
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|Nisha|f|s
+1	Come	come	B	B	_	2	mod
+2	stai	stare	V	V	num=s|per=2|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|Nisha|f|s
+1	Sì	sì	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	bene	bene	B	B	_	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|Nisha|f|s
+1	Ascolta	ascoltare	V	V	num=s|per=3|mod=imp|ten=p	0	ROOT
+2	:	:	F	FC	_	1	punc
+3	domani	domani	B	B	_	4	mod
+4	viene	venire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io vengo, tu vieni, lui/lei/Lei viene, noi veniamo, voi venite, loro vengono
+5	il	il	R	RD	num=s|gen=m	7	det
+6	mio	mio	A	AP	num=s|gen=m	7	mod	mio/mia/miei/mie
+7	amico	amico	S	S	num=s|gen=m	4	subj
+8	Kadim	Kadim	S	SP	_	7	mod
+9	a	a	E	E	_	4	arg
+10	prenderti	prendere	V	V	mod=f	9	prep
+11	.	.	F	FS	_	4	punc
+
+SPEAKER|Nisha|f|s
+1	Sì	sì	B	B	_	0	ROOT
+2	,	,	F	FF	_	1	punc
+3	domani	domani	B	B	_	1	mod
+4	,	,	F	FF	_	3	punc
+5	alle	al	E	EA	num=p|gen=f	3	comp
+6	10:00	10:00	N	N	_	5	prep
+7	.	.	F	FS	_	3	punc
+
+SPEAKER|Nisha|f|s
+1	Te	te	P	PE	num=s|per=2|gen=n	3	ubj
+2	lo	lo	P	PC	num=s|per=3|gen=m	3	obj
+3	descrivo	descrivere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io descrivo, tu descrivi, lui/lei/Lei descrive, noi descriviamo, voi descrivete, loro descrivono
+4	,	,	F	FF	_	5	punc
+5	in	in	E	E	_	3	comp
+6	modo	modo	S	S	num=s|gen=m	5	prep
+7	che	che	C	CS	_	6	arg
+8	lo	lo	P	PC	num=s|per=3|gen=m	9	obj
+9	riconosci	riconoscere	V	V	num=s|per=2|mod=i|ten=p	7	sub	io riconosco, tu riconosci, lui/lei/Lei riconosce, noi riconosciamo, voi riconoscete, loro riconoscono
+10	quando	quando	C	CS	_	9	mod
+11	arrivi	arrivare	V	V	num=s|per=2|mod=i|ten=p	10	sub	io arrivo, tu arrivi, lui/lei/Lei arriva, noi arriviamo, voi arrivate, loro arrivano
+12	in	in	E	E	_	11	comp_loc
+13	aeroporto	aeroporto	S	S	num=s|gen=m	12	prep
+14	.	.	F	FS	_	3	punc
+
+SPEAKER|Nisha|f|s
+1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	alto	alto	A	A	num=s|gen=m	1	pred
+3	e	e	C	CC	_	2	con
+4	magro	magro	A	A	num=s|gen=m	2	conj
+5	,	,	F	FF	_	1	con
+6	ha	avere	V	V	num=s|per=3|mod=i|ten=p	1	conj	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+7	gli	il	R	RD	num=p|gen=m	8	det
+8	occhi	occhio	S	S	num=p|gen=m	6	obj
+9	neri	nero	A	A	num=p|gen=m	8	mod
+10	,	,	F	FF	_	1	con
+11	ha	avere	V	V	num=s|per=3|mod=i|ten=p	1	conj	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+12	la	il	R	RD	num=s|gen=f	13	det
+13	pelle	pelle	S	S	num=s|gen=f	11	obj
+14	nera	nero	A	A	num=s|gen=f	13	mod
+15	,	,	F	FF	_	1	con
+16	ha	avere	V	V	num=s|per=3|mod=i|ten=p	1	conj	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+17	i	il	R	RD	num=p|gen=m	18	det
+18	capelli	capello	S	S	num=p|gen=m	16	obj
+19	corti	corto	A	A	num=p|gen=m	18	mod
+20	e	e	C	CC	_	19	con
+21	neri	nero	A	A	num=p|gen=m	19	conj
+22	.	.	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Di	di	E	E	_	4	comp
+2	che	che	D	DQ	num=n|gen=n	3	mod
+3	colore	colore	S	S	num=s|gen=m	1	prep
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	la	il	R	RD	num=s|gen=f	7	det
+6	tua	tuo	A	AP	num=s|gen=f	7	mod	tuo/tua/tuoi/tue
+7	camicia	camicia	S	S	num=s|gen=f	4	pred
+8	,	,	F	FF	_	9	punc
+9	Kadim	Kadim	S	SP	_	4	subj
+10	?	?	F	FS	_	4	punc
+
+SPEAKER|Kadim|m|s
+1	Metterò	mettere	V	V	num=s|per=1|mod=i|ten=f	0	ROOT
+2	questa	questo	P	PD	num=s|gen=f	1	obj
+3	.	.	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Allora	allora	B	B	_	5	mod
+2	la	il	R	RD	num=s|gen=f	4	det
+3	sua	suo	A	AP	num=s|gen=f	4	mod	suo/sua/suoi/sue
+4	camicia	camicia	S	S	num=s|gen=f	5	subj
+5	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+6	di	di	E	E	_	5	pred
+7	colore	colore	S	S	num=s|gen=m	6	prep
+8	blu	blu	A	A	num=s|gen=m	7	mod
+9	,	,	F	FF	_	5	con
+10	e	e	C	CC	_	5	con
+11	anche	anche	B	B	_	13	mod
+12	il	il	R	RD	num=s|gen=m	13	det
+13	cappello	cappello	S	S	num=s|gen=m	14	subj
+14	è	essere	V	V	num=s|per=3|mod=i|ten=p	5	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+15	blu	blu	A	A	num=s|gen=m	14	pred
+16	.	.	F	FS	_	5	punc
+
+SPEAKER|Nisha|f|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	buon	buon	A	A	num=s|gen=m	4	mod
+4	viaggio	viaggio	S	S	num=s|gen=m	0	ROOT
+5	allora	allora	B	B	_	4	mod
+6	.	.	F	FS	_	4	punc
+
+SPEAKER|Nisha|f|s
+1	Se	se	C	CS	_	0	ROOT
+2	hai	avere	V	VA	num=s|per=2|mod=i|ten=p	3	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+3	bisogno	bisogno	S	S	num=s|gen=m	1	ROOT
+4	di	di	E	E	_	3	comp
+5	qualsiasi	qualsiasi	D	DI	num=s|gen=n	6	mod
+6	cosa	cosa	S	S	num=s|gen=f	4	prep
+7	,	,	F	FF	_	3	punc
+8	chiamami	chiamare	V	V	num=s|per=2|mod=m|ten=p	1	sub
+9	pure	pure	B	B	_	8	mod
+10	.	.	F	FS	_	1	punc
+
+SPEAKER|Nisha|f|s
+1	Non	non	B	BN	_	2	neg
+2	vedo	vedere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io vedo, tu vedi, lui/lei/Lei vede, noi vediamo, voi vedete, loro vedono
+3	l'	il	R	RD	num=s|gen=f	4	det
+4	ora	ora	B	B	_	5	mod_temp
+5	di	di	E	E	_	2	arg
+6	vederti	vedere	V	V	mod=f	5	prep
+7	.	.	F	FS	_	2	punc
+
+SPEAKER|Nisha|f|s
+1	Ok	Ok	C	CC	_	2	mod
+2	ciao	ciao	S	SP	_	0	ROOT
+3	,	,	F	FF	_	4	punc
+4	grazie	grazie	I	I	num=n|gen=n	2	mod
+5	,	,	F	FF	_	4	punc
+6	buon	buon	A	A	num=s|gen=m	7	mod
+7	viaggio	viaggio	S	S	num=s|gen=m	4	mod
+8	ancora	ancora	B	B	_	7	mod
+9	!	!	F	FS	_	2	punc
+
+SPEAKER|Kadim|m|s
+1	Com'	come	B	B	_	3	mod
+2	è	essere	V	VA	num=s|per=3|mod=i|ten=p	3	aux	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	fatta	fare	V	V	num=s|mod=p|gen=f	0	ROOT
+4	lei	lei	P	PE	num=s|per=3|gen=f	3	subj
+5	?	?	F	FS	_	3	punc
+
+SPEAKER|Kadim|m|s
+1	Hai	Hai	V	V	num=s|per=2|mod=i|ten=p	4	mod	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	una	uno	R	RI	num=s|gen=f	4	det
+3	sua	suo	A	AP	num=s|gen=f	4	mod	suo/sua/suoi/sue
+4	foto	foto	S	S	num=n|gen=f	0	ROOT	foto
+5	?	?	F	FS	_	4	punc
+
+SPEAKER|Nisha|f|s
+1	Sì	sì	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	guarda	guardare	V	V	num=s|per=3|mod=imp|ten=p	0	ROOT
+4	:	:	F	FC	_	3	punc
+5	ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+6	la	il	R	RD	num=s|gen=f	7	det
+7	pelle	pelle	S	S	num=s|gen=f	5	obj
+8	olivastra	olivastro	A	A	num=s|gen=f	7	mod
+9	e	e	C	CC	_	7	con
+10	i	il	R	RD	num=p|gen=m	11	det
+11	capelli	capello	S	S	num=p|gen=m	7	conj
+12	castani	castano	A	A	num=p|gen=m	11	mod
+13	,	,	F	FF	_	11	con
+14	lunghi	lungo	A	A	num=p|gen=m	11	mod
+15	e	e	C	CC	_	14	con
+16	lisci	liscio	A	A	num=p|gen=m	14	conj
+17	.	.	F	FS	_	5	punc
+
+SPEAKER|Nisha|f|s
+1	Non	non	B	BN	_	2	neg
+2	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	tanto	tanto	B	B	_	4	mod
+4	alta	alto	A	A	num=s|gen=f	2	pred
+5	,	,	F	FF	_	2	punc
+6	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+7	magra	magro	A	A	num=s|gen=f	6	pred
+8	.	.	F	FS	_	6	punc
+
+SPEAKER|Nisha|f|s
+1	Ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	gli	il	R	RD	num=p|gen=m	3	det
+3	occhi	occhio	S	S	num=p|gen=m	1	obj
+4	verdi	verde	A	A	num=p|gen=n	3	mod
+5	.	.	F	FS	_	1	punc
+
+SPEAKER|Kadim|m|s
+1	Ok	ok	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	perfetto	perfetto	A	A	num=s|gen=m	0	ROOT
+4	!	!	F	FS	_	3	punc
+
+SPEAKER|Kadim|m|s
+1	Se	se	C	CS	_	5	mod
+2	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	5	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+3	problemi	problema	S	S	num=p|gen=m	5	obj
+4	ti	ti	P	PC	num=s|per=2|gen=n	5	obj
+5	chiamo	chiamare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io chiamo, tu chiami, lui/lei/Lei chiama, noi chiamiamo, voi chiamate, loro chiamano
+6	domani	domani	B	B	_	5	mod
+7	.	.	F	FS	_	5	punc
+
+SPEAKER|Nisha|f|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	mille	mille	N	N	_	1	mod
+3	,	,	F	FF	_	4	punc
+4	amico	amico	S	S	num=s|gen=m	1	mod
+5	.	.	F	FS	_	1	punc
+
+SPEAKER|Kadim|m|s
+1	Prego	prego	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	un	uno	R	RI	num=s|gen=m	5	det
+5	piacere	piacere	S	S	num=s|gen=m	3	pred
+6	.	.	F	FS	_	3	punc
+
+SPEAKER|Nisha|f|s
+1	Ok	ok	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	ciao	ciao	I	I	_	0	ROOT
+4	!	!	F	FS	_	3	punc
+
+SPEAKER|Kadim|m|s
+1	Ciao	ciao	I	I	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	buona	buono	A	A	num=s|gen=f	4	mod
+4	giornata	giornata	S	S	num=s|gen=f	0	ROOT
+5	!	!	F	FS	_	4	punc

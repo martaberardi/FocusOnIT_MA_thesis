@@ -1,0 +1,481 @@
+﻿SPEAKER|commerciante donna|f|s
+1	Buongiorno	buongiorno	I	I	_	0	ROOT
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Buongiorno	buongiorno	I	I	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	signora	signore	S	S	num=s|gen=f	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|commerciante donna|f|s
+1	Cosa	cosa	P	PQ	num=s|gen=n	2	subj
+2	desidera	desiderare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io desidero, tu desideri, lui/lei/Lei desidera, noi desideriamo, voi desiderate, loro desiderano
+3	?	?	F	FS	_	2	punc
+
+SPEAKER|ragazza|f|s
+1	Allora	allora	B	B	_	5	mod
+2	,	,	F	FF	_	1	punc
+3	vorrei	volere	V	VM	num=s|per=1|mod=d|ten=p	5	modal
+4	mezzo	mezzo	A	A	num=s|gen=m	5	mod
+5	chilo	chilo	S	S	num=s|gen=m	0	ROOT
+6	di	di	E	E	_	5	comp
+7	pomodori	pomodoro	S	S	num=p|gen=m	6	prep
+8	,	,	F	FF	_	7	con
+9	perfavore	perfavore	S	S	num=p|gen=f	7	conj
+10	.	.	F	FS	_	5	punc
+
+SPEAKER|commerciante donna|f|s
+1	Serve	servire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io servo, tu servi, lui/lei/Lei serve, noi serviamo, voi servite, loro servono
+2	altro	altro	P	PI	num=s|gen=m	1	subj
+3	,	,	F	FF	_	4	punc
+4	signora	signore	S	S	num=s|gen=f	1	subj
+5	?	?	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	un	uno	R	RI	num=s|gen=m	4	det
+4	pacco	pacco	S	S	num=s|gen=m	0	ROOT
+5	di	di	E	E	_	4	comp
+6	riso	riso	S	S	num=s|gen=m	5	prep
+7	e	e	C	CC	_	4	con
+8	due	due	N	N	_	9	mod
+9	peperoni	peperone	S	S	num=p|gen=m	4	conj
+10	gialli	giallo	A	A	num=p|gen=m	9	mod
+11	.	.	F	FS	_	4	punc
+
+SPEAKER|commerciante donna|f|s
+1	Ecco	ecco	B	B	_	2	mod
+2	qui	qui	B	B	_	0	ROOT
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|ragazza|f|s
+1	Grazie	Grazie	I	I	num=p|gen=f	0	ROOT
+2	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Mi	mi	P	PC	num=s|per=1|gen=n	2	comp_ind
+2	dà	dare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io do, tu dai, lui/lei/Lei dà, noi diamo, voi date, loro danno
+3	anche	anche	B	B	_	5	mod
+4	sei	sei	N	N	_	5	mod
+5	peperoncini	peperoncino	S	S	num=p|gen=m	2	obj
+6	piccanti	piccante	A	A	num=p|gen=m	5	mod
+7	,	,	F	FF	_	2	con
+8	perfavore	perfavore	S	S	num=p|gen=f	2	subj
+9	?	?	F	FS	_	2	punc
+
+SPEAKER|commerciante donna|f|s
+1	Certo	certo	B	B	_	0	ROOT
+2	!	!	F	FS	_	1	punc
+
+SPEAKER|commerciante donna|f|s
+1	Facciamo	fare	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+2	due	due	N	N	_	3	mod
+3	rossi	rosso	S	S	num=p|gen=m	1	obj
+4	,	,	F	FF	_	3	con
+5	due	due	N	N	_	6	mod
+6	gialli	giallo	S	S	num=p|gen=m	3	conj
+7	e	e	C	CC	_	3	con
+8	due	due	N	N	_	9	mod
+9	arancioni	arancione	S	S	num=p|gen=m	3	conj
+10	?	?	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	molto	molto	B	B	_	3	mod
+3	piccanti	piccante	A	A	num=p|gen=m	1	pred
+4	?	?	F	FS	_	1	punc
+
+SPEAKER|commerciante donna|f|s
+1	Sì	sì	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	abbastanza	abbastanza	B	B	_	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|ragazza|f|s
+1	Perfetto	perfetto	A	A	num=s|gen=m	4	mod
+2	,	,	F	FF	_	1	punc
+3	mi	mi	P	PC	num=s|per=1|gen=n	4	comp_ind
+4	piace	piacere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io piaccio, tu piaci, lui/lei/Lei piace, noi piacciamo, voi piacete, loro piacciono
+5	il	il	R	RD	num=s|gen=m	6	det
+6	piccante	piccante	A	A	num=s|gen=m	4	subj
+7	.	.	F	FS	_	4	punc
+
+SPEAKER|ragazza|f|s
+1	Quant'	Quant'	S	SP	_	2	subj
+2	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	il	il	R	RD	num=s|gen=m	4	det
+4	tutto	tutto	P	PI	num=s|gen=m	2	subj
+5	?	?	F	FS	_	2	punc
+
+SPEAKER|commerciante donna|f|s
+1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	6	6	N	N	_	3	mod
+3	euro	euro	S	S	num=s|gen=m	1	subj
+4	e	e	C	CC	_	3	con
+5	70	70	N	N	_	3	conj
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Ecco	ecco	B	B	_	0	ROOT
+2	dieci	dieci	N	N	_	3	mod
+3	euro	euro	N	N	_	1	mod_temp
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|commerciante donna|f|s
+1	Ecco	ecco	B	B	_	3	mod
+2	lo	il	R	RD	num=s|gen=m	3	det
+3	scontrino	scontrino	S	S	num=s|gen=m	0	ROOT
+4	.	.	F	FS	_	3	punc
+
+SPEAKER|commerciante donna|f|s
+1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	3	3	N	N	_	3	subj
+3	euro	euro	S	S	num=s|gen=m	1	pred
+4	e	e	C	CC	_	3	con
+5	30	30	N	N	_	3	conj
+6	di	di	E	E	_	5	comp
+7	resto	resto	S	S	num=s|gen=m	6	prep
+8	a	a	E	E	_	1	comp_loc
+9	Lei	Lei	S	SP	_	8	prep
+10	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	mille	mille	N	N	_	1	mod
+3	,	,	F	FF	_	2	punc
+4	buona	buono	A	A	num=s|gen=f	5	mod
+5	giornata	giornata	S	S	num=s|gen=f	1	conj
+6	!	!	F	FS	_	1	punc
+
+SPEAKER|commerciante donna|f|s
+1	Grazie	Grazie	I	I	num=n|gen=n	0	ROOT
+2	,	,	F	FF	_	4	punc
+3	anche	anche	B	B	_	4	mod
+4	a	a	E	E	_	1	comp
+5	Lei	Lei	S	SP	_	4	prep
+6	!	!	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Buongiorno	buongiorno	I	I	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	devo	dovere	V	VM	num=s|per=1|mod=i|ten=p	4	modal	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+4	comprare	comprare	V	V	mod=f	0	ROOT
+5	dei	di	E	EA	num=p|gen=m	4	comp
+6	vestiti	vestito	S	S	num=p|gen=m	5	prep
+7	per	per	E	E	_	4	comp
+8	mio	mio	A	AP	num=s|gen=m	9	mod	mio/mia/miei/mie
+9	figlio	figlio	S	S	num=s|gen=m	7	prep
+10	.	.	F	FS	_	4	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Certo	certo	B	B	_	5	mod
+2	,	,	F	FF	_	1	punc
+3	di	di	E	E	_	5	comp
+4	cosa	cosa	S	S	num=s|gen=f	3	prep
+5	ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+6	bisogno	bisogno	S	S	num=s|gen=m	5	obj
+7	?	?	F	FS	_	5	punc
+
+SPEAKER|ragazza|f|s
+1	Questa	questo	A	A	num=s|gen=f	2	mod
+2	felpa	felpa	S	S	num=s|gen=f	8	subj
+3	con	con	E	E	_	2	comp
+4	il	il	R	RD	num=s|gen=m	5	det
+5	cappuccio	cappuccio	S	S	num=s|gen=m	3	prep
+6	rosso	rosso	A	A	num=s|gen=m	5	mod
+7	mi	mi	P	PC	num=s|per=1|gen=n	8	comp_ind
+8	piace	piacere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io piaccio, tu piaci, lui/lei/Lei piace, noi piacciamo, voi piacete, loro piacciono
+9	proprio	proprio	B	B	_	8	mod
+10	.	.	F	FS	_	8	punc
+
+SPEAKER|ragazza|f|s
+1	Ha	avere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+2	altri	altro	A	A	num=p|gen=m	3	mod
+3	colori	colore	S	S	num=p|gen=m	1	obj
+4	?	?	F	FS	_	1	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Sì	sì	B	B	_	4	mod
+2	,	,	F	FF	_	1	punc
+3	c'	ci	P	PC	num=n|gen=n	4	comp
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	anche	anche	B	B	_	6	mod
+6	blu	blu	S	S	num=s|gen=f	4	subj	blu
+7	.	.	F	FS	_	4	punc
+
+SPEAKER|ragazza|f|s
+1	Prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+2	questa	questo	D	DD	num=s|gen=f	3	mod
+3	blu	blu	A	A	num=s|gen=f	1	obj	blu
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Il	il	R	RD	num=s|gen=m	2	det
+2	cappotto	cappotto	S	S	num=s|gen=m	4	subj
+3	nero	nero	A	A	num=s|gen=m	2	mod
+4	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	pesante	pesante	A	A	num=s|gen=m	4	pred
+6	?	?	F	FS	_	4	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Sì	sì	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	per	per	E	E	_	3	pred
+5	l'	il	R	RD	num=s|gen=m	6	det
+6	inverno	inverno	S	S	num=s|gen=m	4	prep
+7	.	.	F	FS	_	3	punc
+
+SPEAKER|ragazza|f|s
+1	Allora	allora	B	B	_	4	mod
+2	non	non	B	BN	_	4	neg
+3	lo	lo	P	PC	num=s|per=3|gen=m	4	obj
+4	prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+5	,	,	F	FF	_	4	con
+6	mi	mi	P	PC	num=s|per=1|gen=n	7	comp_ind
+7	serve	servire	V	V	num=s|per=3|mod=i|ten=p	4	conj	io servo, tu servi, lui/lei/Lei serve, noi serviamo, voi servite, loro servono
+8	leggero	leggero	A	A	num=s|gen=m	7	pred
+9	.	.	F	FS	_	4	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Allora	allora	B	B	_	3	mod
+2	Le	il	R	RD	num=p|gen=f	3	det
+3	consiglio	consigliare	V	V	num=s|per=1|mod=i|ten=p	6	subj	io consiglio, tu consigli, lui/lei/Lei consiglia, noi consigliamo, voi consigliate, loro consigliano
+4	questo	questo	P	PD	num=s|gen=m	3	mod
+5	,	,	F	FF	_	4	punc
+6	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+7	perfetto	perfetto	A	A	num=s|gen=m	6	pred
+8	per	per	E	E	_	6	comp
+9	l'	il	R	RD	num=s|gen=m	10	det
+10	autunno	autunno	S	S	num=s|gen=m	8	prep
+11	,	,	F	FF	_	6	con
+12	è	essere	V	V	num=s|per=3|mod=i|ten=p	6	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+13	anche	anche	B	B	_	14	mod
+14	nero	nero	A	A	num=s|gen=m	12	pred
+15	.	.	F	FS	_	6	punc
+
+SPEAKER|ragazza|f|s
+1	Ah	ah	I	I	_	0	ROOT
+2	,	,	F	FF	_	3	punc
+3	bello	bello	A	A	num=s|gen=m	1	mod
+4	!	!	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Lo	lo	P	PC	num=s|per=3|gen=m	2	obj
+2	prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+3	.	.	F	FS	_	2	punc
+
+SPEAKER|ragazza|f|s
+1	E	e	C	CC	_	2	con
+2	prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+3	anche	anche	B	B	_	5	mod
+4	queste	questo	A	A	num=p|gen=f	5	mod
+5	scarpe	scarpa	S	S	num=p|gen=f	2	subj
+6	da	da	E	E	_	2	comp
+7	ginnastica	ginnastica	S	S	num=s|gen=f	6	prep
+8	:	:	F	FC	_	2	punc
+9	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+10	in	in	E	E	_	9	pred
+11	offerta	offerta	S	S	num=s|gen=f	10	prep
+12	,	,	F	FF	_	13	punc
+13	vero	vero	A	A	num=s|gen=m	11	mod
+14	?	?	F	FS	_	9	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Sì	sì	B	B	_	0	ROOT
+2	:	:	F	FC	_	1	punc
+3	invece	invece	B	B	_	8	mod
+4	di	di	E	E	_	3	comp
+5	20	20	N	N	_	6	mod
+6	euro	euro	S	S	num=s|gen=m	4	prep
+7	,	,	F	FF	_	3	punc
+8	costano	costare	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io costo, tu costi, lui/lei/Lei costa, noi costiamo, voi costate, loro costano
+9	10	10	N	N	_	8	mod
+10	.	.	F	FS	_	8	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Ci	ci	P	PC	num=p|per=1|gen=n	2	comp
+2	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+3	diversi	diverso	D	DI	num=p|gen=m	4	mod
+4	colori	colore	S	S	num=p|gen=m	2	subj
+5	:	:	F	FC	_	2	punc
+6	rosse	rosso	A	A	num=p|gen=f	0	ROOT
+7	,	,	F	FF	_	6	con
+8	bianche	bianco	A	A	num=p|gen=f	6	conj
+9	,	,	F	FF	_	6	con
+10	nere	nero	A	A	num=p|gen=f	6	conj
+11	.	.	F	FS	_	6	punc
+
+SPEAKER|ragazza|f|s
+1	Prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
+2	queste	questo	D	DD	num=p|gen=f	3	mod
+3	rosse	rosso	A	A	num=p|gen=f	1	obj
+4	....	....	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	E	e	C	CC	_	0	ROOT
+2	questo	questo	A	A	num=s|gen=m	3	mod
+3	cappello	cappello	S	S	num=s|gen=m	0	ROOT
+4	per	per	E	E	_	3	comp
+5	me	me	P	PE	num=s|per=1|gen=n	4	prep
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Le	le	P	PC	num=n|per=3|gen=f	2	comp_ind
+2	sta	stare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+3	benissimo	benissimo	B	B	_	2	mod
+4	.	.	F	FS	_	2	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Serve	servire	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io servo, tu servi, lui/lei/Lei serve, noi serviamo, voi servite, loro servono
+2	altro	altro	P	PI	num=s|gen=m	1	obj
+3	?	?	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Sì	sì	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	dei	di	E	EA	num=p|gen=m	0	ROOT
+4	jeans	jeans	S	SW	num=p|gen=m	3	prep
+5	per	per	E	E	_	4	comp
+6	mio	mio	A	AP	num=s|gen=m	7	mod	mio/mia/miei/mie
+7	marito	marito	S	S	num=s|gen=m	5	prep
+8	.	.	F	FS	_	3	punc
+
+SPEAKER|ragazza|f|s
+1	Che	che	P	PR	num=n|gen=n	3	subj
+2	taglia	taglia	S	S	num=s|gen=f	1	sub
+3	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	questi	questo	P	PD	num=p|gen=m	3	subj
+5	?	?	F	FS	_	3	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	la	il	R	RD	num=s|gen=f	3	det
+3	48	48	N	N	_	1	pred
+4	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Perfetto	perfetto	A	A	num=s|gen=m	0	ROOT
+2	,	,	F	FF	_	1	con
+3	la	il	R	RD	num=s|gen=f	4	det
+4	taglia	taglia	S	S	num=s|gen=f	1	conj
+5	giusta	giusto	A	A	num=s|gen=f	4	mod
+6	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Quanto	quanto	P	PR	num=s|gen=m	3	obj
+2	ti	ti	P	PC	num=s|per=2|gen=n	3	obj
+3	devo	dovere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io devo, tu devi, lui/lei/Lei deve, noi dobbiamo, voi dovete, loro devono
+4	in	in	E	E	_	3	comp
+5	tutto	tutto	P	PI	num=s|gen=m	4	prep
+6	?	?	F	FS	_	3	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Allora	allora	B	B	_	3	mod
+2	,	,	F	FF	_	1	punc
+3	sono	essere	V	V	num=p|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+4	15	15	N	N	_	5	mod
+5	euro	euro	N	N	_	7	subj
+6	la	il	R	RD	num=s|gen=f	7	det
+7	felpa	felpa	S	S	num=s|gen=f	3	pred
+8	,	,	F	FF	_	7	con
+9	le	il	R	RD	num=p|gen=f	10	det
+10	scarpe	scarpa	S	S	num=p|gen=f	7	conj
+11	10	10	N	N	_	12	mod
+12	euro	euro	S	S	num=s|gen=m	10	mod
+13	,	,	F	FF	_	16	punc
+14	i	il	R	RD	num=p|gen=m	15	det
+15	jeans	jeans	S	SW	num=p|gen=m	16	subj
+16	costano	costare	V	V	num=p|per=3|mod=i|ten=p	12	mod_rel	io costo, tu costi, lui/lei/Lei costa, noi costiamo, voi costate, loro costano
+17	15	15	N	N	_	21	mod
+18	e	e	C	CC	_	17	con
+19	anche	anche	B	B	_	21	mod
+20	la	il	R	RD	num=s|gen=f	21	det
+21	giacca	giacca	S	S	num=s|gen=f	16	obj
+22	15	15	N	N	_	21	mod
+23	.	.	F	FS	_	3	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Il	il	R	RD	num=s|gen=m	2	det
+2	cappello	cappello	S	S	num=s|gen=m	3	subj
+3	costa	costare	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io costo, tu costi, lui/lei/Lei costa, noi costiamo, voi costate, loro costano
+4	7	7	N	N	_	5	mod
+5	euro	euro	S	S	num=s|gen=m	3	obj
+6	e	e	C	CC	_	5	con
+7	50	50	N	N	_	5	conj
+8	.	.	F	FS	_	3	punc
+
+SPEAKER|commerciante uomo|m|s
+1	In	in	E	E	_	7	comp
+2	totale	totale	S	S	num=s|gen=m	1	prep
+3	62	62	N	N	_	4	mod
+4	euro	euro	S	S	num=s|gen=m	2	mod_temp
+5	e	e	C	CC	_	1	con
+6	50	50	N	N	_	7	mod
+7	centesimi	centesimo	S	S	num=p|gen=m	0	ROOT
+8	.	.	F	FS	_	7	punc
+
+SPEAKER|commerciante uomo|m|s
+1	Facciamo	fare	V	V	num=p|per=1|mod=i|ten=p	0	ROOT	io faccio, tu fai, lui/lei/Lei fa, noi facciamo, voi fate, loro fanno
+2	60	60	N	N	_	1	obj
+3	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Ecco	ecco	B	B	_	0	ROOT
+2	60	60	N	N	_	1	mod
+3	,	,	F	FF	_	1	punc
+4	e	e	C	CC	_	1	con
+5	grazie	grazie	I	I	num=n|gen=n	1	conj
+6	per	per	E	E	_	5	comp
+7	lo	il	R	RD	num=s|gen=m	8	det
+8	sconto	sconto	S	S	num=s|gen=m	6	prep
+9	.	.	F	FS	_	1	punc
+
+SPEAKER|commerciante uomo|m|s
+1	È	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+2	un	uno	R	RI	num=s|gen=m	3	det
+3	piacere	piacere	S	S	num=s|gen=m	1	pred
+4	,	,	F	FF	_	1	con
+5	ci	ci	P	PC	num=p|per=1|gen=n	6	clit
+6	vediamo	vedere	V	V	num=p|per=1|mod=i|ten=p	1	conj	io vedo, tu vedi, lui/lei/Lei vede, noi vediamo, voi vedete, loro vedono
+7	presto	presto	B	B	_	6	mod
+8	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Buona	buono	A	A	num=s|gen=f	2	mod
+2	giornata	giornata	S	S	num=s|gen=f	0	ROOT
+3	!	!	F	FS	_	2	punc
+
+SPEAKER|ragazza|f|s
+1	Pronto	pronto	I	I	num=s|gen=m	0	ROOT
+2	?	?	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Sto	stare	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io sto, tu stai, lui sta, noi stiamo, voi state, loro stanno
+2	arrivando	arrivare	V	V	mod=g	1	arg
+3	,	,	F	FF	_	4	punc
+4	sono	essere	V	V	num=p|per=1|mod=i|ten=p	2	conj	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
+5	al	a	E	EA	num=s|gen=m	4	pred
+6	mercato	mercato	S	S	num=s|gen=m	5	prep
+7	.	.	F	FS	_	1	punc
+
+SPEAKER|ragazza|f|s
+1	Mammamia	Mammamia	I	SP	_	4	subj
+2	,	,	F	FF	_	1	con
+3	ho	avere	V	VA	num=s|per=1|mod=i|ten=p	4	aux	io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno
+4	speso	spendere	V	V	num=s|mod=p|gen=m	0	ROOT
+5	tantissimi	tantissimo	A	A	num=p|gen=m	6	mod
+6	soldi	soldo	S	S	num=p|gen=m	4	obj
+7	oggi	oggi	B	B	_	4	mod_temp
+8	.	.	F	FS	_	4	punc
+
+SPEAKER|ragazza|f|s
+1	Ok	ok	I	I	_	0	ROOT
+2	,	,	F	FF	_	1	punc
+3	a	a	E	E	_	6	comp
+4	dopo	dopo	B	B	_	3	prep
+5	,	,	F	FF	_	3	punc
+6	ciao	ciao	I	I	_	1	mod
+7	!	!	F	FS	_	1	punc
