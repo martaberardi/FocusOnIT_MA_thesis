@@ -28,7 +28,7 @@ const UserStats: FC<UserStatsProps> = ({user}) => {
 
 
   useEffect(() => {
-    console.log("stats", stats);
+    // console.log("stats", stats);
     if (stats && dialogState) {
       setProgressForPos(generateBarChartDataList(stats));
       setStatsForDialog(generateStatsForDialog(dialogState, stats))

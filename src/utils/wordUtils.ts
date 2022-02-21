@@ -155,3 +155,20 @@ export const wordUIToWord: (word: WordUI) => Word = (word) => {
 
 export const isAlphanumeric = (s: string): boolean =>
   new RegExp(/[a-zA-Z0-9èéòùàìÈ\s]+/).test(s);
+
+export const isCapital = (char: string): boolean => char !== char.toLowerCase();
+
+export const isCapitalMissing = (wordForm: string, userInput: string): boolean => {
+  if (wordForm.length === 0 || wordForm.length !== userInput.length) {
+    return false;
+  }
+
+  const firstWordFormLetter: string = wordForm.at(0)!;
+  const firstUserInputLetter: string = userInput.at(0)!;
+
+  if (!isCapital(firstWordFormLetter) && wordForm.toLowerCase() !== userInput.toLowerCase()) {
+    return false;
+  }
+
+  return wordForm.toLowerCase() === userInput.toLowerCase() && !isCapital(firstUserInputLetter);
+}

@@ -31,7 +31,7 @@ const DialogStatsSection: FC<DialogStatsSectionProps> = (
         <Button
           variant={"contained"}
           onClick={toggleStatsShowed}
-          style={{marginLeft: 20}}>Mostra statistiche</Button>
+          style={{marginLeft: 20}}>{statsShowed === dialogId ? "Nascondi" : "Mostra"} statistiche</Button>
       </h1>
       {statsShowed === dialogId && dialogStats && posList && posList.map(pos => {
         const posStats = dialogStats.get(pos)!;

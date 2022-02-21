@@ -13,7 +13,6 @@ const usePageTracker = (dispatch: Dispatch) => {
 
   useEffect(() => {
       if (user) {
-        console.log("RUN")
         const saveView = async (originalUser: User) => {
           const updatedUser = await DataStore.save(
             User.copyOf(originalUser, userToUpdate => {

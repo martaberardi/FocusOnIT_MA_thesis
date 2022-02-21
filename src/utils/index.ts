@@ -6,13 +6,17 @@ export const wordHasSameGenderAndNumber: (word: Word, otherWord: Word) => boolea
 
 export const sum = (numbers: number[]): number => numbers.reduce((tot, n) => tot + n, 0);
 export const average = (numbers: number[]): number => {
-  if(numbers.length === 0) {
+  if (numbers.length === 0) {
     return 0;
   }
 
   return sum(numbers) / numbers.length
 };
 export const getDateTimeFromStats = (stats: Stats) => {
-  const date = new Date(stats.savedAt!);
-  return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`
+  return isoDateTimeToReadable(stats.savedAt!);
+}
+
+export const isoDateTimeToReadable = (isoDateTime: string): string => {
+  const date = new Date(isoDateTime);
+  return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
 }

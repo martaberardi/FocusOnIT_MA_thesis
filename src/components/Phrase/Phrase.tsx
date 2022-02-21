@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useState} from 'react';
+import React, {FC, useEffect} from 'react';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import {useDispatch} from 'react-redux';
 import {
@@ -33,7 +33,7 @@ const Phrase: FC<PhraseProps> = function ({phrase, filter, dialogId}) {
   return (
     <div className="phrase">
       <span className={phrase.isSpeakerHighlighted ? "background-color-yellow" : ""}>
-        {phrase.speaker.name}
+        {phrase.speaker.name + " "}
         {convertGenderToSymbol(phrase.speaker.gender as Gender)}
         {phrase.speaker.number === WordNumber.PLURAL && convertGenderToSymbol(phrase.speaker.gender as Gender)}
         :

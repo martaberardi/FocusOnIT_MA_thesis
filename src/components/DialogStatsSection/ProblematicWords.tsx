@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {getDateTimeFromStats} from "../../utils";
-import {getSortedProblematicWordsInPhrase} from "./utils";
+import {getSortedProblematicWordsInPhrases} from "./utils";
 import {Phrase, Stats} from "../../../models";
 import HighlightedProblematicWordInPhrase from "../HighlightedProblematicWord";
 
@@ -10,8 +10,9 @@ const ProblematicWords: FC<ProblematicWordsProps> = ({posStats, phrases}) => (
     {posStats.map((exerciseStats) => {
       return <div key={exerciseStats.id}>
         <h4>Del {getDateTimeFromStats(exerciseStats)}</h4>
-        {getSortedProblematicWordsInPhrase(exerciseStats.wordsStats, phrases)
-          .map(({phrase, wordId}) => <li key={wordId}><HighlightedProblematicWordInPhrase phrase={phrase} wordId={wordId}/></li>)}
+        {getSortedProblematicWordsInPhrases(exerciseStats.wordsStats, phrases)
+          .map(({phrase, wordId}) => <li key={wordId}><HighlightedProblematicWordInPhrase phrase={phrase} wordId={wordId}/></li>)
+        }
       </div>
     })}
   </div>

@@ -10,11 +10,11 @@ import {
 import {WordUI} from "../../store/dialogReducer";
 import {Button, TextField} from "@mui/material";
 import {generateLemma} from "./utils";
-import ChooseWordComponent from "../ChooseWordComponent";
 import SendIcon from '@mui/icons-material/Send';
-import {wordUIToWord} from "../../utils/wordUtils";
+import {isCapitalMissing, wordUIToWord} from "../../utils/wordUtils";
 import {Store} from "../../store";
 import {PartOfSpeech} from "../../../models";
+import CapitalToast from "./CapitalToast";
 
 const WordField: FC<WordFieldProps> = (
   {
@@ -23,6 +23,7 @@ const WordField: FC<WordFieldProps> = (
   const [lemma] = useState(generateLemma(word));
   const dispatch = useDispatch();
   const [userInput, setUserInput] = useState("");
+  const [isCapitalToastOpen, setIsCapitalToastOpen] = useState(false);
   const buttonClicks = useSelector((state: Store) => {
       const pos = word.part_of_speech as PartOfSpeech;
       return pos in state.userData.stats
@@ -36,7 +37,6 @@ const WordField: FC<WordFieldProps> = (
   }, []);
 
   useEffect(() => {
-    console.log("buttonClicks:", buttonClicks);
     if (buttonClicks && buttonClicks.length > 0) {
       if (userInput === word.form) {
         dispatch(generateActionHideHint(dialogId, phraseId, word));
@@ -48,10 +48,16 @@ const WordField: FC<WordFieldProps> = (
   }, [buttonClicks])
 
   const onSubmit = () => {
+    const trimmedUserInput = userInput.trim();
+    if (userInput !== word.form && isCapitalMissing(word.form, trimmedUserInput)) {
+      setIsCapitalToastOpen(true);
+    }
+
+    setUserInput(trimmedUserInput);
     dispatch(generateActionAddButtonClick(
         dialogId,
         word,
-        userInput,
+        trimmedUserInput,
         new Date(Date.now()).toISOString()
       )
     );
@@ -68,8 +74,10 @@ const WordField: FC<WordFieldProps> = (
         autoFocus
       />
       {word.status !== 'Completed' && <Button onClick={onSubmit}>
-        <SendIcon/>
+          <SendIcon/>
       </Button>}
+
+      <CapitalToast isOpen={isCapitalToastOpen} setIsOpen={setIsCapitalToastOpen}/>
     </>
   );
 };

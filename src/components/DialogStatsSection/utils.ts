@@ -92,7 +92,7 @@ const getProblematicWordsInPhrase = (wordsStats: WordStats[]) => {
   return wordsInteractions;
 }
 
-export const getSortedProblematicWordsInPhrase = (wordStats: WordStats[], phrases: Phrase[]): { phrase: Phrase, wordId: string }[] => {
+export const getSortedProblematicWordsInPhrases = (wordStats: WordStats[], phrases: Phrase[]): { phrase: Phrase, wordId: string }[] => {
   const problematicWordsInPhrase: Map<string, number> = getProblematicWordsInPhrase(wordStats);
 
   const [first, second, third] = Array.from(problematicWordsInPhrase)

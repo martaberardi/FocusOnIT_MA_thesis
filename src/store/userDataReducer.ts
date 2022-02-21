@@ -56,8 +56,6 @@ const userDataReducer = (state = initialState, action: Action) => {
       const {dialogId, isoDateTime, word, userInput} = action.payload;
       const pos = word.part_of_speech as PartOfSpeech;
       const newState = {...state};
-      console.log(action);
-      console.log(state);
       if (!(pos in newState.stats)) {
         newState.stats[pos] = {};
       }

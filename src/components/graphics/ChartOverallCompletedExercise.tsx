@@ -13,7 +13,6 @@ const ChartOverallCompletedExercise = ({data}: BarChartProps) => {
   if (data.length === 0) {
     return <></>
   }
-  console.log(data)
 
   return (
     <>
