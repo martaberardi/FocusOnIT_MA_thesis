@@ -118,3 +118,19 @@
         flex-direction: column;
     }
 }
+
+
+.cardFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.cardFlex:hover,
+.cardFlex:focus,
+.cardFlex:active {
+    color: #0070f3;
+    border-color: #0070f3;
+}

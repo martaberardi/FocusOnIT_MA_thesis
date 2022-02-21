@@ -47,6 +47,9 @@ const MyApp = function ({Component, pageProps}: AppProps) {
           <Link href="/grammatica">
             <a>Grammatica</a>
           </Link>
+          <Link href="/info">
+            <a>Info</a>
+          </Link>
         </menu>
         {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Component {...pageProps} />

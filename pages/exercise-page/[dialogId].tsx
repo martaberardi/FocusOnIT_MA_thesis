@@ -51,8 +51,6 @@ const ExercisePage: FC = function () {
       setWordWithHint(
         dialog.phrases.find(({status}) => status === "TO_COMPLETE")?.words.find((w) => ('hint' in w && w.hint))
       );
-      console.log(dialog.phrases.find(({status}) => status === "TO_COMPLETE"))
-      console.log(dialog.phrases.find(({status}) => status === "TO_COMPLETE")?.words.find((w) => ('hint' in w && w.hint)))
     }
   }, [dialog])
 
@@ -84,15 +82,11 @@ const ExercisePage: FC = function () {
               cognitoId: user.id,
               Stats: []
             })).catch(console.error);
-          console.log("save user:", saveResult);
         }
 
         const saveResult = await DataStore.save(newStats).catch(console.error);
-        console.log("save stats:", saveResult);
-
       }
       saveStats();
-      console.log("stats", stats);
     }
   }, [isAllCompleted])
 
@@ -125,6 +119,11 @@ const ExercisePage: FC = function () {
       return (
         <>
           <h3>{dialog.title}</h3>
+          <p style={{maxWidth: 800}}>Guarda il video quante volte desideri e poi scegli su quale
+            parte del discorso
+            vuoi focalizzarti.
+          </p>
+          <p>Clicca sul bottone “articoli” o “aggettivi” o “nomi” o “verbi”.</p>
           <Card sx={{width: "100%"}}>
             <CardMedia
               className={styles.video}
@@ -196,6 +195,31 @@ const ExercisePage: FC = function () {
           </StepLabel>
         </Step>
       </Stepper>
+
+      {step !== "video" && <Button variant={"contained"} onClick={() => {
+        setStep("video");
+        setPosExerciseFilter(undefined);
+      }}>Indietro</Button>
+      }
+      <div style={{maxWidth: 800}}>
+        <p>
+          Completa gli spazi bianchi nei dialoghi con l’alternativa corretta.
+        </p>
+        <p>Dopo aver
+          scritto la
+          risposta, clicca la freccia blu. In caso di errore, il sistema ti mostrerà dei box
+          informativi
+          con informazioni che possono guidarti verso la risposta corretta.
+
+          Ricordati di cliccare sempre la freccia dopo ogni modifica alla risposta.
+        </p>
+        <p>
+          Una volta completato l’esercizio, il sistema ti avvertirà. Potrai decidere se
+          farne un
+          altro
+          o consultare la sezione “Utente”.
+        </p>
+      </div>
       {getStepContent()}
       {isAllCompleted &&
           <>

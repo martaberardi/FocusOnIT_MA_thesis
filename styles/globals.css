@@ -112,4 +112,14 @@ menu {
     .phrase .MuiFormControl-root {
         margin: -29px 10px 30px 10px;
     }
+
+    .card-list > * {
+        flex-grow: 1;
+        flex-basis: 33%;
+    }
+}
+
+.snack.MuiSnackbar-root {
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

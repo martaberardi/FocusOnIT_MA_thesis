@@ -58,23 +58,45 @@ const Home: NextPage = function () {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <h2>Menù</h2>
+      <div style={{maxWidth: 800, textAlign: "center"}}>
+        <p>
+          Benvenuto/a/* nell’app Focus on IT!
+          In questa web app puoi esercitarti sull’uso di quattro parti del discorso: </p>
+        <p>
+          articoli,
+          nomi,
+          aggettivi e verbi (indicativo presente).
+        </p>
+        <p>
+          Come funziona l’app?
+        </p>
+        <ol style={{textAlign: "left"}}>
+          <li>
+            Scegli una carta con un argomento che ti interessa
+          </li>
+          <li>
+            Clicca sul bottone “esercizio”
+          </li>
+        </ol>
+      </div>
       <div className="card-list">
         {
           [...dialogs.values()]
             .filter(dialog => dialog.createdAt)
-            .sort((d1, d2) => (new Date( d1.createdAt!)).getTime() - (new Date( d2.createdAt!)).getTime())
+            .sort((d1, d2) => (new Date(d1.createdAt!)).getTime() - (new Date(d2.createdAt!)).getTime())
             .map((dialog) => (
-            <Card sx={{maxWidth: 500}} key={dialog.id}>
-              <CardHeader title={dialog.title}/>
-              <ExerciseMedia topic={dialog.topic as Topic}/>
-              <CardActions>
-                <Link href={routes.EXERCISE_PAGE(dialog.id)}>
-                  <Button variant="outlined" size="small" style={{margin: "auto"}}>Esercizio</Button>
-                </Link>
-              </CardActions>
-              {posProgress && <PosProgress posProgress={posProgress} dialogId={dialog.id}/>}
-            </Card>
-          ))
+              <Card sx={{maxWidth: 500}} key={dialog.id} className={styles.cardFlex}>
+                <CardHeader title={dialog.title}/>
+                <ExerciseMedia topic={dialog.topic as Topic}/>
+                <CardActions>
+                  <Link href={routes.EXERCISE_PAGE(dialog.id)}>
+                    <Button variant="outlined" size="small"
+                            style={{margin: "auto"}}>Esercizio</Button>
+                  </Link>
+                </CardActions>
+                {posProgress && <PosProgress posProgress={posProgress} dialogId={dialog.id}/>}
+              </Card>
+            ))
         }
       </div>
 

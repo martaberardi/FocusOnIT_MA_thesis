@@ -46,10 +46,6 @@ const PopulateDb: FC = function () {
 
     return onAuthUIStateChange((nextAuthState, authData) => {
       if (nextAuthState === AuthState.SignedIn) {
-        console.log('user successfully signed in!');
-        console.log('user data: ', authData);
-        // @ts-ignore
-        console.log(authData?.attributes.name);
         Auth.userAttributes(authData).then((attrs) => {
           setName(attrs.find(({Name}) => Name === 'name')?.getValue());
         });
@@ -78,13 +74,11 @@ const PopulateDb: FC = function () {
       setDbStatus('Populating...');
 
       const newDialog = parseDialogForDB(exerciseTitle, exerciseTopic, exerciseUrl, fileContent);
-      console.log(newDialog);
       const createResult = await API.graphql({
         query: createDialog,
         variables: {input: newDialog},
         authMode: GRAPHQL_AUTH_MODE.AMAZON_COGNITO_USER_POOLS
       });
-      console.log(createResult);
       setDbStatus('Populated');
       reset();
 

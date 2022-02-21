@@ -14,6 +14,8 @@ const User: FC<UserProps> = function () {
 
   return (
     <>
+      <p style={{maxWidth: 800, textAlign: "center", margin: "auto"}}>Consulta questa pagina per
+        informazioni sulla tua performance e sul tuo progresso.</p>
       {user ? <UserStats user={user}/> : <></>}
       <p style={{textAlign: "center"}}>Numero di visualizzazioni della pagina
         Utente: {userPageViews}</p>
