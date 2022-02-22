@@ -1,5 +1,5 @@
 SPEAKER|Nisha|f|s
-1	Ehi	ehi	I	I	_	2	mod
+﻿1	Ehi	ehi	I	I	_	2	mod
 2	Kadim	Kadim	S	SP	_	0	ROOT
 3	!	!	F	FS	_	2	punc
 
@@ -113,7 +113,7 @@ SPEAKER|Nisha|f|s
 3	!	!	F	FS	_	1	punc
 
 SPEAKER|Kadim|m|s
-1	Figurati	figurare	V	V	num=p|mod=p|gen=m	0	ROOT
+1	Figurati	figurati	I	I	num=p|mod=p|gen=m	0	ROOT
 2	!	!	F	FS	_	1	punc
 
 SPEAKER|Kadim|m|s
@@ -140,7 +140,7 @@ SPEAKER|Nisha|f|s
 SPEAKER|Nisha|f|s
 1	Aspetta	aspettare	V	V	num=s|per=3|mod=imp|ten=p	0	ROOT
 2	che	che	C	CS	_	1	arg
-3	la	il	P	P	num=s|gen=f	4	det
+3	la	il	R	RD	num=s|gen=f	4	det
 4	chiamo	chiamare	V	V	num=s|per=1|mod=i|ten=p	2	sub	io chiamo, tu chiami, lui/lei/Lei chiama, noi chiamiamo, voi chiamate, loro chiamano
 5	,	,	F	FF	_	8	punc
 6	così	così	B	B	_	8	mod
@@ -193,7 +193,7 @@ SPEAKER|Nisha|f|s
 7	.	.	F	FS	_	3	punc
 
 SPEAKER|Nisha|f|s
-1	Te	te	P	PE	num=s|per=2|gen=n	3	ubj
+1	Te	te	P	PE	num=s|per=2|gen=n	3	subj
 2	lo	lo	P	PC	num=s|per=3|gen=m	3	obj
 3	descrivo	descrivere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io descrivo, tu descrivi, lui/lei/Lei descrive, noi descriviamo, voi descrivete, loro descrivono
 4	,	,	F	FF	_	5	punc
@@ -297,8 +297,8 @@ SPEAKER|Nisha|f|s
 7	.	.	F	FS	_	2	punc
 
 SPEAKER|Nisha|f|s
-1	Ok	Ok	C	CC	_	2	mod
-2	ciao	ciao	S	SP	_	0	ROOT
+1	Ok.	Ok.	C	CC	_	2	mod
+2	Ciao	Ciao	S	SP	_	0	ROOT
 3	,	,	F	FF	_	4	punc
 4	grazie	grazie	I	I	num=n|gen=n	2	mod
 5	,	,	F	FF	_	4	punc
@@ -335,7 +335,7 @@ SPEAKER|Nisha|f|s
 11	capelli	capello	S	S	num=p|gen=m	7	conj
 12	castani	castano	A	A	num=p|gen=m	11	mod
 13	,	,	F	FF	_	11	con
-14	lunghi	lungo	A	A	num=p|gen=m	11	mod
+14	lunghi	lungo	A	A	num=p|gen=m	11	mod	lungo/lunga/lunghi/lunghe
 15	e	e	C	CC	_	14	con
 16	lisci	liscio	A	A	num=p|gen=m	14	conj
 17	.	.	F	FS	_	5	punc

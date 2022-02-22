@@ -87,19 +87,23 @@ function getAlertText(word: WordUI, isOnBlanked: boolean) {
         <>
           La parola evidenziata ti dà informazioni sul nome che devi scrivere.
           <p>
-            Guarda la parola: è maschile (
+            Guarda come
+            {' '}
+            <span className="last-letter-color">finisce</span>
+            {' '}
+            la parola: è maschile
+            (
             {convertGenderToSymbol(Gender.MALE)}
             ) o femminile (
             {convertGenderToSymbol(Gender.FEMALE)}
             )?
-          </p>
-          <p>
             È singolare (
             {convertNumberToSymbol(WordNumber.SINGULAR)}
             ) o plurale (
             {convertNumberToSymbol(WordNumber.PLURAL)}
             )?
-          </p></>
+          </p>
+        </>
       )
     }
     case PartOfSpeech.VERB: {

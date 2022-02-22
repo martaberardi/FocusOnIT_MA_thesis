@@ -1,5 +1,5 @@
 SPEAKER|Selene|f|s
-1	Ciao	ciao	I	I	_	2	mod
+﻿1	Ciao	ciao	I	I	_	2	mod
 2	Emma	Emma	S	SP	_	0	ROOT
 3	!	!	F	FS	_	2	punc
 
@@ -76,7 +76,7 @@ SPEAKER|Emma|f|s
 19	latte	latte	S	S	num=s|gen=m	18	prep
 20	,	,	F	FF	_	17	con
 21	sei	sei	N	N	_	22	mod
-22	uova	uovo	S	S	num=p|gen=f	17	conj
+22	uova	uovo	S	S	num=p|gen=f	17	conj	uovo/uova
 23	,	,	F	FF	_	17	con
 24	e	e	C	CC	_	17	con
 25	il	il	R	RD	num=s|gen=m	26	det
@@ -120,14 +120,14 @@ SPEAKER|Selene|f|s
 2	preso	prendere	V	V	num=s|mod=p|gen=m	0	ROOT
 3	anche	anche	B	B	_	5	mod
 4	la	il	R	RD	num=s|gen=f	5	det
-5	frutta	frutta	S	S	num=s|gen=f	2	obj
+5	frutta	frutta	S	S	num=s|gen=f	2	obj	frutta
 6	!	!	F	FS	_	2	punc
 
 SPEAKER|Emma|f|s
 1	Sì	sì	B	B	_	4	mod
 2	,	,	F	FF	_	1	punc
 3	tanta	tanto	A	A	num=s|gen=f	4	mod
-4	frutta	frutta	S	S	num=s|gen=f	0	ROOT
+4	frutta	frutta	S	S	num=s|gen=f	0	ROOT	frutta
 5	.	.	F	FS	_	4	punc
 
 SPEAKER|Selene|f|s
@@ -201,7 +201,7 @@ SPEAKER|Emma|f|s
 2	sapone	sapone	S	S	num=s|gen=m	3	subj
 3	è	essere	V	V	num=s|per=3|mod=i|ten=p	0	ROOT	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
 4	qui	qui	B	B	_	3	pred
-5	.	.	F	FS	_	3	punc
+5	.	.	F	FS	_	4	punc
 
 SPEAKER|Selene|f|s
 1	Perfetto	perfetto	A	A	num=s|gen=m	0	ROOT

@@ -125,7 +125,7 @@ SPEAKER|ragazza 4|f|s
 8	sono	essere	V	V	num=p|per=3|mod=i|ten=p	6	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
 9	percorsi	percorso	A	A	num=p|gen=m	8	subj
 10	troppo	troppo	B	B	_	11	mod
-11	lunghi	lungo	A	A	num=p|gen=m	9	mod
+11	lunghi	lungo	A	A	num=p|gen=m	9	mod	lungo/lunga/lunghi/lunghe
 12	.	.	F	FS	_	2	punc
 
 SPEAKER|ragazza 4|f|s
@@ -178,7 +178,7 @@ SPEAKER|ragazza 5|f|s
 7	percorsi	percorso	S	S	num=p|gen=m	8	subj
 8	sono	essere	V	V	num=p|per=3|mod=i|ten=p	5	sub	io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono
 9	più	più	B	B	_	10	mod
-10	lunghi	lungo	A	A	num=p|gen=m	8	pred
+10	lunghi	lungo	A	A	num=p|gen=m	8	pred	lungo/lunga/lunghi/lunghe
 11	,	,	F	FF	_	10	con
 12	l'	il	R	RD	num=s|gen=m	13	det
 13	autobus	autobus	S	S	num=s|gen=m	10	conj

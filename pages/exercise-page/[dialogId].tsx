@@ -91,7 +91,7 @@ const ExercisePage: FC = function () {
   }, [isAllCompleted])
 
   if (!dialog || typeof dialogId !== 'string') {
-    return <h1>No exercise</h1>;
+    return <h1>Loading...</h1>;
   }
 
   const printPhrasesUntilUncompleted = () => {
@@ -135,6 +135,13 @@ const ExercisePage: FC = function () {
             <Button
               variant="outlined"
               color="primary"
+              onClick={() => setPosExerciseFilter(PartOfSpeech.ARTICLE)}
+            >
+              Articoli
+            </Button>
+            <Button
+              variant="outlined"
+              color="primary"
               onClick={() => setPosExerciseFilter(PartOfSpeech.ADJECTIVE)}
             >
               Aggettivi
@@ -152,13 +159,6 @@ const ExercisePage: FC = function () {
               onClick={() => setPosExerciseFilter(PartOfSpeech.VERB)}
             >
               Verbi
-            </Button>
-            <Button
-              variant="outlined"
-              color="primary"
-              onClick={() => setPosExerciseFilter(PartOfSpeech.ARTICLE)}
-            >
-              Articoli
             </Button>
           </div>
         </>
@@ -196,10 +196,7 @@ const ExercisePage: FC = function () {
         </Step>
       </Stepper>
 
-      {step !== "video" && <Button variant={"contained"} onClick={() => {
-        setStep("video");
-        setPosExerciseFilter(undefined);
-      }}>Indietro</Button>
+      {step !== "video" && <Button variant={"contained"} onClick={router.reload}>Indietro</Button>
       }
       <div style={{maxWidth: 800}}>
         <p>

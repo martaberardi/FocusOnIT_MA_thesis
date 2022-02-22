@@ -82,10 +82,11 @@ function getText(word: WordUI, isOnBlanked: boolean) {
     case PartOfSpeech.NOUN: {
       return (
         <>
-          {`Devi scrivere un nome  ${convertGenderInItalian(word.features?.gender as Gender)}`}
+          {`Devi scrivere un nome ${convertGenderInItalian(word.features?.gender as Gender)} `}
           {convertGenderToSymbol(word.features?.gender as Gender)}
           {' e '}
           {convertNumberInItalian(word.features?.number as WordNumber)}
+          {' '}
           {convertNumberToSymbol(word.features?.number as WordNumber)}
         </>
       )

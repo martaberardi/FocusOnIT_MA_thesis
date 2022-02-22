@@ -241,7 +241,7 @@ SPEAKER|ragazza|f|s
 
 SPEAKER|commerciante uomo|m|s
 1	Allora	allora	B	B	_	3	mod
-2	Le	il	R	RD	num=p|gen=f	3	det
+2	Le	le	P	P	num=s|gen=f	3	det
 3	consiglio	consigliare	V	V	num=s|per=1|mod=i|ten=p	6	subj	io consiglio, tu consigli, lui/lei/Lei consiglia, noi consigliamo, voi consigliate, loro consigliano
 4	questo	questo	P	PD	num=s|gen=m	3	mod
 5	,	,	F	FF	_	4	punc
@@ -272,7 +272,7 @@ SPEAKER|ragazza|f|s
 2	prendo	prendere	V	V	num=s|per=1|mod=i|ten=p	0	ROOT	io prendo, tu prendi, lui/lei/Lei prende, noi prendiamo, voi prendete, loro prendono
 3	anche	anche	B	B	_	5	mod
 4	queste	questo	A	A	num=p|gen=f	5	mod
-5	scarpe	scarpa	S	S	num=p|gen=f	2	subj
+5	scarpe	scarpa	S	S	num=p|gen=f	2	obj
 6	da	da	E	E	_	2	comp
 7	ginnastica	ginnastica	S	S	num=s|gen=f	6	prep
 8	:	:	F	FC	_	2	punc
@@ -303,7 +303,7 @@ SPEAKER|commerciante uomo|m|s
 5	:	:	F	FC	_	2	punc
 6	rosse	rosso	A	A	num=p|gen=f	0	ROOT
 7	,	,	F	FF	_	6	con
-8	bianche	bianco	A	A	num=p|gen=f	6	conj
+8	bianche	bianco	A	A	num=p|gen=f	6	conj	bianco/bianca/bianchi/bianche
 9	,	,	F	FF	_	6	con
 10	nere	nero	A	A	num=p|gen=f	6	conj
 11	.	.	F	FS	_	6	punc

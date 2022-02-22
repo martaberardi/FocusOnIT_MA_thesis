@@ -11,7 +11,7 @@ const Info: FC<InfoProps> = () =>
             <div>
               <h1>Informazioni e contatti</h1>
               <p>
-                Focus on IT è stata realizzata da Marta Berardi nel 2022 per la tesi magistrali in
+                Focus on IT è stata realizzata da Marta Berardi nel 2022 per la tesi magistrale in
                 Linguistica
                 Computazionale all’Università di Tubinga.
               </p>
@@ -38,15 +38,15 @@ const Info: FC<InfoProps> = () =>
               </h3>
               <ol>
                 <li>
-                  Scegli una carta con un argomento che ti interessa
+                  Scegli una carta con un argomento che ti interessa.
                 </li>
                 <li>
-                  Clicca sul bottone “esercizio”
+                  Clicca sul bottone “esercizio”.
                 </li>
                 <li>
                   Guarda il video quante volte desideri e poi scegli su quale parte del discorso
                   vuoi
-                  focalizzarti. Clicca sul bottone “articoli” o “aggettivi” o “nomi” o “verbi”
+                  focalizzarti. Clicca sul bottone “articoli” o “aggettivi” o “nomi” o “verbi”.
                 </li>
                 <li>
                   Completa gli spazi bianchi nei dialoghi con l’alternativa corretta. Dopo aver
@@ -60,7 +60,7 @@ const Info: FC<InfoProps> = () =>
                   Una volta completato l’esercizio, il sistema ti avvertirà. Potrai decidere se
                   farne un
                   altro
-                  o consultare la sezione “Utente”
+                  o consultare la sezione “Utente”.
                 </li>
               </ol>
 
@@ -117,10 +117,10 @@ const Info: FC<InfoProps> = () =>
                 </h3>
                 <ol>
                   <li>
-                    Choose a card with a topic that interests you
+                    Choose a card with a topic that interests you.
                   </li>
                   <li>
-                    Click on the "exercise" button
+                    Click on the "exercise" button.
                   </li>
                   <li>
                     Watch the video as many times as you like and then choose which part of speech
